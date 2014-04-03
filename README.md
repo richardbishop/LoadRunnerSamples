@@ -13,8 +13,13 @@ Script details
 --------------
 
 DateJS 				        - Demonstrates use of an external JavaScript library / complex date functions
+
 LRSaveFloat           - Adds lr_save_float functionality to Loadrunner, allowing rounding to x decimal places
+
 RandInt               - Creates a random number between iMin and iMax, iMax can be greater than 32K Windows limit
+
 ReadWriteExternalFile - Sample script which writes to and reads from an external file
+
 SplitString           - Allows a string to be split into two, creates left and right strings after x characters
+
 SpliStringIntoPairs   - Demonstrates splitting string e.g. ABCDEF into pairs AB CD EF etc.
