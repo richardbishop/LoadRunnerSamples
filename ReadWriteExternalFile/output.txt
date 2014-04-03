@@ -1,0 +1,23 @@
+Virtual User Script started at : 03/04/2014 16:20:37
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\ReadWriteExternalFile\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+vuser_init.c(14): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+vuser_init.c(14): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(33): cCommand - C:\OpenSSL-Win32\bin\openssl.exe dgst -sha1 -hmac C:\temp\EncryptThis.txt C:\temp\SharedSecret.txt > C:\temp\1_1396538437106.txt
+vuser_init.c(34): cDOS -  dgst -sha1 -hmac C:\temp\EncryptThis.txt C:\temp\SharedSecret.txt
+vuser_init.c(35): file_path - C:\temp\1_1396538437106.txt
+vuser_init.c(39): command - C:\OpenSSL-Win32\bin\openssl.exe dgst -sha1 -hmac C:\temp\EncryptThis.txt C:\temp\SharedSecret.txt > C:\temp\1_1396538437106.txt
+vuser_init.c(67): Data from the external file is [HMAC-SHA1(C:\temp\SharedSecret.txt)= c8b7928087ea78dd043b8c7349a464fd7470ee88]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
