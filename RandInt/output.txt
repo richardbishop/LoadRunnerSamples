@@ -1,0 +1,26 @@
+Virtual User Script started at : 03/04/2014 14:52:17
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "c:\Github\LoadRunnerSamples\RandInt\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(19): Random number is : 99
+Action.c(19): Random number is : 322
+Action.c(19): Random number is : 185
+Action.c(19): Random number is : 803
+Action.c(19): Random number is : 431
+Action.c(19): Random number is : 282
+Action.c(19): Random number is : 469
+Action.c(19): Random number is : 353
+Action.c(19): Random number is : 874
+Action.c(19): Random number is : 778
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

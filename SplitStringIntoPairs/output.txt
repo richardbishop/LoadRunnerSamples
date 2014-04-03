@@ -1,0 +1,25 @@
+Virtual User Script started at : 03/04/2014 14:04:36
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(11): c0 = AB
+Action.c(11): c1 = CD
+Action.c(11): c2 = EF
+Action.c(11): c3 = GH
+Action.c(11): c4 = IJ
+Action.c(11): c5 = KL
+Action.c(11): c6 = MN
+Action.c(11): c7 = OP
+Action.c(11): c8 = QR
+Action.c(11): c9 = ST
+Action.c(11): c10 = UV
+Action.c(11): c11 = WX
+Action.c(11): c12 = YZ
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

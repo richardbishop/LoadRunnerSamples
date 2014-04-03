@@ -1,0 +1,19 @@
+Virtual User Script started at : 03/04/2014 14:26:19
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\SplitString\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+vuser_init.c(35): Original string:[1234567890abcdefghijklmnopqrstuvwxyz]
+vuser_init.c(36): Left hand split:[1234567890]
+vuser_init.c(37): Right hand split:[abcdefghijklmnopqrstuvwxyz]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
