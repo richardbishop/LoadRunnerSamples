@@ -1,0 +1,62 @@
+[API Trapper      (2188:2e18)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (1b04:2c0c)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (1b04: af8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1b04: af8)] Load Network Traffic Analyzers:
+[Network Analyzer (1b04: af8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1b04: af8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1b04: af8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1b04: af8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1b04: af8)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer (1b04: af8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1b04: af8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1b04:24ac)] Address lookup for KOZOROVI1 = 16.54.181.22
+[Network Analyzer (1b04:26b0)] Address lookup for KOZOROVI1 = 16.54.181.22
+[Network Analyzer (1b04:279c)] Address lookup for KOZOROVI1 = 16.54.181.22
+[Network Analyzer (1b04: af8)] Address lookup for KOZOROVI1 = 16.54.181.22
+[Network Analyzer (1b04:184c)] Address lookup for KOZOROVI1 = 16.54.181.22
+[Network Analyzer (1b04:279c)] Request Connection: Remote Server @ 16.228.10.197:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (1b04:24ac)] "GET /"   
+[Network Analyzer (1b04:24ac)]   (Sid:  1) Client -> Server @ : 565 bytes (Service=HTTP)
+[Network Analyzer (1b04: af8)] Request Connection: Remote Server @ 16.228.10.197:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (1b04:24ac)] "GET /"   
+[Network Analyzer (1b04:24ac)]   (Sid:  2) Client -> Server @ : 565 bytes (Service=HTTP)
+[Network Analyzer (1b04:184c)] Request Connection: Remote Server @ 16.228.10.197:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (1b04:24ac)] "GET /"   
+[Network Analyzer (1b04:24ac)]   (Sid:  3) Client -> Server @ : 565 bytes (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  1) Server -> Client : 460 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  2) Server -> Client : 460 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  3) Server -> Client : 460 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  1) Connection Terminated (by Client)
+[Web Request      (1b04:24ac)] "GET /rhv-local.pac?SiteName=emea-il-myd03&version=V37NET"   
+[Network Analyzer (1b04:24ac)]   (Sid:  2) Client -> Server @ : 640 bytes (Service=HTTP)
+[Web Request      (1b04:24ac)] "GET /rhv-local.pac?SiteName=emea-il-myd03&version=V37NET"   
+[Network Analyzer (1b04:24ac)]   (Sid:  3) Client -> Server @ : 640 bytes (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  2) Server -> Client : 3381 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  3) Server -> Client : 4841 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  2) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  2) Server -> Client : 4827 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  3) Server -> Client : 8299 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  2) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  2) Server -> Client : 1825 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  3) Server -> Client : 5297 bytes  (Service=HTTP)
+[Web Request      (1b04:24ac)] "GET /rhv-local.pac?SiteName=emea-il-myd03&version=V37NET"   
+[Network Analyzer (1b04:24ac)]   (Sid:  3) Client -> Server @ : 640 bytes (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  3) Server -> Client : 593 bytes  (Service=HTTP)
+[Net An. Warning  (1b04: af8)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 3000 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  (1b04:2250)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 3000 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  (1b04:2250)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 3000 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  (1b04: af8)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 3000 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  (1b04:2250)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 3000 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  (1b04: af8)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 3000 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Error    (1b04:2250)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 3000  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Error    (1b04: af8)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 3000  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 0)
+[Network Analyzer (1b04: af8)] Address lookup for KOZOROVI1 = 16.54.181.22
+[Network Analyzer (1b04:2250)] Address lookup for KOZOROVI1 = 16.54.181.22
+[Network Analyzer (1b04: af8)] Request Connection: Remote Server @ 127.0.0.1:3000   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (1b04:2250)] Request Connection: Remote Server @ 127.0.0.1:3000   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (1b04:24ac)] "GET /challenge"   
+[Network Analyzer (1b04:24ac)]   (Sid:  4) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer (1b04:24ac)]   (Sid:  4) Server -> Client : 219 bytes  (Service=HTTP)

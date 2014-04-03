@@ -1,0 +1,83 @@
+# This .gitignore file is intended to be used when version controlling VuGen
+# scripts. It excludes files that are not needed for script replay or 
+# regeneration.
+# Note: This has not been tested with all vuser types.
+#
+# A copy of this .gitignore file is maintained at 
+# http://www.myloadtest.com/loadrunner-gitignore/
+ 
+# C-based VuGen scripts have the following structure:
+#
+# +-example_script/
+#   +-Action.c
+#   +-Breakpoints.xml (part of the script template since VuGen 11.50)
+#   +-combined_example_script.c (created during compilation)
+#   +-CompilerLogMetadata.xml (part of the script template since VuGen 11.50)
+#   +-custom_body_variables.txt
+#   +-data/ (contains recording snapshots. Needed for script regeneration)
+#     +-events/
+#     +-events1/
+#     +-events2/
+#     +-events3/
+#     +-http.db/
+#   +-default.cfg
+#   +-default.usp
+#   +-example_script.c.pickle (created during compilation)
+#   +-example_script.ci (created during compilation)
+#   +-example_script.sdf (part of the script template since VuGen 11.50)
+#   +-example_script.usr
+#   +-globals.h
+#   +-logfile.log (created during compilation)
+#   +-lrw_custom_body.h
+#   +-mdrv.log (created during replay)
+#   +-mdrv_cmd.txt (created during compilation)
+#   +-options.txt (created during compilation)
+#   +-output.txt (created during replay)
+#   +-pre_cci.c (created during compilation)
+#   +-ReplaySummaryReport.xml
+#   +-result1/ (replay snapshots. These should not be version controlled)
+#     +-Act0/
+#     +-Act1/
+#     +-Act2/
+#     +-Icons/
+#     +-Iteration0/
+#     +-Iteration1/
+#     +-Report/
+#     +-Results.xml
+#   +-result2/ (there may be multiple replay folders)
+#   +-ThumbnailsCache.tmp (part of the script template since VuGen 11.50)
+#   +-UserTasks.xml (part of the script template since VuGen 11.50)
+#   +-vuser_end.c
+#   +-vuser_init.c
+#
+# Notes and Caveats:
+# * Any file type can be attached to a VuGen script.
+# * Data files used by File parameters can be given a name with any extension.
+# * Files may be referenced or #included from outside of the script folder.
+ 
+# Unnecessary files added as part of the standard VuGen script template
+Breakpoints.xml
+*.sdf
+ReplaySummaryReport.xml
+ThumbnailsCache.tmp
+UserTasks.xml
+ 
+# Files created during compilation
+combined_*.c
+CompilerLogMetadata.xml
+*.c.pickle
+*.ci
+logfile.log
+mdrv_cmd.txt
+options.txt
+pre_cci.c
+ 
+# Files needed for recording snapshots and script regeneration (optional)
+# Note: may have a problem if there are any other version controlled folders 
+# called "data"
+#data/
+ 
+# Files created during script replay (definitely don't need these)
+result[1234567890]*/
+mdrv.log
+output.txt

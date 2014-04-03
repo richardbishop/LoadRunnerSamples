@@ -1,0 +1,11 @@
+[t1]
+FileName1=t1_challenge.html
+URL1=http://localhost:3000/challenge
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_1.xml
+RequestHeaderFile=t1_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t1_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

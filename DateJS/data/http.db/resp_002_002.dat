@@ -1,0 +1,405 @@
+//////////////////////////////////////////////////////////////////////
+// DO NOT MODIFY THIS PAC - CHANGES MUST BE MADE THRU THE ADMIN SITE
+//////////////////////////////////////////////////////////////////////
+// AUTOCACHE HP (c) 2004 ver.1.42 Web Publish
+// Admin URL: http://autocache.hp.com/admin
+// Info URL:  http://autocache.hp.com/about
+// Debug URL: http://autocache.hp.com/?debug=1
+// This PAC was web generated: 7/16/2013 10:18:13 PM
+//////////////////////////////////////////////////////////////////////
+
+var pacname = "rhv-local.pac";
+var pacdate = "7/16/2013 10:18:13 PM";
+
+function FindProxyForURL(url, host)
+    {
+
+////////////////////////////////////////////////////////
+//                   PROXY SETTINGS                   //
+////////////////////////////////////////////////////////
+    HPQNETPROXY = "PROXY rhvwebcachevip.bastion.europe.hp.com:8080; PROXY bbnwebcachevip2.bastion.europe.hp.com:8080; PROXY rhvwebcache1.bastion.europe.hp.com:8080";
+    HPPROXY1 = "PROXY rhvwebcachevip.bastion.europe.hp.com:8080";
+////////////////////////////////////////////////////////
+
+// -EODM- END OF DYNAMIC CODE MARKER. DO NOT ALTER THIS LINE IN ANYWAY
+
+
+    // make everything lowercase
+    // WARNING: all shExpMatch rules following MUST be lowercase!
+    url = url.toLowerCase();
+    host = host.toLowerCase();
+
+
+    hostIP = dnsResolve(host);
+    if (hostIP == false)
+        var hostIP = "1.1.1.1";
+
+   // ID Code
+   if (shExpMatch(host, "autocache.hp.com") && shExpMatch(url, "*showver*")) {
+                alert("AutoCache Running Info \nPAC File:" + pacname + "\nPAC Creation Date:" + pacdate + "\nProxy:" + HPQNETPROXY);
+   }
+
+////////////////////////////////////////////////////////
+//   pac specific entries
+
+
+
+////////////////////////////////////////////////////////
+//   HP Standard PAC entries
+
+
+////////////////////////////////////////////////////////
+//   Pre non-resolve redirect to proxy, these are host entries
+
+  // Accomodation for Bank of America TSG support
+   if (shExpMatch(host, "selma.bankofamerica.com")
+        || shExpMatch(host, "bart.bankofamerica.com")
+        || shExpMatch(host, "maximo.bankofamerica.com")
+        || shExpMatch(host, "bart-uat.bankofamerica.com")
+        || shExpMatch(host, "corpdir.bankofamerica.com"))
+        return "PROXY 171.156.128.110:8080";
+
+  // Support for CBA, ES, Vivian Fung, June 28, 2011
+  if (shExpMatch(host, "*.cba")) return "PROXY 134.251.166.69:8080";
+ 
+    // CSFB RadixLite created 09-2004 Mike Bitter
+    if (shExpMatch(host, "helpdeskportal.csfb.net"))
+        return "DIRECT";
+    if (shExpMatch(host, "kb.csfb.net"))
+        return "DIRECT";
+    if (shExpMatch(host, "partsurfer.hp.com"))
+        return HPQNETPROXY;
+    if (shExpMatch(host, "register.hp.com"))
+        return HPQNETPROXY;
+
+    // Dearborn Paul Wygocki created 09-2004 
+    if (shExpMatch(host, "*.deasmi.co-lo.hp.com*") ||
+        shExpMatch(host, "*.sc0.cp.net") ||
+        shExpMatch(host, "*.sc1.cp.net") ||
+        shExpMatch(host, "172.22.1*" ) ||
+        shExpMatch(host, "172.22.3*" ) ||
+        shExpMatch(host, "209.228.*" ) ||
+        shExpMatch(host, "*192.151.75.*" )||
+        shExpMatch(host, "192.151.75.*" ) ||
+        // added for Zahid Mahmood 02-2005 
+        shExpMatch( host, "*192.151.22.*") ||
+        shExpMatch( host, "*192.151.62.*") ||
+        shExpMatch( host, "*192.151.23.*"))
+        return "PROXY localhost:8088; PROXY localhost:8087; PROXY localhost:8086 ";
+
+    // DHL - Contact doug.larson2@hp.com, url can only be accessed via the tunnel at https://svpn4.dhl.com/select
+    if (shExpMatch(host, "select-hp.dhl.com")) return "DIRECT";
+
+    // Caching for internally hosted media slides
+    if ((shExpMatch(host, "media.corp.hp.com"))
+     || (shExpMatch(host, "mediaplano.corp.hp.com")))
+        return HPQNETPROXY;
+
+    //EDS Direct
+    if (dnsDomainIs(host, ".xw.ssn.hp.com"))
+    return HPQNETPROXY;
+    if (dnsDomainIs(host, ".eds.com")
+    || dnsDomainIs(host, ".edssdn.com")
+    || dnsDomainIs(host, ".edssdn.net")
+    || dnsDomainIs(host, ".corp.hp.com")
+    || dnsDomainIs(host, ".ssn.hp.com")
+    || shExpMatch(host, "*ebiz.hp.com")
+    || dnsDomainIs(host, ".vfeds.com")
+    || shExpMatch(host, "*.vfeds.com"))
+	return "DIRECT";
+	
+    // HP Vertica
+    if (dnsDomainIs(host, "verticacorp.com"))
+        return "DIRECT";
+
+////////////////////////////////////////////////////////
+    // If the client cant resolve the name, let the proxy try
+    // moved here so that we can do funny things like csfb
+    if (!isResolvable(host))
+        return HPQNETPROXY;
+
+    // Office Communicator created 03-2009 for Wook Lee
+    // Office Communicator expanded 08-2009 for Wook Lee
+    // Office Communicator expanded 06-2010 for Wook Lee
+    // Office Communicator updated 03-2011 for Wook Lee
+    if ((shExpMatch(host, "rtcr2prdpool2.austin.hp.com"))
+       ||(shExpMatch(host, "rtcr2prdpool4.houston.hp.com"))
+       ||(shExpMatch(host, "rtcr2prdpool6.atlanta.hp.com")))
+ 	return HPQNETPROXY;
+
+    // Menlo Logistics support
+    if (isInNet(hostIP, "192.6.249.0", "255.255.255.0"))
+        return "PROXY web-proxy.atl.hp.com:8088";
+
+    // Nokia
+    if ((shExpMatch(host, "beappgw06.nokia.com"))
+       ||(shExpMatch(host, "daeappgw06.nokia.com"))
+       ||(shExpMatch(host, "saeappgw06.nokia.com"))
+       ||(shExpMatch(host, "siappgw06.nokia.com"))
+       ||(shExpMatch(host, "beappgw05.nokia.com"))
+       ||(shExpMatch(host, "daeappgw05.nokia.com"))
+       ||(shExpMatch(host, "saeappgw05.nokia.com"))
+       ||(shExpMatch(host, "siappgw05.nokia.com"))
+       ||(shExpMatch(host, "*appgate.ext.nokia.com"))
+       ||(shExpMatch(host, "saeagp04-alt.nokia.com"))
+       ||(shExpMatch(host, "saeagp04.nokia.com"))
+       ||(shExpMatch(host, "saeagp03-alt.nokia.com"))
+       ||(shExpMatch(host, "saeagp03.nokia.com")))
+        return "DIRECT";
+
+    //Virtual Classroom added 2004-03
+
+    if (shExpMatch(host, "*:8057/*"))
+        return "DIRECT";
+
+    // Radix added 2004-03
+
+    if ((hostIP=="192.6.247.10")
+         ||(hostIP=="192.6.247.17")
+         ||(hostIP=="192.6.246.48")
+         ||(hostIP=="192.6.247.14"))
+        return "DIRECT";
+
+    // Support for Vitalnet, Antoine M.
+    if (     ( hostIP == "192.151.16.61"  ) || ( hostIP == "192.170.121.68" )
+        || ( hostIP == "193.53.104.59"  ) || ( hostIP == "192.170.120.15" )
+        || ( hostIP == "192.6.53.134"   ) || ( hostIP == "192.6.53.125"   )
+        || ( hostIP == "192.170.120.99" ) || ( hostIP == "193.53.104.107" )
+        || ( hostIP == "192.151.16.159" ) || ( hostIP == "192.170.121.80" )
+        || ( hostIP == "192.151.16.164" ) || ( hostIP == "192.151.16.62"  )
+        || ( hostIP == "192.170.110.137" ) || ( hostIP == "192.170.110.138" )
+        || ( hostIP == "192.170.126.142" ) || ( hostIP == "192.170.126.143"  )
+	  || ( hostIP == "138.35.54.140" ) || ( hostIP == "138.35.54.204"  ))
+        return "PROXY idaomcwebcache01.osdgre.external.hp.com:8080";
+
+   // EMEA OMC Managment Subnet Openview and Vitalnet
+   if (isInNet(hostIP, "192.151.16.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.151.66.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.151.92.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.6.53.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.6.75.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.170.110.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.170.111.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.170.116.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.170.120.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.170.121.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.170.122.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.170.123.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.170.124.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.170.125.0", "255.255.255.0")
+         ||isInNet(hostIP, "192.170.126.0", "255.255.255.0")
+         ||isInNet(hostIP, "193.53.104.0", "255.255.255.0")
+         ||isInNet(hostIP, "143.162.16.0", "255.255.255.0"))
+        return "DIRECT";
+
+//Mercury Subnets
+
+    if (isInNet(hostIP, "203.116.47.0", "255.255.255.0")
+        || isInNet(hostIP, "209.198.176.0", "255.255.255.0")
+        || isInNet(hostIP, "209.198.177.0", "255.255.255.0")
+        || isInNet(hostIP, "209.198.178.0", "255.255.255.0")
+        || isInNet(hostIP, "209.198.182.0", "255.255.255.0")
+        || isInNet(hostIP, "209.198.185.0", "255.255.255.0")
+        || isInNet(hostIP, "209.198.187.0", "255.255.255.0")
+        || isInNet(hostIP, "209.198.188.0", "255.255.255.0")
+        || isInNet(hostIP, "209.198.190.0", "255.255.255.0")
+        || isInNet(hostIP, "209.198.191.0", "255.255.255.0")
+        || isInNet(hostIP, "64.242.153.0", "255.255.255.0")
+        || isInNet(hostIP, "64.242.154.0", "255.255.255.0")
+        || isInNet(hostIP, "194.216.172.0", "255.255.255.0"))
+       return "DIRECT";
+
+//Standard Exceptions
+
+    if (isPlainHostName(host))
+        return "DIRECT";
+
+    //rfc 1918
+    if (isInNet(hostIP, "10.0.0.0", "255.0.0.0")
+         || isInNet(hostIP, "172.16.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.17.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.18.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.19.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.20.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.21.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.22.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.23.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.24.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.25.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.26.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.27.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.28.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.29.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.30.0.0", "255.255.0.0")
+         || isInNet(hostIP, "172.31.0.0", "255.255.0.0")
+         || isInNet(hostIP, "192.168.0.0", "255.255.0.0")
+         || isInNet(hostIP, "127.0.0.0", "255.0.0.0"))
+        return "DIRECT";
+
+    //EDS Subnets
+    if (isInNet(hostIP, "130.171.0.0", "255.255.0.0")
+         || isInNet(hostIP, "130.177.0.0", "255.255.0.0")
+         || isInNet(hostIP, "139.73.0.0", "255.255.0.0")
+         || isInNet(hostIP, "144.10.0.0", "255.255.0.0")
+         || isInNet(hostIP, "148.99.0.0", "255.255.0.0")
+         || isInNet(hostIP, "168.80.0.0", "255.255.0.0")
+         || isInNet(hostIP, "204.103.0.0", "255.255.0.0")
+         || isInNet(hostIP, "205.239.148.0", "255.255.255.0")
+         || isInNet(hostIP, "205.239.184.0", "255.255.255.0"))
+         return "DIRECT";
+
+    //Palm Direct
+    if (isInNet(hostIP, "64.28.155.0", "255.255.255.0")
+        || isInNet(hostIP, "148.92.0.0", "255.255.0.0")
+        || isInNet(hostIP, "148.94.170.0", "255.255.255.0")
+        || isInNet(hostIP, "148.94.171.0", "255.255.255.0")
+        || isInNet(hostIP, "148.94.176.0", "255.255.255.0")
+        || isInNet(hostIP, "172.250.1.0", "255.255.255.0")
+        || shExpMatch(host, "*.palm1.palmone.com"))
+        return "DIRECT";
+
+    if (shExpMatch(host, "athp.hp.com"))
+        return "DIRECT";
+
+    // Compaq legacy intranet networks
+    if (isInNet(hostIP, "131.168.0.0", "255.255.0.0")
+         || isInNet(hostIP, "138.35.0.0", "255.255.0.0")
+         || isInNet(hostIP, "143.162.0.0", "255.255.0.0")
+         || isInNet(hostIP, "155.61.0.0", "255.255.0.0")
+         || isInNet(hostIP, "156.153.110.0", "255.255.255.0")
+         || isInNet(hostIP, "155.186.0.0", "255.255.0.0")
+    //removed for joe disharoon 10-10-2007
+    //   || isInNet(hostIP, "168.87.0.0", "255.255.0.0")
+         || isInNet(hostIP, "192.114.8.0", "255.255.255.0")
+         || isInNet(hostIP, "192.114.126.0", "255.255.255.0")
+         || isInNet(hostIP, "192.114.244.0", "255.255.255.0")
+         || isInNet(hostIP, "192.216.220.0", "255.255.255.0")
+         || isInNet(hostIP, "192.216.221.0", "255.255.255.0")
+         || isInNet(hostIP, "204.160.1.36", "255.255.255.255")
+         || isInNet(hostIP, "204.160.1.70", "255.255.255.255")
+         || isInNet(hostIP, "204.160.1.72", "255.255.255.255"))
+        return "DIRECT";
+
+    // Extranets that need to go via a pmHP proxy
+    if (isInNet(hostIP,"192.170.0.0", "255.255.0.0")
+         || isInNet(hostIP,"192.6.0.0", "255.255.0.0")
+         || isInNet(hostIP,"192.25.0.0", "255.255.0.0")
+         || isInNet(hostIP,"192.30.92.0", "255.255.255.0")
+         || isInNet(hostIP,"192.151.32.0", "255.255.255.0")
+         || isInNet(hostIP,"192.151.52.0", "255.255.255.0")
+         || isInNet(hostIP,"192.151.53.0", "255.255.255.0")
+         || isInNet(hostIP,"128.88.0.0", "255.255.0.0")
+         || isInNet(hostIP,"155.208.0.0", "255.255.0.0")
+         || isInNet(hostIP,"156.153.0.0", "255.255.0.0")
+         || isInNet(hostIP,"156.152.0.0", "255.255.0.0")
+         || isInNet(hostIP,"209.228.0.0", "255.255.0.0")
+         || isInNet(hostIP,"209.228.0.0", "255.255.0.0"))
+        return HPPROXY1;
+
+    if (dnsDomainIs(host, ".hou.compaq.com")
+         || dnsDomainIs(host, ".wins.compaq.com")
+         || dnsDomainIs(host, ".tandem.com")
+         || dnsDomainIs(host, ".northam.compaq.com")
+         || dnsDomainIs(host, ".dec.com")
+         || dnsDomainIs(host, ".netacd.com")
+         || dnsDomainIs(host, ".tandemonline.com")
+         || dnsDomainIs(host, ".cpqcorp.net")
+//       || dnsDomainIs(host, ".custom-edge.com")
+         || dnsDomainIs(host, ".cpqcei.net")
+         || shExpMatch(host, "dphrsvr01.digitalindiasw.net")
+         || dnsDomainIs(host, ".cpqomc.net"))
+        return "DIRECT";
+
+    //HP Cloud, Jan 19, 2012
+    if (dnsDomainIs(host, ".hpcloud.com")
+    || dnsDomainIs(host, ".hpcloud.net")
+    || dnsDomainIs(host, ".hpcloudsvc.com")
+    || isInNet(hostIP, "15.125.0.0", "255.255.0.0")
+    || isInNet(hostIP, "15.126.0.0", "255.255.0.0")
+    || isInNet(hostIP, "15.127.0.0", "255.255.0.0")
+    || isInNet(hostIP, "15.184.0.0", "255.255.0.0")
+    || isInNet(hostIP, "15.185.0.0", "255.255.0.0"))
+	return HPQNETPROXY;
+
+//all MMI traffic goes Direct
+   if (dnsDomainIs(host, ".hp.net")
+        || shExpMatch(host, ".hp.net")
+        || isInNet(hostIP, "15.203.134.0", "255.255.255.0")
+        || isInNet(hostIP, "15.211.134.0", "255.255.255.0")
+        || isInNet(hostIP, "15.227.134.0", "255.255.255.0")
+        || isInNet(hostIP, "15.235.166.0", "255.255.255.0"))
+        return "DIRECT";
+
+// HPQNet Net 15 External Space: ESV, Trade MWS, XM
+   if (isInNet(hostIP, "15.149.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.181.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.189.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.208.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.224.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.248.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.195.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.203.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.211.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.219.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.227.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.235.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.243.0.0", "255.255.0.0")
+        || isInNet(hostIP, "15.251.0.0", "255.255.0.0")
+        || isInNet(hostIP, "16.130.0.0", "255.255.0.0"))
+      return HPQNETPROXY;
+
+// Catch all
+    if (isInNet(hostIP, "16.0.0.0", "255.0.0.0"))
+        return "DIRECT";
+    if (isInNet(hostIP, "15.0.0.0", "255.0.0.0"))
+        return "DIRECT";
+
+    if (shExpMatch(host, ".givingstation.com"))
+        return HPPROXY1;
+
+//CPQ Purple nets
+
+    if (isInNet(hostIP, "161.114.0.0", "255.255.0.0")) {
+        if (isInNet(hostIP, "161.114.8.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.9.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.10.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.11.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.28.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.29.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.30.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.31.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.40.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.41.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.42.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.43.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.72.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.73.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.74.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.75.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.92.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.93.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.94.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.95.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.120.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.121.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.122.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.123.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.136.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.137.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.138.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.139.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.187.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.198.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.230.0", "255.255.255.0")
+        || isInNet(hostIP, "161.114.231.0", "255.255.255.0"))
+            return "DIRECT";
+        else
+            return HPQNETPROXY;
+        }
+
+    else
+        return HPQNETPROXY;
+
+    }
+
+//////////////////////////////////////////////////////////////////////

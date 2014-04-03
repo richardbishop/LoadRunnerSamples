@@ -1,0 +1,108 @@
+NOTIFY - DFE : Init: Extension "Base64 Extension" loaded successfully with global settings "Base64Dfe.ini".
+NOTIFY - DFE : Init: Extension "Binary to Xml Extension" loaded successfully with global settings "".
+NOTIFY - DFE : Init: Extension "GWT Extension" loaded successfully with global settings "GWTSettings.xml".
+NOTIFY - DFE : Extension: HttpHeadersDfe - SearchPath is mapped to ""
+
+Cookie headers mapping:	[Cookie header name] ==> [Chain name]
+"CookiesDefaultChain" ==> ""
+
+HTTP headers mapping:	[HTTP header name] ==> [Chain name]
+"HttpHeadersDefaultChain" ==> ""
+
+NOTIFY - DFE : Init: Extension "HttpHeaders Extension" loaded successfully with global settings "HttpHeadersMap.ini".
+NOTIFY - DFE : Init: Extension "Json to Xml Extension" loaded successfully with global settings "".
+NOTIFY - DFE : Extension: Prefix/Postfix DFE - Successfully initialized extension from settings file: "PrefixPostfixSettings.ini"
+Prefix: ""
+Postfix: ""
+CaseSensitive: true
+
+
+NOTIFY - DFE : Init: Extension "Prefix Postfix Extension" loaded successfully with global settings "PrefixPostfixSettings.ini".
+NOTIFY - DFE : Init: Extension "Remedy to Xml Extension" loaded successfully with global settings "".
+NOTIFY - DFE : Init: Extension "UrlEncoding Extension" loaded successfully with global settings "".
+NOTIFY - DFE : Init: Extension "Xml Extension" loaded successfully with global settings "XmlDfe.ini".
+NOTIFY - DFE : Init: Extension "XSS AttributeEncoding Extension" loaded successfully with global settings "".
+NOTIFY - DFE : Init: Extension "XSS CSSEncoding Extension" loaded successfully with global settings "".
+NOTIFY - DFE : Init: Extension "XSS Extension" loaded successfully with global settings "".
+NOTIFY - DFE : Init: Extension "XSS HtmlEncoding Extension" loaded successfully with global settings "".
+NOTIFY - DFE : Init: Extension "XSS JavaScriptEncoding Extension" loaded successfully with global settings "".
+NOTIFY - DFE : Init: Chain "XSSAttributeChain" loaded successfully with 1 extension(s): XSSAttributeEncoding.
+NOTIFY - DFE : Init: Chain "XSSCSSChain" loaded successfully with 1 extension(s): XSSCSSEncoding.
+NOTIFY - DFE : Init: Chain "XSSHtmlChain" loaded successfully with 1 extension(s): XSSHtmlEncoding.
+NOTIFY - DFE : Init: Chain "XSSJavaScriptChain" loaded successfully with 1 extension(s): XSSJavaScriptEncoding.
+NOTIFY - DFE : Init: All configuration loaded successfully.
+NOTIFY - DFE : The DFE code generation settings are empty (no chains specified) - the DFE is disabled.
+****** Start Log Message ******
+Web Recorder version : 12.0.459.0 
+Recording Mode: URL-Based script as custom requests only
+	Using concurrent groups
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+Reset context between actions
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.0.459.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 37 ******
+GET /challenge HTTP/1.1
+Accept: application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*
+Accept-Language: he-IL
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/6.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Host: localhost:3000
+DNT: 1
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 37 Ended $$$$$$
+
+****** Response Header For Transaction With Id 37 ******
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json
+Content-Length: 64
+Date: Tue, 27 Aug 2013 13:20:55 GMT
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 37 Ended $$$$$$
+
+****** Response Body For Transaction With Id 37 ******
+[
+  "Dirk",
+  "Leonard",
+  "Willy",
+  "Ahmad",
+  "Vaughn",
+  3
+]
+$$$$$$ Response Body For Transaction With Id 37 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 37 ****** (Location Flag : tFlagInsertEnd, Location ID : 37)
+	web_custom_request("challenge",
+		"URL=http://localhost:3000/challenge",
+		"Method=GET",
+		"Resource=1",
+		"RecContentType=application/json",
+		"Referer=",
+		"Snapshot=t1.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 37 Ended $$$$$$
+
