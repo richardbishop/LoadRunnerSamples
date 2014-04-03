@@ -80,4 +80,7 @@ pre_cci.c
 # Files created during script replay (definitely don't need these)
 result[1234567890]*/
 mdrv.log
-output.txt
+output.bak
+#RB decided to leave this one in, handy to prove script ran successfully before upload / commit
+#output.txt
+ 
