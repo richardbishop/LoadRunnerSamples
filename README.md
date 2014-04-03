@@ -12,3 +12,4 @@ wider performance testing community.
 Script details
 --------------
 
+DateJS - A script demonstrating use of an external JavaScript library / complex date functions
