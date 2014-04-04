@@ -18,6 +18,8 @@ CheckStringInString   - Example script showing code which checks for one string 
 
 DateJS 				  - Demonstrates use of an external JavaScript library / complex date functions
 
+DateTime              - A selection of Date/Time functions for LoadRunner - see also Date JS
+
 LoopExample           - Examples of FOR, WHILE and DO loops in LoadRunner
 
 LRSaveFloat           - Adds lr_save_float functionality to Loadrunner, allowing rounding to x decimal places
@@ -31,3 +33,5 @@ SendMail              - Script which demonstrates using BLAT with LoadRunner to 
 SplitString           - Allows a string to be split into two, creates left and right strings after x characters
 
 SpliStringIntoPairs   - Demonstrates splitting string e.g. ABCDEF into pairs AB CD EF etc.
+
+TimeExclusion         - Sample script showing how a script can be deliberately paused to prevent execution at a particular time

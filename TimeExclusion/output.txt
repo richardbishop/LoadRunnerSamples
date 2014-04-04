@@ -1,0 +1,23 @@
+Virtual User Script started at : 04/04/2014 13:32:47
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\github\loadrunnersamples\TimeExclusion\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+vuser_init.c(24): The time is 13:32
+vuser_init.c(49): Day 5 of the week
+vuser_init.c(69): 6572 minutes have passed since 00:00 on Monday
+vuser_init.c(83): Script needs to wait for 3 minutes
+vuser_init.c(86): Script paused for 180 seconds
+vuser_init.c(88): lr_think_time: 180.00 seconds.
+vuser_init.c(90): No pause required - Script Running
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
