@@ -1,0 +1,35 @@
+Virtual User Script started at : 04/04/2014 16:33:45
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: Click-and-Script  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\ShareCalculation\\default.cfg"  	[MsgId: MMSG-27141]
+Current locale is "Western European (Windows)", code page 1252, preferred charset name "windows-1252", Unicode converter name="windows-1252", CRT locale string="English_United Kingdom.1252"  	[MsgId: MMSG-27045]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(42): Notify: Saving Parameter "FundAmount = 1380".
+Action.c(43): Notify: Saving Parameter "OptionPriceInt = 484".
+Action.c(44): Notify: Saving Parameter "OptionPriceDec = 05253284".
+vuser_init.c(26): Notify: Parameter Substitution: parameter "OptionPriceDec" =  "05253284"
+vuser_init.c(30): Notify: Parameter Substitution: parameter "FundAmount" =  "1380"
+vuser_init.c(36): Notify: Parameter Substitution: parameter "OptionPriceInt" =  "484"
+vuser_init.c(37): Notify: Parameter Substitution: parameter "OptionPriceDec" =  "05253284"
+vuser_init.c(47): Len: 8 
+vuser_init.c(48): Divider: 100000000 
+vuser_init.c(49): Fund: 1380 
+vuser_init.c(50): FundPence: 138000 
+vuser_init.c(51): Price: 484 
+vuser_init.c(52): Price1: 484 
+vuser_init.c(53): Price2: 52532841 
+vuser_init.c(54): Price3: 0 
+vuser_init.c(55): MaxShares: 285 
+vuser_init.c(56): ShareCost: 137940 
+vuser_init.c(57): Remainder: 0 
+vuser_init.c(58): RemainderPence: 60 
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
