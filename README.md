@@ -28,6 +28,8 @@ RandInt               - Creates a random number between iMin and iMax, iMax can 
 
 ReadWriteExternalFile - Sample script which writes to and reads from an external file
 
+ReverseString         - Script which reverses a LoadRunner string e.g. ABCDEF becomes FEDCBA
+
 SendMail              - Script which demonstrates using BLAT with LoadRunner to send email - used to notify test completion
 
 SplitString           - Allows a string to be split into two, creates left and right strings after x characters
