@@ -1,0 +1,18 @@
+Virtual User Script started at : 04/04/2014 14:57:28
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: Click-and-Script  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\ExtractStringFromString\\default.cfg"  	[MsgId: MMSG-27141]
+Current locale is "Western European (Windows)", code page 1252, preferred charset name "windows-1252", Unicode converter name="windows-1252", CRT locale string="English_United Kingdom.1252"  	[MsgId: MMSG-27045]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(101): token is HEX6A31013657A217B4A2254993C29633893A920BAE3C9400DB
+Action.c(110): HdnAccountID is HEX6A31013657A217B4A2254993C29633893A920BAE3C9400DB
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
