@@ -1,0 +1,46 @@
+Virtual User Script started at : 04/04/2014 11:41:04
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\LoopExample\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(39): FOR Loop number 1
+Action.c(39): FOR Loop number 2
+Action.c(39): FOR Loop number 3
+Action.c(39): FOR Loop number 4
+Action.c(39): FOR Loop number 5
+Action.c(39): FOR Loop number 6
+Action.c(39): FOR Loop number 7
+Action.c(39): FOR Loop number 8
+Action.c(39): FOR Loop number 9
+Action.c(39): FOR Loop number 10
+Action.c(48): WHILE Loop number 1
+Action.c(48): WHILE Loop number 2
+Action.c(48): WHILE Loop number 3
+Action.c(48): WHILE Loop number 4
+Action.c(48): WHILE Loop number 5
+Action.c(48): WHILE Loop number 6
+Action.c(48): WHILE Loop number 7
+Action.c(48): WHILE Loop number 8
+Action.c(48): WHILE Loop number 9
+Action.c(48): WHILE Loop number 10
+Action.c(57): DO WHILE Loop number 1
+Action.c(57): DO WHILE Loop number 2
+Action.c(57): DO WHILE Loop number 3
+Action.c(57): DO WHILE Loop number 4
+Action.c(57): DO WHILE Loop number 5
+Action.c(57): DO WHILE Loop number 6
+Action.c(57): DO WHILE Loop number 7
+Action.c(57): DO WHILE Loop number 8
+Action.c(57): DO WHILE Loop number 9
+Action.c(57): DO WHILE Loop number 10
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

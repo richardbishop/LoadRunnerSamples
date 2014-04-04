@@ -4,7 +4,7 @@ LoadRunnerSamples
 Sample Loadrunner Scripts used by Richard Bishop, Trust IV Ltd
 Many of these scripts include snippets of code from the "great and the good" 
 in the performance testing world including, Wilson Mar, Stuart Moncrieff, 
-Scott Moore, Mark Sibley and Floris Kraak.
+Scott Moore, Mark Sibley, John Howley, Mark Dowd and Floris Kraak.
 
 I keep them here to act as a repository for my own use and to benefit the
 wider performance testing community.  
@@ -12,7 +12,9 @@ wider performance testing community.
 Script details
 --------------
 
-DateJS 				        - Demonstrates use of an external JavaScript library / complex date functions
+DateJS 				  - Demonstrates use of an external JavaScript library / complex date functions
+
+LoopExample           - Examples of FOR, WHILE and DO loops in LoadRunner
 
 LRSaveFloat           - Adds lr_save_float functionality to Loadrunner, allowing rounding to x decimal places
 
