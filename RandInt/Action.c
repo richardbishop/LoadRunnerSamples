@@ -15,7 +15,7 @@ Action()
 
 	for (i=0;i<10;i++)
 	{
-		iRand = fRandInt (1,1000);
+		iRand = fRandInt (1,100000);
 		lr_output_message("Random number is : %d",iRand); 
 	}
 
