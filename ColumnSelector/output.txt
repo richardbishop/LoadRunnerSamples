@@ -1,0 +1,48 @@
+Virtual User Script started at : 04/04/2014 12:58:41
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\ColumnSelector\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(19): Iteration is [1], String used is {sColumn_1}
+Action.c(22): Value of {sColumn_1} is [One]
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(19): Iteration is [2], String used is {sColumn_2}
+Action.c(22): Value of {sColumn_2} is [Two]
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(19): Iteration is [3], String used is {sColumn_3}
+Action.c(22): Value of {sColumn_3} is [Three]
+Ending action Action.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Action.
+Action.c(19): Iteration is [4], String used is {sColumn_4}
+Action.c(22): Value of {sColumn_4} is [Four]
+Ending action Action.
+Ending iteration 4.
+Starting iteration 5.
+Starting action Action.
+Action.c(19): Iteration is [5], String used is {sColumn_5}
+Action.c(22): Value of {sColumn_5} is [Five]
+Ending action Action.
+Ending iteration 5.
+Starting iteration 6.
+Starting action Action.
+Action.c(19): Iteration is [6], String used is {sColumn_6}
+Action.c(22): Value of {sColumn_6} is [Six]
+Ending action Action.
+Ending iteration 6.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
