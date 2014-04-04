@@ -1,0 +1,20 @@
+Virtual User Script started at : 04/04/2014 12:53:52
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\CheckStringInString\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+vuser_init.c(6): [The quick brown fox jumps over the lazy dogs] does contain the text [lazy]
+vuser_init.c(12): [The quick brown fox jumps over the lazy dogs] does not contain the text [work-shy]
+vuser_init.c(6): [abcdefghijklmnopqrstuvwxyz] does contain the text [abc]
+vuser_init.c(12): [abcdefghijklmnopqrstuvwxyz] does not contain the text [abd]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -12,6 +12,8 @@ wider performance testing community.
 Script details
 --------------
 
+CheckStringInString   - Example script showing code which checks for one string of text in another, useful for error handling
+
 DateJS 				  - Demonstrates use of an external JavaScript library / complex date functions
 
 LoopExample           - Examples of FOR, WHILE and DO loops in LoadRunner
