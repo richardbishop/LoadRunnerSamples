@@ -46,6 +46,8 @@ SplitString             - Allows a string to be split into two, creates left and
 
 SpliStringIntoPairs     - Demonstrates splitting string e.g. ABCDEF into pairs AB CD EF etc.
 
+StringHandling          - Convert LoadRunner data types using C, Integers, Strings, Parameters, Floats etc.
+
 TimeExclusion           - Sample script showing how a script can be deliberately paused to prevent execution at a particular time
 
 XSTRCAT                 - More efficient string concatenation than standard strcat function. Originally from Brian Wilson (Tech South LLC)

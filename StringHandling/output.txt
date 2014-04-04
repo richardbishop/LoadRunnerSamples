@@ -1,0 +1,34 @@
+Virtual User Script started at : 04/04/2014 17:44:55
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\StringHandling\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action ConvertStringToParam.
+ConvertStringToParam.c(12): New parameter is [Value to be saved]
+Ending action ConvertStringToParam.
+Starting action ConvertParamToString.
+ConvertParamToString.c(9): New string is [This is a test]
+Ending action ConvertParamToString.
+Starting action ConvertParamToInteger.
+ConvertParamToInteger.c(9): [1234]
+ConvertParamToInteger.c(14): New integer is [1234]
+Ending action ConvertParamToInteger.
+Starting action ConvertIntegerToString.
+ConvertIntegerToString.c(8): New string is [1234567]
+Ending action ConvertIntegerToString.
+Starting action ConvertIntegerToParameter.
+ConvertIntegerToParameter.c(12): New string is [23456789]
+ConvertIntegerToParameter.c(15): New parameter is [23456789]
+Ending action ConvertIntegerToParameter.
+Starting action ConvertFloatToString.
+ConvertFloatToString.c(10): New string is [1234.567800]
+Ending action ConvertFloatToString.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
