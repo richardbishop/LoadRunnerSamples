@@ -30,6 +30,8 @@ LoopExample             - Examples of FOR, WHILE and DO loops in LoadRunner
 
 LRSaveFloat             - Adds lr_save_float functionality to Loadrunner, allowing rounding to x decimal places
 
+LuhnGenerator           - Sample script using Brad Conte's Luhn Credit Card Generator code to generate Luhn-valid CC numbers for testing
+
 PadLeadingValues        - Pad a string with leading characters, e.g. pad with leading zeroes e.g. 123 becomes 00000123
 
 RandInt                 - Creates a random number between iMin and iMax, iMax can be greater than 32K Windows limit
