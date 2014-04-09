@@ -35,8 +35,8 @@ Actions()
 	char *results = NULL;
 	int   rescnt  = 0;
 
-	lr_save_string("8.8.8.8","DnsServer");	// Set DNS server IP Address
-	lr_save_string("www.hp.com", "Hostname");	// Set hostname to resolve
+	lr_save_string("8.8.8.8","DnsServer");	// Set DNS server IP Address - this is Google's DNS
+	lr_save_string("www.trustiv.co.uk", "Hostname");	// Set hostname to resolve
 
 	// Perform DNS Query
 	// Usage Notes:

@@ -1,16 +1,14 @@
-Virtual User Script started at : 04/04/2014 15:03:23
+Virtual User Script started at : 09/04/2014 11:40:53
 Starting action vuser_init.
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Starting action Actions.
-Actions.c(46): Querying host information for 'www.hp.com' from 8.8.8.8...
+Actions.c(46): Querying host information for 'www.trustiv.co.uk' from 8.8.8.8...
 Actions.c(46): Notify: Transaction "DnsQuery" started.
-Actions.c(46): Host www.hp.com resolved to 15.201.49.153 (w/ TTL=88 secs).
-Actions.c(46): Host www.hp.com resolved to 15.193.112.152 (w/ TTL=88 secs).
-Actions.c(46): Notify: Transaction "DnsQuery" ended with "Pass" status (Duration: 0.1504).
-(1) IP address for www.hp.com is 15.201.49.153
-(2) IP address for www.hp.com is 15.193.112.152
+Actions.c(46): Host www.trustiv.co.uk resolved to 37.128.190.37 (w/ TTL=14400 secs).
+Actions.c(46): Notify: Transaction "DnsQuery" ended with "Pass" status (Duration: 0.0460).
+(1) IP address for www.trustiv.co.uk is 37.128.190.37
 Ending action Actions.
 Ending iteration 1.
 Ending Vuser...
