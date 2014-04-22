@@ -1,0 +1,26 @@
+Virtual User Script started at : 22/04/2014 17:27:26
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(13): String: StringToSplit
+Action.c(18): Char at 0 = S
+Action.c(18): Char at 1 = t
+Action.c(18): Char at 2 = r
+Action.c(18): Char at 3 = i
+Action.c(18): Char at 4 = n
+Action.c(18): Char at 5 = g
+Action.c(18): Char at 6 = T
+Action.c(18): Char at 7 = o
+Action.c(18): Char at 8 = S
+Action.c(18): Char at 9 = p
+Action.c(18): Char at 10 = l
+Action.c(18): Char at 11 = i
+Action.c(18): Char at 12 = t
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
