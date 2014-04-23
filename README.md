@@ -42,6 +42,8 @@ RandInt                 - Creates a random number between iMin and iMax, iMax ca
 
 ReadWriteExternalFile   - Sample script which writes to and reads from an external file
 
+ReturnCharacterXFromString - Return a single character from a a string
+
 ReverseString           - Script which reverses a LoadRunner string e.g. ABCDEF becomes FEDCBA
 
 SaveGravatar            - Create MD5 hash of parameterised value (email address), check hash value at gravatar.com.
