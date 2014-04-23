@@ -1,0 +1,130 @@
+****** Start Log Message ******
+Web Recorder version : 12.0.1362.0 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.0.1362.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 10 ******
+GET /GB/BL0 HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Host: api.zippopotam.us
+DNT: 1
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 10 Ended $$$$$$
+
+****** Response Header For Transaction With Id 10 ******
+HTTP/1.1 200 OK
+Date: Wed, 23 Apr 2014 08:48:07 GMT
+Server: Apache/2.4.7
+Content-Length: 591
+X-Cache: hit
+Charset: UTF-8
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+
+$$$$$$ Response Header For Transaction With Id 10 Ended $$$$$$
+
+****** Response Body For Transaction With Id 10 ******
+{"post code": "BL0", "country": "Great Britain", "country abbreviation": "GB", "places": [{"place name": "Edenfield", "longitude": "-2.3048", "state": "England", "state abbreviation": "ENG", "latitude": "53.6667"}, {"place name": "Stubbins", "longitude": "-2.3167", "state": "England", "state abbreviation": "ENG", "latitude": "53.65"}, {"place name": "Shuttleworth", "longitude": "-2.3128", "state": "England", "state abbreviation": "ENG", "latitude": "53.6549"}, {"place name": "Ramsbottom", "longitude": "-2.3168", "state": "England", "state abbreviation": "ENG", "latitude": "53.6479"}]}
+$$$$$$ Response Body For Transaction With Id 10 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 10 ****** (Location Flag : tFlagInsertEnd, Location ID : 10)
+	web_url("BL0",
+		"URL=http://api.zippopotam.us/GB/BL0",
+		"Resource=1",
+		"RecContentType=application/json",
+		"Referer=",
+		"Snapshot=t1.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 10 Ended $$$$$$
+
+****** Request Header For Transaction With Id 12 ******
+GET /favicon.ico HTTP/1.1
+Accept: */*
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: api.zippopotam.us
+DNT: 1
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 12 Ended $$$$$$
+
+****** Response Header For Transaction With Id 12 ******
+HTTP/1.1 404 Not Found
+Date: Wed, 23 Apr 2014 08:48:07 GMT
+Server: Apache/2.4.7
+Content-Length: 745
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+$$$$$$ Response Header For Transaction With Id 12 Ended $$$$$$
+
+****** Response Body For Transaction With Id 12 ******
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 404 Not Found</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 404 Not Found</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://api.zippopotam.us/favicon.ico&#039;</tt>
+               caused an error:</p>
+            <pre>Not found: &#039;/favicon.ico&#039;</pre>
+        </body>
+    </html>
+
+$$$$$$ Response Body For Transaction With Id 12 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+Warning: One or more responses is missing or has missing packets. A step may appear to be missing in the script.
+Check if recording was stopped before all responses have finished. If script is generated from a .pcap file, check if file has missing packets.
+

@@ -1,0 +1,60 @@
+[API Trapper      (155c: 6bc)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (2098: e0c)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (2098:23b4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2098:23b4)] Load Network Traffic Analyzers:
+[Network Analyzer (2098:23b4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2098:23b4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2098:23b4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2098:23b4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2098:23b4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2098:23b4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2098:23b4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2098:23b4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2098:1cdc)] Address lookup for TRUSTIV-24 = 192.168.1.18
+[Network Analyzer (2098:2314)] Address lookup for TRUSTIV-24 = 192.168.1.18
+[Network Analyzer (2098:23b4)] Address lookup for TRUSTIV-24 = 192.168.1.18
+[Network Analyzer (2098:2048)] Address lookup for TRUSTIV-24 = 192.168.1.18
+[Network Analyzer (2098:23b4)] Request Connection: Remote Server @ 173.255.197.101:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (2098:1cdc)] "GET /GB/BL0"   
+[Network Analyzer (2098:1cdc)]   (Sid:  1) Client -> Server @ : 307 bytes (Service=HTTP)
+[Network Analyzer (2098:2048)] Request Connection: Remote Server @ 173.255.197.101:80   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2098:1cdc)]   (Sid:  1) Server -> Client : 863 bytes  (Service=HTTP)
+[Web Request      (2098:1cdc)] "GET /favicon.ico"   
+[Network Analyzer (2098:1cdc)]   (Sid:  1) Client -> Server @ : 233 bytes (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  1) Server -> Client : 946 bytes  (Service=HTTP)
+[Network Analyzer (2098:1d30)] Address lookup for TRUSTIV-24 = 192.168.1.18
+[Network Analyzer (2098:2048)] Address lookup for TRUSTIV-24 = 192.168.1.18
+[Network Analyzer (2098:1d30)] Request Connection: Remote Server @ 157.55.231.252:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2098:2048)] Request Connection: Remote Server @ 157.55.231.252:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2098:1328)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer (2098: d58)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer (2098:23b4)] Address lookup for TRUSTIV-24 = 192.168.1.18
+[Network Analyzer (2098:23b4)] Request Connection: Remote Server @ 68.232.34.200:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (2098:1cdc)] "GET /pki/mscorp/crl/MSIT%20Machine%20Auth%20CA%202(1).crl"   
+[Network Analyzer (2098:1cdc)]   (Sid:  5) Client -> Server @ : 288 bytes (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  5) Server -> Client : 396 bytes  (Service=HTTP)
+[Web Request      (2098:1cdc)] "GET /pki/mscorp/crl/MSIT%20Machine%20Auth%20CA%202(1).crl"   
+[Network Analyzer (2098:1cdc)]   (Sid:  5) Client -> Server @ : 300 bytes (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  5) Server -> Client : 396 bytes  (Service=HTTP)
+[Network Analyzer (2098: c5c)] Address lookup for TRUSTIV-24 = 192.168.1.18
+[Network Analyzer (2098: c5c)] Request Connection: Remote Server @ 176.10.81.8:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (2098:1cdc)] "GET /pki/mscorp/crl/MSIT%20Machine%20Auth%20CA%202(1).crl"   
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Client -> Server @ : 169 bytes (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 5396 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 13068 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 14520 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 43 bytes  (Service=HTTP)
+[Web Request      (2098:1cdc)] "GET /pki/mscorp/crl/MSIT%20Machine%20Auth%20CA%202(1).crl"   
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Client -> Server @ : 212 bytes (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 15908 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 11616 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  6) Server -> Client : 6955 bytes  (Service=HTTP)
+[Network Analyzer (2098:1cdc)]   (Sid:  1) Connection Terminated (by Server)
+[Net An. Error    (2098: d58)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2098:1328)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2098:1cdc)]   (Sid:  3) Connection Terminated (by Client)

@@ -1,0 +1,106 @@
+Virtual User Script started at : 23/04/2014 10:45:14
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\PostCodeChecker\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(36): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(44): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(52): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(52): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(61): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(61): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(70): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(70): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(79): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(79): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(97): Notify: Transaction "0010_GetPostCodeData" started.
+Action.c(100): web_url("API.ZIPPOPOTAM.US") started  	[MsgId: MMSG-26355]
+Action.c(100): web_url("API.ZIPPOPOTAM.US") was successful, 591 body bytes, 245 header bytes  	[MsgId: MMSG-26386]
+Action.c(108): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.4719 Wasted Time: 0.1414).
+Action.c(111): The PostCode, BL0, with Country Code, GB, relates to 4 places in Great Britain
+Action.c(116): Those places are:	
+Action.c(117): PlaceName,Latitude,Longitude,State
+Action.c(118): ---------,--------,---------,-----
+Action.c(140): Edenfield,53.6667,-2.3048,England
+Action.c(140): Stubbins,53.65,-2.3167,England
+Action.c(140): Shuttleworth,53.6549,-2.3128,England
+Action.c(140): Ramsbottom,53.6479,-2.3168,England
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(36): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(44): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(52): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(52): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(61): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(61): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(70): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(70): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(79): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(79): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(97): Notify: Transaction "0010_GetPostCodeData" started.
+Action.c(100): web_url("API.ZIPPOPOTAM.US") started  	[MsgId: MMSG-26355]
+Action.c(100): web_url("API.ZIPPOPOTAM.US") was successful, 1494 body bytes, 246 header bytes  	[MsgId: MMSG-26386]
+Action.c(108): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.3379 Wasted Time: 0.0072).
+Action.c(111): The PostCode, NW1, with Country Code, GB, relates to 11 places in Great Britain
+Action.c(116): Those places are:	
+Action.c(117): PlaceName,Latitude,Longitude,State
+Action.c(118): ---------,--------,---------,-----
+Action.c(140): Regents Park,51.5299,-0.1472,England
+Action.c(140): Camden Town,51.5406,-0.1433,England
+Action.c(140): Regent's Park,51.5299,-0.1472,England
+Action.c(140): Marylebone,51.5254,-0.1681,England
+Action.c(140): Camden Lock,51.5299,-0.1472,England
+Action.c(140): Baker Street,51.5232,-0.1578,England
+Action.c(140): Euston Square,51.5299,-0.1472,England
+Action.c(140): Euston,51.5268,-0.1333,England
+Action.c(140): Somers Town,51.5299,-0.1472,England
+Action.c(140): St Pancras,51.5333,-0.1333,England
+Action.c(140): Mornington Crescent,51.5299,-0.1472,England
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(36): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(44): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(52): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(52): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(61): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(61): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(70): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(70): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(79): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(79): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(88): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(97): Notify: Transaction "0010_GetPostCodeData" started.
+Action.c(100): web_url("API.ZIPPOPOTAM.US") started  	[MsgId: MMSG-26355]
+Action.c(100): web_url("API.ZIPPOPOTAM.US") was successful, 225 body bytes, 245 header bytes  	[MsgId: MMSG-26386]
+Action.c(108): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.3381 Wasted Time: 0.0071).
+Action.c(111): The PostCode, 90210, with Country Code, US, relates to 1 places in United States
+Action.c(116): Those places are:	
+Action.c(117): PlaceName,Latitude,Longitude,State
+Action.c(118): ---------,--------,---------,-----
+Action.c(140): Beverly Hills,34.0901,-118.4065,California
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

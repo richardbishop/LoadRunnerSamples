@@ -1,0 +1,10 @@
+GET /GB/BL0 HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Host: api.zippopotam.us
+DNT: 1
+Connection: Keep-Alive
+

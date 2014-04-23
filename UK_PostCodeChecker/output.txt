@@ -1,0 +1,79 @@
+Virtual User Script started at : 23/04/2014 10:31:37
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\UK_PostCodeChecker\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(11): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(19): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(19): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(27): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(46): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(46): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(55): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(55): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(64): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(64): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(73): Notify: Transaction "0010_GetPostCodeData" started.
+Action.c(75): web_url("API.ZIPPOPOTAM.US") started  	[MsgId: MMSG-26355]
+Action.c(75): web_url("API.ZIPPOPOTAM.US") was successful, 591 body bytes, 245 header bytes  	[MsgId: MMSG-26386]
+Action.c(83): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.4745 Wasted Time: 0.1421).
+Action.c(85): The PostCode, BL0, with Country Code, GB, relates to 4 places in Great Britain
+Action.c(91): Those places are:	
+Action.c(92): PlaceName,Latitude,Longitude,State
+Action.c(93): ---------,--------,---------,-----
+Action.c(111): Edenfield,53.6667,-2.3048,England
+Action.c(111): Stubbins,53.65,-2.3167,England
+Action.c(111): Shuttleworth,53.6549,-2.3128,England
+Action.c(111): Ramsbottom,53.6479,-2.3168,England
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(11): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(19): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(19): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(27): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(46): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(46): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(55): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(55): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(64): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(64): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(73): Notify: Transaction "0010_GetPostCodeData" started.
+Action.c(75): web_url("API.ZIPPOPOTAM.US") started  	[MsgId: MMSG-26355]
+Action.c(75): web_url("API.ZIPPOPOTAM.US") was successful, 1494 body bytes, 247 header bytes  	[MsgId: MMSG-26386]
+Action.c(83): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.4066 Wasted Time: 0.0065).
+Action.c(85): The PostCode, NW1, with Country Code, GB, relates to 11 places in Great Britain
+Action.c(91): Those places are:	
+Action.c(92): PlaceName,Latitude,Longitude,State
+Action.c(93): ---------,--------,---------,-----
+Action.c(111): Regents Park,51.5299,-0.1472,England
+Action.c(111): Camden Town,51.5406,-0.1433,England
+Action.c(111): Regent's Park,51.5299,-0.1472,England
+Action.c(111): Marylebone,51.5254,-0.1681,England
+Action.c(111): Camden Lock,51.5299,-0.1472,England
+Action.c(111): Baker Street,51.5232,-0.1578,England
+Action.c(111): Euston Square,51.5299,-0.1472,England
+Action.c(111): Euston,51.5268,-0.1333,England
+Action.c(111): Somers Town,51.5299,-0.1472,England
+Action.c(111): St Pancras,51.5333,-0.1333,England
+Action.c(111): Mornington Crescent,51.5299,-0.1472,England
+Ending action Action.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
