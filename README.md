@@ -62,6 +62,8 @@ SpliStringIntoPairs     - Demonstrates splitting string e.g. ABCDEF into pairs A
 
 StringHandling          - Convert LoadRunner data types using C, Integers, Strings, Parameters, Floats etc.
 
+TextToSpeech            - Sample LoadRunner script calls Google TTS API, converts text to speech, saves MP3 file.
+
 TimeExclusion           - Sample script showing how a script can be deliberately paused to prevent execution at a particular time
 
 XSTRCAT                 - More efficient string concatenation than standard strcat function. Originally from Brian Wilson (Tech South LLC)
