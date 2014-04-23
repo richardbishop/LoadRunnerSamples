@@ -1,0 +1,45 @@
+Virtual User Script started at : 23/04/2014 16:37:39
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\SaveGravatar\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(58): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(58): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(73): MD5 hash of [richard.bishop@trustiv.co.uk] is [c325b12bde00171f916bdbccce551082]
+Action.c(82): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(82): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(89): web_url("Gravatar API") started  	[MsgId: MMSG-26355]
+Action.c(89): web_url("Gravatar API") was successful, 9426 body bytes, 459 header bytes  	[MsgId: MMSG-26386]
+Action.c(98): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(98): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(99): HTTP return code was :[200]
+Action.c(115): Parameter iLength = 9426
+Gravatar found for [richard.bishop@trustiv.co.uk], Hash value was [c325b12bde00171f916bdbccce551082] saved as C:\temp\richard.bishop@trustiv.co.uk.png
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(58): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(58): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(73): MD5 hash of [test@mail.com] is [97dfebf4098c0f5c16bca61e2b76c373]
+Action.c(82): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(82): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(89): web_url("Gravatar API") started  	[MsgId: MMSG-26355]
+Action.c(89): Warning -26627: HTTP Status-Code=404 (Not Found) for "http://www.gravatar.com/avatar/97dfebf4098c0f5c16bca61e2b76c373.png?s=200&d=404"  	[MsgId: MWAR-26627]
+Action.c(89): web_url("Gravatar API") highest severity level was "warning", 13 body bytes, 313 header bytes  	[MsgId: MMSG-26388]
+Action.c(98): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(98): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(99): HTTP return code was :[404]
+Action.c(104): HTTP return code was 404, no gravatar found for test@mail.com
+Gravatar not found for [test@mail.com]
+Ending action Action.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
