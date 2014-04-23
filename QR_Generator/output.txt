@@ -1,0 +1,72 @@
+Virtual User Script started at : 23/04/2014 17:45:04
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\QR_Generator\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(60): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(60): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(64): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(64): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(71): web_url("Google QR code API") started  	[MsgId: MMSG-26355]
+Action.c(71): web_url("Google QR code API") was successful, 1010 body bytes, 420 header bytes  	[MsgId: MMSG-26386]
+Action.c(79): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(79): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(80): HTTP return code was :[200]
+Action.c(96): Parameter iLength = 1010
+QR code created for [http://hp.com/go/loadrunner], saved as C:\temp\QR_code_001.png
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(60): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(60): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(64): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(64): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(71): web_url("Google QR code API") started  	[MsgId: MMSG-26355]
+Action.c(71): web_url("Google QR code API") was successful, 1009 body bytes, 419 header bytes  	[MsgId: MMSG-26386]
+Action.c(79): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(79): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(80): HTTP return code was :[200]
+Action.c(96): Parameter iLength = 1009
+QR code created for [http://blog.trustiv.co.uk], saved as C:\temp\QR_code_002.png
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(60): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(60): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(64): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(64): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(71): web_url("Google QR code API") started  	[MsgId: MMSG-26355]
+Action.c(71): web_url("Google QR code API") was successful, 995 body bytes, 418 header bytes  	[MsgId: MMSG-26386]
+Action.c(79): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(79): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(80): HTTP return code was :[200]
+Action.c(96): Parameter iLength = 995
+QR code created for [http://bish.co.uk], saved as C:\temp\QR_code_003.png
+Ending action Action.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Action.
+Action.c(60): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(60): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(64): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(64): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(71): web_url("Google QR code API") started  	[MsgId: MMSG-26355]
+Action.c(71): web_url("Google QR code API") was successful, 1004 body bytes, 419 header bytes  	[MsgId: MMSG-26386]
+Action.c(79): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(79): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(80): HTTP return code was :[200]
+Action.c(96): Parameter iLength = 1004
+QR code created for [http://google.com], saved as C:\temp\QR_code_004.png
+Ending action Action.
+Ending iteration 4.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
