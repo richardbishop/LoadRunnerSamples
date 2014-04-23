@@ -38,6 +38,8 @@ PostCodeChecker         - Sample script which checks a country code and postal /
 
 PadLeadingValues        - Pad a string with leading characters, e.g. pad with leading zeroes e.g. 123 becomes 00000123
 
+QR_Generator			- Sample LoadRunner script which calls Google QR code generator and saves resulting QR code as a local image
+
 RandInt                 - Creates a random number between iMin and iMax, iMax can be greater than 32K Windows limit
 
 ReadWriteExternalFile   - Sample script which writes to and reads from an external file
