@@ -9,7 +9,7 @@
 // BP provided by    	 :           Wilson Mar
 // Comments              :           Script which demonstrates string handling, 
 //									 correlation and parameterisation.
-//                                   Makes call to zippopotsm.us with country code and 
+//                                   Makes call to zippopotam.us with country code and 
 //									 post code, retrieves place name, latitude & longitude
 // ***********************************************************************************
 //
