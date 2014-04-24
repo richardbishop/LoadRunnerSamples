@@ -56,6 +56,16 @@ Action()
         }
 	else
 		lr_output_message("Good Afternoon");
+	
+	lr_save_datetime("%Y-%m-%d %H:%M:%S", DATE_NOW, "UTCFormat");
+	lr_output_message("The time is '%s' in UTC format",lr_eval_string("{UTCFormat}"));
 
+	web_convert_param("UTCFormat", 
+	                  "SourceEncoding=PLAIN",
+	                  "TargetEncoding=URL", 
+	                  LAST);	
+	
+	lr_output_message("The time is '%s' in (URL encoded) UTC format",lr_eval_string("{UTCFormat}"));
+	
 	return 0;
 }

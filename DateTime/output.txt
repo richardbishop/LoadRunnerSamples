@@ -1,0 +1,33 @@
+Virtual User Script started at : 24/04/2014 09:41:34
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Github\LoadRunnerSamples\DateTime\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(17): Today's Date is 24/04/14
+Action.c(20): Today's Date is 24/04/2014
+Action.c(23): Today is April 24 2014
+Action.c(26): Tomorrow is April 25 2014
+Action.c(29): Yesterday was Wednesday
+Action.c(32): Today is Thursday
+Action.c(35): Tomorrow is Friday
+Action.c(38): The time is 09:41:34 (in this locale's date format)
+Action.c(41): In one hour it will be 10:41:34
+Action.c(44): Tomorrow is Friday
+Action.c(47): Today is day 114 in the year
+Action.c(50): This machine is in the 'GMT Summer Time' time zone
+Action.c(55): Good Morning
+Action.c(61): The time is '2014-04-24 09:41:34' in UTC format
+Action.c(63): web_convert_param started  	[MsgId: MMSG-26355]
+Action.c(63): web_convert_param was successful  	[MsgId: MMSG-26392]
+Action.c(68): The time is '2014-04-24 09:41:34' in (HTML encoded) UTC format
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

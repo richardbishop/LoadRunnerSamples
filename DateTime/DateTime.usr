@@ -15,15 +15,18 @@ CorrInfoReportDir=result1
 LastResultDir=result1
 DevelopTool=Vugen
 ActionLogicExt=action_logic
-MajorVersion=9
-MinorVersion=1
+MajorVersion=12
+MinorVersion=0
 ParameterFile=
 GlobalParameterFile=
 RunType=cci
-LastModifyVer=9.1.0.0
+LastModifyVer=12.0.0.0
 ScriptExitOK=1
+ScriptLanguage=C
+DisableRegenerate=0
+Description=
 [TransactionsOrder]
-Order=""
+Order=
 [ExtraFiles]
 globals.h=
 [Actions]
@@ -39,7 +42,7 @@ vuser_init=1
 Action=1
 vuser_end=1
 [Modified Actions]
-vuser_init=0
+vuser_init=1
 Action=1
 vuser_end=0
 [ProtocolsVersion]
@@ -60,5 +63,12 @@ Default Profile=default.usp
 14=0
 15=0
 CurrentState=1
-VuserStateHistory= 0 65536 65552
+VuserStateHistory=0 65536 65552
 LastReplayStatus=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
