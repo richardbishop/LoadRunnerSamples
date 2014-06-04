@@ -220,6 +220,16 @@ Action()
 		LAST);
 	
 	lr_output_message ("The third Sunday this month will be [%s]", lr_eval_string("{jDateJS_response}"));		
-		
+	
+		web_js_run(
+        "Code=Date.parse('June 10 2014').getOrdinalNumber().toString()-Date.today().getOrdinalNumber().toString()",  
+		"ResultParam=jDateJS_response",
+		SOURCES,
+		"File=date.js",
+		ENDITEM,
+		LAST);
+	
+	lr_output_message ("[%s] days until HP Discover in Las Vegas", lr_eval_string("{jDateJS_response}"));
+	
 	return 0;
 }
