@@ -42,6 +42,8 @@ QR_Generator			- Sample LoadRunner script which calls Google QR code generator a
 
 RandInt                 - Creates a random number between iMin and iMax, iMax can be greater than 32K Windows limit
 
+RandomAddressGenerator  - Reads random UK addresses from http://www.doogal.co.uk/RandomAddresses.php and writes to file
+
 ReadWriteExternalFile   - Sample script which writes to and reads from an external file
 
 ReturnCharacterXFromString - Return a single character from a a string
