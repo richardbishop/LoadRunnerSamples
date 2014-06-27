@@ -1,0 +1,11 @@
+[t10]
+FileName1=t10.htm
+URL1=http://89.238.153.133/index.php/catalogsearch/ajax/suggest/?q=chair
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_10.xml
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

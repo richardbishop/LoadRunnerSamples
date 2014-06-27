@@ -1,0 +1,11 @@
+[t18]
+FileName1=t18.htm
+URL1=http://89.238.153.133/index.php/catalogsearch/result/?q=t-shirt
+Total=1
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_18.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

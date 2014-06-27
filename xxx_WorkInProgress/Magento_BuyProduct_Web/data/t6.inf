@@ -1,0 +1,11 @@
+[t6]
+FileName1=t6.htm
+URL1=http://89.238.153.133/index.php/checkout/onepage/progress/?prevStep=billing
+Total=1
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_6.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

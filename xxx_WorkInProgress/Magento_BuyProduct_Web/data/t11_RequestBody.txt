@@ -1,0 +1,1 @@
+"shipping_method=flatrate_flatrate"

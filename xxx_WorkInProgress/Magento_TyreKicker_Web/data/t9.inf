@@ -1,0 +1,17 @@
+[t9]
+FileName1=t9.htm
+URL1=http://89.238.153.133/index.php/cn-clogs-beach-garden-clog.html
+Total=4
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_9.xml
+FileName2=t9_cn-clogs-beach-garden-clog-1.jpg
+URL2=http://89.238.153.133/media/catalog/product/cache/1/thumbnail/56x/9df78eab33525d08d6e5fb8d27136e95/c/n/cn-clogs-beach-garden-clog-1.jpg
+FileName3=t9_cn-clogs-beach-garden-clog-2.jpg
+URL3=http://89.238.153.133/media/catalog/product/cache/1/thumbnail/56x/9df78eab33525d08d6e5fb8d27136e95/c/n/cn-clogs-beach-garden-clog-2.jpg
+FileName4=t9_cn-clogs-beach-garden-clog.jpg
+URL4=http://89.238.153.133/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/n/cn-clogs-beach-garden-clog.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

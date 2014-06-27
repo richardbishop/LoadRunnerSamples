@@ -1,0 +1,157 @@
+Failed to get information of process Id: 0
+Failed to get information of process Id: 4
+Failed to get information of process Id: 348
+Failed to get information of process Id: 520
+Failed to get information of process Id: 596
+Failed to get information of process Id: 612
+Failed to get information of process Id: 664
+Failed to get information of process Id: 684
+Failed to get information of process Id: 692
+Failed to get information of process Id: 784
+Failed to get information of process Id: 828
+Failed to get information of process Id: 936
+Failed to get information of process Id: 948
+Failed to get information of process Id: 988
+Failed to get information of process Id: 1004
+Failed to get information of process Id: 380
+Failed to get information of process Id: 1140
+Failed to get information of process Id: 1184
+Failed to get information of process Id: 1372
+Failed to get information of process Id: 1400
+Failed to get information of process Id: 1592
+Failed to get information of process Id: 1612
+Failed to get information of process Id: 1744
+Failed to get information of process Id: 1752
+Failed to get information of process Id: 1888
+Failed to get information of process Id: 1712
+Failed to get information of process Id: 2012
+Failed to get information of process Id: 1904
+Failed to get information of process Id: 2060
+Failed to get information of process Id: 2124
+Failed to get information of process Id: 2200
+Failed to get information of process Id: 2240
+Failed to get information of process Id: 2528
+Failed to get information of process Id: 2692
+Failed to get information of process Id: 2804
+Failed to get information of process Id: 2932
+Failed to get information of process Id: 3600
+Failed to get information of process Id: 4308
+Failed to get information of process Id: 712
+Failed to get information of process Id: 4496
+Failed to get information of process Id: 328
+Failed to get information of process Id: 1084
+Failed to get information of process Id: 2548
+Failed to get information of process Id: 2896
+Failed to get information of process Id: 964
+Failed to get information of process Id: 2344
+Failed to get information of process Id: 276
+Failed to get information of process Id: 4372
+Failed to get information of process Id: 4136
+Failed to get information of process Id: 4104
+Failed to get information of process Id: 1160
+PROCESS 0xf70       bingdesktop.exe
+Failed to get information of process Id: 4048
+PROCESS 0xe38       dropbox.exe
+PROCESS 0x12a0      jusched.exe
+PROCESS 0x1030      evernoteclipper.exe
+Failed to get information of process Id: 4944
+Failed to get information of process Id: 2520
+PROCESS 0x1540      bdexthost.exe
+PROCESS 0x182c      bdapphost.exe
+PROCESS 0x1908      bdruntimehost.exe
+Failed to get information of process Id: 7188
+Failed to get information of process Id: 7212
+Failed to get information of process Id: 4872
+Failed to get information of process Id: 6628
+Failed to get information of process Id: 8056
+PROCESS 0x9e8       applephotostreams.exe
+PROCESS 0x200c      chrome.exe
+PROCESS 0x2330      chrome.exe
+PROCESS 0x22cc      chrome.exe
+PROCESS 0x580       chrome.exe
+PROCESS 0x18c8      chrome.exe
+PROCESS 0xa8        chrome.exe
+PROCESS 0x2294      chrome.exe
+PROCESS 0x20f8      chrome.exe
+PROCESS 0x1954      chrome.exe
+PROCESS 0x18f8      chrome.exe
+PROCESS 0x18ac      chrome.exe
+PROCESS 0x1404      chrome.exe
+PROCESS 0x1fc       chrome.exe
+PROCESS 0x1220      chrome.exe
+PROCESS 0x20a8      chrome.exe
+Failed to get information of process Id: 5872
+PROCESS 0x17ec      chrome.exe
+Failed to get information of process Id: 5160
+Failed to get information of process Id: 9844
+PROCESS 0x1b18      googledrivesync.exe
+PROCESS 0x1d3c      googledrivesync.exe
+Failed to get information of process Id: 7136
+PROCESS 0x12a8      chrome.exe
+PROCESS 0xed4       chrome.exe
+PROCESS 0x240c      chrome.exe
+PROCESS 0x20b8      googlecalendarsync.exe
+Failed to get information of process Id: 8580
+Failed to get information of process Id: 5752
+PROCESS 0x2584      teamviewer.exe
+Failed to get information of process Id: 11240
+Failed to get information of process Id: 5244
+Failed to get information of process Id: 7580
+Failed to get information of process Id: 4576
+PROCESS 0x27f8      javaw.exe
+PROCESS 0x2b28      javaw.exe
+Failed to get information of process Id: 9504
+PROCESS 0x28f4      googletalkplugin.exe
+Failed to get information of process Id: 5852
+Failed to get information of process Id: 11344
+PROCESS 0x1408      chrome.exe
+PROCESS 0x17bc      chrome.exe
+PROCESS 0x2cd4      chrome.exe
+PROCESS 0x1518      chrome.exe
+PROCESS 0x1b94      chrome.exe
+PROCESS 0x2bd4      chrome.exe
+PROCESS 0x2c7c      chrome.exe
+PROCESS 0x2d68      chrome.exe
+PROCESS 0x27f0      chrome.exe
+PROCESS 0x1d4       chrome.exe
+PROCESS 0x1a00      chrome.exe
+PROCESS 0x25d8      chrome.exe
+PROCESS 0x1ab4      chrome.exe
+PROCESS 0x2d94      chrome.exe
+PROCESS 0x10c8      chrome.exe
+PROCESS 0x2734      chrome.exe
+PROCESS 0x92c       chrome.exe
+Failed to get information of process Id: 10028
+PROCESS 0xa48       skype.exe
+Failed to get information of process Id: 12176
+Failed to get information of process Id: 9076
+PROCESS 0x2a54      chrome.exe
+Failed to get information of process Id: 10436
+PROCESS 0x1d20      vugen.exe
+PROCESS 0x15f4      putty.exe
+PROCESS 0x1604      putty.exe
+PROCESS 0x2970      acrord32.exe
+PROCESS 0x1550      acrord32.exe
+Failed to get information of process Id: 2192
+PROCESS 0x13e0      chrome.exe
+PROCESS 0x2468      chrome.exe
+PROCESS 0x2f58      chrome.exe
+Failed to get information of process Id: 5144
+PROCESS 0x1ef8      ctfmon.exe
+Failed to get information of process Id: 9284
+Failed to get information of process Id: 12832
+Failed to get information of process Id: 8824
+Failed to get information of process Id: 5520
+Failed to get information of process Id: 13168
+Failed to get information of process Id: 8420
+PROCESS 0x624       hp.lr.proxyrecorder.exe
+		12.0.1362.0                   C:\Program Files (x86)\HP\LoadRunner\bin\HP.LR.ProxyRecorder.exe
+		6.3.9600.17031 (winblue_gdr.140221-1952)C:\WINDOWS\SYSTEM32\ntdll.dll
+		6.3.9600.16384 (winblue_rtm.130821-1623)C:\WINDOWS\SYSTEM32\MSCOREE.DLL
+		6.3.9600.17031 (winblue_gdr.140221-1952)C:\WINDOWS\SYSTEM32\KERNEL32.dll
+		6.3.9600.17031 (winblue_gdr.140221-1952)C:\WINDOWS\SYSTEM32\KERNELBASE.dll
+		6.3.9600.16384 (winblue_rtm.130821-1623)C:\WINDOWS\system32\apphelp.dll
+		6.3.9600.16384 (winblue_rtm.130821-1623)C:\WINDOWS\SYSTEM32\ADVAPI32.dll
+		7.0.9600.16384 (winblue_rtm.130821-1623)C:\WINDOWS\SYSTEM32\msvcrt.dll
+		6.3.9600.16384 (winblue_rtm.130821-1623)C:\WINDOWS\SYSTEM32\sechost.dll
+		6.3.9600.16384 (winblue_rtm.130821-1623)C:\WINDOWS\SYSTEM32\RPCRT4.dll

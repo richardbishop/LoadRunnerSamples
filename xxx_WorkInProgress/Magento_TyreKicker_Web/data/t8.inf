@@ -1,0 +1,17 @@
+[t8]
+FileName1=t8.htm
+URL1=http://89.238.153.133/index.php/catalogsearch/result/?q=shoes
+Total=4
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_cn-clogs-beach-garden-clog.jpg
+URL2=http://89.238.153.133/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/c/n/cn-clogs-beach-garden-clog.jpg
+FileName3=t8_ecco-womens-golf-flexor-golf-shoe.jpg
+URL3=http://89.238.153.133/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/e/c/ecco-womens-golf-flexor-golf-shoe.jpg
+FileName4=t8_i_block-viewed.gif
+URL4=http://89.238.153.133/skin/frontend/default/default/images/i_block-viewed.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

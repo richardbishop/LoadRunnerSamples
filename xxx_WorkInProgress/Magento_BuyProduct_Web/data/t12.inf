@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12.htm
+URL1=http://89.238.153.133/index.php/checkout/onepage/progress/?prevStep=shipping_method
+Total=1
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_12.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

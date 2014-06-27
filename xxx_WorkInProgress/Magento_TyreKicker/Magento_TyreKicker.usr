@@ -1,0 +1,77 @@
+[General]
+Type=Web2UI
+DefaultCfg=default.cfg
+MajorVersion=12
+MinorVersion=0
+ParameterFile=Magento_TyreKicker.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+LastActiveAction=Script-View
+DevelopTool=Vugen
+LastModifyVer=12.0.0.0
+ActiveTypes=Web2UI
+AdditionalTypes=Web2UI
+GenerateTypes=Web2UI
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+DisableRegenerate=0
+Description=
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+Script-View=Script-View.c
+vuser_end=vuser_end.c
+[VisibleActions]
+vuser_init=0
+Action=0
+vuser_end=0
+Script-View=1
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[RunLogicFiles]
+Default Profile=default.usp
+[ExtraFiles]
+C-functions.c=
+globals.h=
+JS-functions.js=
+[Interpreters]
+vuser_init=cci
+Action=cci
+Script-View=no
+vuser_end=cci
+[Recorded Actions]
+vuser_init=0
+Action=0
+Script-View=1
+vuser_end=0
+[Modified Actions]
+vuser_init=0
+Action=0
+Script-View=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+Script-View=1
+vuser_end=1
+[TransactionsOrder]
+Order="MBP_Web_010_OpenHomePage__*delimiter*__MBP_Web_020_SelectProduct__*delimiter*__MBP_Web_030_AddToCart__*delimiter*__MBP_Web_040_ProceedToCheckout__*delimiter*__MBP_Web_050_RegisterCustomer__*delimiter*__MBP_Web_060_EnterCustomerDetails__*delimiter*__MBP_Web_070_ConfirmDeliveryMethod__*delimiter*__MBP_Web_080_ConfirmPaymentMethod__*delimiter*__MBP_Web_090_PlaceOrder"
+[StateManagement]
+LastReplayStatus=3
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=
+[Transactions]
+MBP_Web_010_OpenHomePage=
+MBP_Web_020_SelectProduct=
+MBP_Web_030_AddToCart=
+MBP_Web_040_ProceedToCheckout=
+MBP_Web_050_RegisterCustomer=
+MBP_Web_060_EnterCustomerDetails=
+MBP_Web_070_ConfirmDeliveryMethod=
+MBP_Web_080_ConfirmPaymentMethod=
+MBP_Web_090_PlaceOrder=

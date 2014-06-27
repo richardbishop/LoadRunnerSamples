@@ -1,0 +1,11 @@
+[t5]
+FileName1=t5.htm
+URL1=http://89.238.153.133/index.php/checkout/onepage/saveMethod/
+Total=1
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=t5_RequestBody.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

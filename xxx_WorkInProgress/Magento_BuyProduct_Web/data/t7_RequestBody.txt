@@ -1,0 +1,6 @@
+"billing%5Baddress_id%5D=&billing%5Bfirstname%5D=John&billing%5Blastname%5D=Smith&billing%5Bcom"
+"pany%5D=&billing%5Bemail%5D=1403798914637%40mail.com&billing%5Bstreet%5D%5B%5D=1%20High%20Stre"
+"et&billing%5Bstreet%5D%5B%5D=&billing%5Bcity%5D=Any%20City&billing%5Bregion_id%5D=&billing%5Br"
+"egion%5D=&billing%5Bpostcode%5D=M1%205AN&billing%5Bcountry_id%5D=GB&billing%5Btelephone%5D=012"
+"34567895412&billing%5Bfax%5D=&billing%5Bcustomer_password%5D=q2w3e4r5t6&billing%5Bconfirm_pass"
+"word%5D=q2w3e4r5t6&billing%5Bsave_in_address_book%5D=1&billing%5Buse_for_shipping%5D=1"

@@ -1,0 +1,11 @@
+[t16]
+FileName1=t16.htm
+URL1=http://89.238.153.133/index.php/catalogsearch/ajax/suggest/?q=t-
+Total=1
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t16_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_16.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

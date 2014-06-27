@@ -1,0 +1,460 @@
+[API Trapper      (17c8:2920)] Recording in 32-bit mode: C:\Program Files (x86)\HP\LoadRunner\bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (1a00:3144)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1a00:3144)] Load Network Traffic Analyzers:
+[Network Analyzer (1a00:3144)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1a00:3144)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1a00:3144)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1a00:3144)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1a00:3144)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1a00:3144)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1a00:3144)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1a00:3144)] ------------------------------------------------------------------------------------------
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/index.php"   
+[Network Analyzer (1a00:2a54)]   (Sid:  1) Client -> Server @ : 318 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid:  1) Server -> Client : 557 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid:  1) Server -> Client : 4548 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/skin/frontend/base/default/css/widgets.css"   
+[Network Analyzer (1a00:3154)]   (Sid:  2) Client -> Server @ : 393 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid:  2) Server -> Client : 340 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid:  2) Server -> Client : 1235 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/skin/frontend/default/default/css/print.css"   
+[Network Analyzer (1a00:2a54)]   (Sid:  3) Client -> Server @ : 394 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid:  3) Server -> Client : 338 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid:  3) Server -> Client : 736 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/skin/frontend/default/default/css/styles.css"   
+[Network Analyzer (1a00:1740)]   (Sid:  4) Client -> Server @ : 395 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:  4) Server -> Client : 341 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:  4) Server -> Client : 18105 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/js/lib/ccard.js"   
+[Network Analyzer (1a00:2a54)]   (Sid:  5) Client -> Server @ : 351 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid:  5) Server -> Client : 351 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid:  5) Server -> Client : 437 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/js/prototype/prototype.js"   
+[Network Analyzer (1a00:3154)]   (Sid:  6) Client -> Server @ : 361 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid:  6) Server -> Client : 355 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid:  6) Server -> Client : 37405 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/js/prototype/validation.js"   
+[Network Analyzer (1a00:1740)]   (Sid:  7) Client -> Server @ : 362 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:  7) Server -> Client : 353 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:  7) Server -> Client : 9043 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/js/scriptaculous/builder.js"   
+[Network Analyzer (1a00:2a54)]   (Sid:  8) Client -> Server @ : 363 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid:  8) Server -> Client : 353 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid:  8) Server -> Client : 1842 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/js/scriptaculous/effects.js"   
+[Network Analyzer (1a00:3154)]   (Sid:  9) Client -> Server @ : 363 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid:  9) Server -> Client : 353 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid:  9) Server -> Client : 8782 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/js/scriptaculous/dragdrop.js"   
+[Network Analyzer (1a00:1740)]   (Sid: 10) Client -> Server @ : 364 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 10) Server -> Client : 353 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 10) Server -> Client : 7564 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/js/scriptaculous/slider.js"   
+[Network Analyzer (1a00:3154)]   (Sid: 11) Client -> Server @ : 362 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 11) Server -> Client : 353 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 11) Server -> Client : 2707 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/js/scriptaculous/controls.js"   
+[Network Analyzer (1a00:2a54)]   (Sid: 12) Client -> Server @ : 364 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 12) Server -> Client : 353 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 12) Server -> Client : 9049 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/js/varien/form.js"   
+[Network Analyzer (1a00:1740)]   (Sid: 13) Client -> Server @ : 353 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 13) Server -> Client : 353 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 13) Server -> Client : 3204 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/js/varien/js.js"   
+[Network Analyzer (1a00:2af0)]   (Sid: 14) Client -> Server @ : 351 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 14) Server -> Client : 354 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 14) Server -> Client : 6335 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/js/varien/menu.js"   
+[Network Analyzer (1a00:3154)]   (Sid: 15) Client -> Server @ : 353 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 15) Server -> Client : 353 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 15) Server -> Client : 1450 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/js/mage/translate.js"   
+[Network Analyzer (1a00:2a54)]   (Sid: 16) Client -> Server @ : 356 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 16) Server -> Client : 351 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 16) Server -> Client : 738 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/js/mage/cookies.js"   
+[Network Analyzer (1a00:1740)]   (Sid: 17) Client -> Server @ : 354 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 17) Server -> Client : 352 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 17) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/media/col_right_callout.jpg"   
+[Network Analyzer (1a00:2af0)]   (Sid: 18) Client -> Server @ : 430 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 18) Server -> Client : 295 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 18) Server -> Client : 14703 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/skin/frontend/default/default/images/ph_callout_left_top.gif"   
+[Network Analyzer (1a00:2a54)]   (Sid: 19) Client -> Server @ : 426 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 19) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 19) Server -> Client : 29101 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/logo.gif"   
+[Network Analyzer (1a00:2af0)]   (Sid: 20) Client -> Server @ : 411 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 20) Server -> Client : 292 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 20) Server -> Client : 2106 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_pipe1.gif"   
+[Network Analyzer (1a00:1740)]   (Sid: 21) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 21) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 21) Server -> Client : 51 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/skin/frontend/default/default/images/btn_search.gif"   
+[Network Analyzer (1a00:3154)]   (Sid: 22) Client -> Server @ : 452 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 22) Server -> Client : 291 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 22) Server -> Client : 926 bytes  (Service=HTTP)
+[Web Request      (1a00:2060)] "CONNECT www.paypalobjects.com:443"   
+[Network Analyzer (1a00:2060)]   (Sid: 23) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid: 23) Server -> Client : 107 bytes 
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/media/best_selling_img05.jpg"   
+[Network Analyzer (1a00:2af0)]   (Sid: 24) Client -> Server @ : 431 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 24) Server -> Client : 293 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 24) Server -> Client : 2799 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/skin/frontend/default/default/images/free_shipping_callout.jpg"   
+[Network Analyzer (1a00:1740)]   (Sid: 25) Client -> Server @ : 428 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 25) Server -> Client : 295 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 25) Server -> Client : 14639 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/skin/frontend/default/default/images/media/best_selling_img01.jpg"   
+[Network Analyzer (1a00:3154)]   (Sid: 26) Client -> Server @ : 431 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 26) Server -> Client : 293 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 26) Server -> Client : 1817 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/skin/frontend/default/default/images/home_main_callout.jpg"   
+[Network Analyzer (1a00:2a54)]   (Sid: 27) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 27) Server -> Client : 295 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 27) Server -> Client : 36053 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/ph_callout_left_rebel.jpg"   
+[Network Analyzer (1a00:2af0)]   (Sid: 28) Client -> Server @ : 428 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 28) Server -> Client : 295 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 28) Server -> Client : 14035 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/skin/frontend/default/default/images/media/best_selling_img03.jpg"   
+[Network Analyzer (1a00:1740)]   (Sid: 29) Client -> Server @ : 431 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 29) Server -> Client : 293 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 29) Server -> Client : 2516 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/skin/frontend/default/default/images/media/best_selling_img02.jpg"   
+[Network Analyzer (1a00:3154)]   (Sid: 30) Client -> Server @ : 431 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 30) Server -> Client : 293 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 30) Server -> Client : 3118 bytes  (Service=HTTP)
+[Web Request      (1a00:2060)] "GET http://89.238.153.133/skin/frontend/default/default/images/media/best_selling_img04.jpg"   
+[Network Analyzer (1a00:2060)]   (Sid: 31) Client -> Server @ : 431 bytes (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid: 31) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid: 31) Server -> Client : 2455 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/skin/frontend/default/default/images/media/best_selling_img06.jpg"   
+[Network Analyzer (1a00:2a54)]   (Sid: 32) Client -> Server @ : 431 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 32) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 32) Server -> Client : 4898 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_form-search.gif"   
+[Network Analyzer (1a00:2af0)]   (Sid: 33) Client -> Server @ : 457 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 33) Server -> Client : 292 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 33) Server -> Client : 1724 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_body.gif"   
+[Network Analyzer (1a00:3154)]   (Sid: 34) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 34) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 34) Server -> Client : 72 bytes  (Service=HTTP)
+[Web Request      (1a00:2060)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_nav0.jpg"   
+[Network Analyzer (1a00:2060)]   (Sid: 35) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid: 35) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid: 35) Server -> Client : 5089 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_header.jpg"   
+[Network Analyzer (1a00:1740)]   (Sid: 36) Client -> Server @ : 452 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 36) Server -> Client : 295 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 36) Server -> Client : 35290 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_nav1.gif"   
+[Network Analyzer (1a00:2a54)]   (Sid: 37) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 37) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 37) Server -> Client : 43 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_nav2.gif"   
+[Network Analyzer (1a00:2af0)]   (Sid: 38) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 38) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 38) Server -> Client : 67 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_main1.gif"   
+[Network Analyzer (1a00:3154)]   (Sid: 39) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 39) Server -> Client : 293 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 39) Server -> Client : 7629 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_block-title.gif"   
+[Network Analyzer (1a00:1740)]   (Sid: 40) Client -> Server @ : 457 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 40) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 40) Server -> Client : 96 bytes  (Service=HTTP)
+[Web Request      (1a00:2060)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_main2.gif"   
+[Network Analyzer (1a00:2060)]   (Sid: 41) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid: 41) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid: 41) Server -> Client : 32524 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/skin/frontend/default/default/images/i_block-tags.gif"   
+[Network Analyzer (1a00:2a54)]   (Sid: 42) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 42) Server -> Client : 291 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 42) Server -> Client : 594 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_block-actions.gif"   
+[Network Analyzer (1a00:2af0)]   (Sid: 43) Client -> Server @ : 459 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 43) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 43) Server -> Client : 63 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/skin/frontend/default/default/images/best_selling_tr_odd_bg.gif"   
+[Network Analyzer (1a00:3154)]   (Sid: 44) Client -> Server @ : 464 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 44) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 44) Server -> Client : 49 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/skin/frontend/default/default/images/best_selling_tr_even_bg.gif"   
+[Network Analyzer (1a00:1740)]   (Sid: 45) Client -> Server @ : 465 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 45) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 45) Server -> Client : 49 bytes  (Service=HTTP)
+[Web Request      (1a00:2060)] "GET http://89.238.153.133/skin/frontend/default/default/images/i_block-list.gif"   
+[Network Analyzer (1a00:2060)]   (Sid: 46) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid: 46) Server -> Client : 291 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid: 46) Server -> Client : 600 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/skin/frontend/default/default/images/i_block-cart.gif"   
+[Network Analyzer (1a00:2a54)]   (Sid: 47) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 47) Server -> Client : 291 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 47) Server -> Client : 604 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/i_block-poll.gif"   
+[Network Analyzer (1a00:2af0)]   (Sid: 48) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 48) Server -> Client : 292 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 48) Server -> Client : 1014 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_pipe2.gif"   
+[Network Analyzer (1a00:1740)]   (Sid: 49) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 49) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 49) Server -> Client : 51 bytes  (Service=HTTP)
+[Web Request      (1a00:2ccc)] "GET https://www.paypalobjects.com/en_GB/i/bnr/bnr_nowAccepting_150x60.gif"   
+[Network Analyzer (1a00:2ccc)]   (Sid: 50) Client -> Server @ : 375 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a00:2ccc)]   (Sid: 50) Server -> Client : 292 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a00:2ccc)]   (Sid: 50) Server -> Client : 3951 bytes (SSL) (Service=HTTP)
+[Web Request      (1a00:2bf0)] "GET http://89.238.153.133/index.php/sony-vaio-vgn-txn27n-b-11-1-notebook-pc.html"   
+[Network Analyzer (1a00:2bf0)]   (Sid: 51) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer (1a00:2bf0)]   (Sid: 51) Server -> Client : 557 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2bf0)]   (Sid: 51) Server -> Client : 8345 bytes  (Service=HTTP)
+[Web Request      (1a00:2bf0)] "GET http://89.238.153.133/js/calendar/calendar-win2k-1.css"   
+[Network Analyzer (1a00:2bf0)]   (Sid: 52) Client -> Server @ : 428 bytes (Service=HTTP)
+[Network Analyzer (1a00:2bf0)]   (Sid: 52) Server -> Client : 339 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2bf0)]   (Sid: 52) Server -> Client : 1366 bytes  (Service=HTTP)
+[Web Request      (1a00:3148)] "GET http://89.238.153.133/js/varien/product.js"   
+[Network Analyzer (1a00:3148)]   (Sid: 53) Client -> Server @ : 401 bytes (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 53) Server -> Client : 354 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 53) Server -> Client : 5981 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/js/calendar/calendar-setup.js"   
+[Network Analyzer (1a00:2af0)]   (Sid: 54) Client -> Server @ : 410 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 54) Server -> Client : 354 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 54) Server -> Client : 1720 bytes  (Service=HTTP)
+[Web Request      (1a00:20cc)] "GET http://89.238.153.133/js/varien/configurable.js"   
+[Network Analyzer (1a00:20cc)]   (Sid: 55) Client -> Server @ : 406 bytes (Service=HTTP)
+[Network Analyzer (1a00:20cc)]   (Sid: 55) Server -> Client : 354 bytes  (Service=HTTP)
+[Network Analyzer (1a00:20cc)]   (Sid: 55) Server -> Client : 2703 bytes  (Service=HTTP)
+[Web Request      (1a00:2c88)] "GET http://89.238.153.133/js/calendar/calendar.js"   
+[Network Analyzer (1a00:2c88)]   (Sid: 56) Client -> Server @ : 404 bytes (Service=HTTP)
+[Network Analyzer (1a00:2c88)]   (Sid: 56) Server -> Client : 355 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2c88)]   (Sid: 56) Server -> Client : 14915 bytes  (Service=HTTP)
+[Web Request      (1a00:3148)] "GET http://89.238.153.133/skin/frontend/default/default/images/slider_btn_zoom_out.gif"   
+[Network Analyzer (1a00:3148)]   (Sid: 57) Client -> Server @ : 471 bytes (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 57) Server -> Client : 291 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 57) Server -> Client : 432 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/media/catalog/product/cache/1/small_image/125x/9df78eab33525d08d6e5fb8d27136e95/a/c/acer-ferrari-3200-notebook-computer-pc.jpg"   
+[Network Analyzer (1a00:2af0)]   (Sid: 58) Client -> Server @ : 537 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 58) Server -> Client : 293 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 58) Server -> Client : 3514 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/skin/frontend/default/default/images/slider_btn_zoom_in.gif"   
+[Network Analyzer (1a00:3154)]   (Sid: 59) Client -> Server @ : 470 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 59) Server -> Client : 291 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 59) Server -> Client : 443 bytes  (Service=HTTP)
+[Web Request      (1a00:2c88)] "GET http://89.238.153.133/media/catalog/product/cache/1/small_image/125x/9df78eab33525d08d6e5fb8d27136e95/t/o/toshiba-m285-e-14.jpg"   
+[Network Analyzer (1a00:2c88)]   (Sid: 60) Client -> Server @ : 516 bytes (Service=HTTP)
+[Network Analyzer (1a00:2c88)]   (Sid: 60) Server -> Client : 293 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2c88)]   (Sid: 60) Server -> Client : 3680 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/media/catalog/product/cache/1/small_image/125x/9df78eab33525d08d6e5fb8d27136e95/a/p/apple-macbook-pro-ma464ll-a-15-4-notebook-pc.jpg"   
+[Network Analyzer (1a00:1740)]   (Sid: 61) Client -> Server @ : 543 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 61) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 61) Server -> Client : 2440 bytes  (Service=HTTP)
+[Web Request      (1a00:2a80)] "GET http://89.238.153.133/media/catalog/product/cache/1/small_image/125x/9df78eab33525d08d6e5fb8d27136e95/s/o/sony-vaio-11-1-notebook-pc.jpg"   
+[Network Analyzer (1a00:2a80)]   (Sid: 62) Client -> Server @ : 525 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a80)]   (Sid: 62) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a80)]   (Sid: 62) Server -> Client : 2764 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/media/catalog/product/cache/1/thumbnail/50x/9df78eab33525d08d6e5fb8d27136e95/u/n/universal-camera-charger.jpg"   
+[Network Analyzer (1a00:2a54)]   (Sid: 63) Client -> Server @ : 520 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 63) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 63) Server -> Client : 1636 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_product-view.gif"   
+[Network Analyzer (1a00:2af0)]   (Sid: 64) Client -> Server @ : 479 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 64) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 64) Server -> Client : 10761 bytes  (Service=HTTP)
+[Web Request      (1a00:2bf0)] "GET http://89.238.153.133/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/o/sony-vaio-vgn-txn27n-b-11-1-notebook-pc.jpg"   
+[Network Analyzer (1a00:2bf0)]   (Sid: 65) Client -> Server @ : 527 bytes (Service=HTTP)
+[Network Analyzer (1a00:2bf0)]   (Sid: 65) Server -> Client : 295 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2bf0)]   (Sid: 65) Server -> Client : 55163 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_rating.gif"   
+[Network Analyzer (1a00:3154)]   (Sid: 66) Client -> Server @ : 473 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 66) Server -> Client : 291 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 66) Server -> Client : 661 bytes  (Service=HTTP)
+[Web Request      (1a00:2c88)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_divider1.gif"   
+[Network Analyzer (1a00:2c88)]   (Sid: 67) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (1a00:2c88)]   (Sid: 67) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2c88)]   (Sid: 67) Server -> Client : 43 bytes  (Service=HTTP)
+[Web Request      (1a00:3148)] "GET http://89.238.153.133/skin/frontend/default/default/images/slider_bg.gif"   
+[Network Analyzer (1a00:3148)]   (Sid: 68) Client -> Server @ : 472 bytes (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 68) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 68) Server -> Client : 68 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/skin/frontend/default/default/images/magnifier_handle.gif"   
+[Network Analyzer (1a00:1740)]   (Sid: 69) Client -> Server @ : 479 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 69) Server -> Client : 290 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid: 69) Server -> Client : 209 bytes  (Service=HTTP)
+[Web Request      (1a00:2a80)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_product_collateral.gif"   
+[Network Analyzer (1a00:2a80)]   (Sid: 70) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a80)]   (Sid: 70) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a80)]   (Sid: 70) Server -> Client : 63 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_grid.gif"   
+[Network Analyzer (1a00:2a54)]   (Sid: 71) Client -> Server @ : 471 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 71) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 71) Server -> Client : 53 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_pipe3.gif"   
+[Network Analyzer (1a00:2af0)]   (Sid: 72) Client -> Server @ : 472 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 72) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 72) Server -> Client : 44 bytes  (Service=HTTP)
+[Web Request      (1a00:2bf0)] "GET http://89.238.153.133/skin/frontend/default/default/images/i_tag_add.gif"   
+[Network Analyzer (1a00:2bf0)]   (Sid: 73) Client -> Server @ : 472 bytes (Service=HTTP)
+[Network Analyzer (1a00:2bf0)]   (Sid: 73) Server -> Client : 291 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2bf0)]   (Sid: 73) Server -> Client : 621 bytes  (Service=HTTP)
+[Web Request      (1a00:3154)] "GET http://89.238.153.133/skin/frontend/default/default/images/i_block-related.gif"   
+[Network Analyzer (1a00:3154)]   (Sid: 74) Client -> Server @ : 478 bytes (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 74) Server -> Client : 291 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3154)]   (Sid: 74) Server -> Client : 560 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 75) Client -> Server @ : 719 bytes (Service=HTTP)
+[Web Request      (1a00:2a54)] "POST http://89.238.153.133/index.php/checkout/cart/add/uenc/aHR0cDovLzg5LjIzOC4xNTMuMTMzL2luZGV4LnBocC9zb255LXZhaW8tdmduLXR4bjI3bi1iLTExLTEtbm90ZWJvb2stcGMuaHRtbD9fX19TSUQ9VQ,,/product/27/form_key/250TaLL3Uu2cKWjj/"   
+[Network Analyzer (1a00:2a54)]   (Sid: 75) Client -> Server @ : 59 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 75) Server -> Client : 615 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 75) Server -> Client : 20 bytes  (Service=HTTP)
+[Web Request      (1a00:3588)] "GET http://89.238.153.133/index.php/checkout/cart/"   
+[Network Analyzer (1a00:3588)]   (Sid: 76) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 76) Server -> Client : 557 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 76) Server -> Client : 14551 bytes  (Service=HTTP)
+[Web Request      (1a00:3588)] "GET http://89.238.153.133/js/varien/weee.js"   
+[Network Analyzer (1a00:3588)]   (Sid: 77) Client -> Server @ : 389 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 77) Server -> Client : 351 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 77) Server -> Client : 631 bytes  (Service=HTTP)
+[Web Request      (1a00:3588)] "GET http://89.238.153.133/media/catalog/product/cache/1/thumbnail/75x/9df78eab33525d08d6e5fb8d27136e95/s/o/sony-vaio-vgn-txn27n-b-11-1-notebook-pc.jpg"   
+[Network Analyzer (1a00:3588)]   (Sid: 78) Client -> Server @ : 526 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 78) Server -> Client : 293 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 78) Server -> Client : 1805 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/media/catalog/product/cache/1/thumbnail/75x/9df78eab33525d08d6e5fb8d27136e95/o/l/olympus-stylus-750-7-1mp-digital-camera-2.jpg"   
+[Network Analyzer (1a00:2af0)]   (Sid: 79) Client -> Server @ : 528 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 79) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 79) Server -> Client : 2078 bytes  (Service=HTTP)
+[Web Request      (1a00:3148)] "GET http://89.238.153.133/media/catalog/product/cache/1/thumbnail/75x/9df78eab33525d08d6e5fb8d27136e95/s/l/slr-camera-tripod.jpg"   
+[Network Analyzer (1a00:3148)]   (Sid: 80) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 80) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 80) Server -> Client : 1700 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/media/catalog/product/cache/1/thumbnail/75x/9df78eab33525d08d6e5fb8d27136e95/c/a/canon-digital-rebel-xt-8mp-digital-slr-camera-1.jpg"   
+[Network Analyzer (1a00:2a54)]   (Sid: 81) Client -> Server @ : 534 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 81) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 81) Server -> Client : 2045 bytes  (Service=HTTP)
+[Web Request      (1a00:3588)] "GET http://89.238.153.133/skin/frontend/default/default/images/btn_checkout.gif"   
+[Network Analyzer (1a00:3588)]   (Sid: 82) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 82) Server -> Client : 293 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 82) Server -> Client : 4842 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/default/default/images/i_msg-success.gif"   
+[Network Analyzer (1a00:2af0)]   (Sid: 83) Client -> Server @ : 476 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 83) Server -> Client : 292 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 83) Server -> Client : 1024 bytes  (Service=HTTP)
+[Web Request      (1a00:3148)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_tfoot.gif"   
+[Network Analyzer (1a00:3148)]   (Sid: 84) Client -> Server @ : 472 bytes (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 84) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 84) Server -> Client : 63 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_th.gif"   
+[Network Analyzer (1a00:2a54)]   (Sid: 85) Client -> Server @ : 469 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 85) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 85) Server -> Client : 43 bytes  (Service=HTTP)
+[Web Request      (1a00:3538)] "GET http://89.238.153.133/skin/frontend/default/default/images/i_discount.gif"   
+[Network Analyzer (1a00:3538)]   (Sid: 86) Client -> Server @ : 473 bytes (Service=HTTP)
+[Network Analyzer (1a00:3538)]   (Sid: 86) Server -> Client : 293 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3538)]   (Sid: 86) Server -> Client : 1019 bytes  (Service=HTTP)
+[Web Request      (1a00:20cc)] "GET http://89.238.153.133/skin/frontend/default/default/images/btn_trash.gif"   
+[Network Analyzer (1a00:20cc)]   (Sid: 87) Client -> Server @ : 472 bytes (Service=HTTP)
+[Network Analyzer (1a00:20cc)]   (Sid: 87) Server -> Client : 292 bytes  (Service=HTTP)
+[Network Analyzer (1a00:20cc)]   (Sid: 87) Server -> Client : 643 bytes  (Service=HTTP)
+[Web Request      (1a00:2bf0)] "GET http://89.238.153.133/skin/frontend/default/default/images/i_shipping.gif"   
+[Network Analyzer (1a00:2bf0)]   (Sid: 88) Client -> Server @ : 473 bytes (Service=HTTP)
+[Network Analyzer (1a00:2bf0)]   (Sid: 88) Server -> Client : 292 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2bf0)]   (Sid: 88) Server -> Client : 591 bytes  (Service=HTTP)
+[Web Request      (1a00:3588)] "GET http://89.238.153.133/index.php/checkout/onepage/"   
+[Network Analyzer (1a00:3588)]   (Sid: 89) Client -> Server @ : 459 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 89) Server -> Client : 557 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 89) Server -> Client : 25312 bytes  (Service=HTTP)
+[Web Request      (1a00:3588)] "GET http://89.238.153.133/js/mage/directpost.js"   
+[Network Analyzer (1a00:3588)]   (Sid: 90) Client -> Server @ : 396 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 90) Server -> Client : 353 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 90) Server -> Client : 3549 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/js/mage/captcha.js"   
+[Network Analyzer (1a00:2af0)]   (Sid: 91) Client -> Server @ : 393 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 91) Server -> Client : 352 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 91) Server -> Client : 1122 bytes  (Service=HTTP)
+[Web Request      (1a00:2a54)] "GET http://89.238.153.133/js/mage/centinel.js"   
+[Network Analyzer (1a00:2a54)]   (Sid: 92) Client -> Server @ : 394 bytes (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 92) Server -> Client : 351 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2a54)]   (Sid: 92) Server -> Client : 951 bytes  (Service=HTTP)
+[Web Request      (1a00:3588)] "GET http://89.238.153.133/js/varien/accordion.js"   
+[Network Analyzer (1a00:3588)]   (Sid: 93) Client -> Server @ : 397 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 93) Server -> Client : 352 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 93) Server -> Client : 1237 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/skin/frontend/base/default/js/opcheckout.js"   
+[Network Analyzer (1a00:2af0)]   (Sid: 94) Client -> Server @ : 418 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 94) Server -> Client : 353 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid: 94) Server -> Client : 5626 bytes  (Service=HTTP)
+[Web Request      (1a00:3148)] "GET http://89.238.153.133/skin/frontend/default/default/images/opc-ajax-loader.gif"   
+[Network Analyzer (1a00:3148)]   (Sid: 95) Client -> Server @ : 461 bytes (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 95) Server -> Client : 292 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3148)]   (Sid: 95) Server -> Client : 1849 bytes  (Service=HTTP)
+[Web Request      (1a00:3538)] "GET http://89.238.153.133/skin/frontend/default/default/images/cvv.gif"   
+[Network Analyzer (1a00:3538)]   (Sid: 96) Client -> Server @ : 449 bytes (Service=HTTP)
+[Network Analyzer (1a00:3538)]   (Sid: 96) Server -> Client : 294 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3538)]   (Sid: 96) Server -> Client : 19277 bytes  (Service=HTTP)
+[Web Request      (1a00:3588)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_opc-title-off.gif"   
+[Network Analyzer (1a00:3588)]   (Sid: 97) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 97) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 97) Server -> Client : 49 bytes  (Service=HTTP)
+[Web Request      (1a00:3538)] "GET http://89.238.153.133/skin/frontend/default/default/images/bkg_checkout.gif"   
+[Network Analyzer (1a00:3538)]   (Sid: 98) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (1a00:3538)]   (Sid: 98) Server -> Client : 290 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3538)]   (Sid: 98) Server -> Client : 149 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 99) Client -> Server @ : 656 bytes (Service=HTTP)
+[Web Request      (1a00:3588)] "POST http://89.238.153.133/index.php/checkout/onepage/saveMethod/"   
+[Network Analyzer (1a00:3588)]   (Sid: 99) Client -> Server @ : 15 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 99) Server -> Client : 554 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid: 99) Server -> Client : 22 bytes  (Service=HTTP)
+[Web Request      (1a00:3538)] "GET http://89.238.153.133/index.php/checkout/onepage/progress/?prevStep=billing"   
+[Network Analyzer (1a00:3538)]   (Sid:100) Client -> Server @ : 543 bytes (Service=HTTP)
+[Network Analyzer (1a00:3538)]   (Sid:100) Server -> Client : 554 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3538)]   (Sid:100) Server -> Client : 46 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid:101) Client -> Server @ : 658 bytes (Service=HTTP)
+[Web Request      (1a00:2060)] "POST http://89.238.153.133/index.php/checkout/onepage/saveBilling/"   
+[Network Analyzer (1a00:2060)]   (Sid:101) Client -> Server @ : 556 bytes (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid:101) Server -> Client : 556 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid:101) Server -> Client : 600 bytes  (Service=HTTP)
+[Web Request      (1a00:2060)] "POST http://89.238.153.133/index.php/checkout/onepage/getAdditional/"   
+[Network Analyzer (1a00:2060)]   (Sid:102) Client -> Server @ : 658 bytes (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid:102) Server -> Client : 554 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2060)]   (Sid:102) Server -> Client : 24 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/skin/frontend/default/default/images/i_arrow-top.gif"   
+[Network Analyzer (1a00:1740)]   (Sid:103) Client -> Server @ : 474 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:103) Server -> Client : 291 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:103) Server -> Client : 131 bytes  (Service=HTTP)
+[Web Request      (1a00:3588)] "GET http://89.238.153.133/index.php/checkout/onepage/progress/?prevStep=billing"   
+[Network Analyzer (1a00:3588)]   (Sid:104) Client -> Server @ : 543 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid:104) Server -> Client : 555 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid:104) Server -> Client : 265 bytes  (Service=HTTP)
+[Web Request      (1a00:2af0)] "GET http://89.238.153.133/index.php/checkout/onepage/progress/?prevStep=shipping"   
+[Network Analyzer (1a00:2af0)]   (Sid:105) Client -> Server @ : 544 bytes (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid:105) Server -> Client : 556 bytes  (Service=HTTP)
+[Network Analyzer (1a00:2af0)]   (Sid:105) Server -> Client : 270 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:106) Client -> Server @ : 664 bytes (Service=HTTP)
+[Web Request      (1a00:1740)] "POST http://89.238.153.133/index.php/checkout/onepage/saveShippingMethod/"   
+[Network Analyzer (1a00:1740)]   (Sid:106) Client -> Server @ : 33 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:106) Server -> Client : 556 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:106) Server -> Client : 1068 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/index.php/checkout/onepage/progress/?prevStep=shipping_method"   
+[Network Analyzer (1a00:1740)]   (Sid:107) Client -> Server @ : 551 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:107) Server -> Client : 555 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:107) Server -> Client : 224 bytes  (Service=HTTP)
+[Web Request      (1a00:3588)] "GET http://89.238.153.133/index.php/checkout/onepage/progress/"   
+[Network Analyzer (1a00:3588)]   (Sid:108) Client -> Server @ : 526 bytes (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid:108) Server -> Client : 554 bytes  (Service=HTTP)
+[Network Analyzer (1a00:3588)]   (Sid:108) Server -> Client : 20 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:109) Client -> Server @ : 657 bytes (Service=HTTP)
+[Web Request      (1a00:1740)] "POST http://89.238.153.133/index.php/checkout/onepage/savePayment/"   
+[Network Analyzer (1a00:1740)]   (Sid:109) Client -> Server @ : 27 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:109) Server -> Client : 556 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:109) Server -> Client : 1081 bytes  (Service=HTTP)
+[Web Request      (1a00:1740)] "GET http://89.238.153.133/index.php/checkout/onepage/progress/?prevStep=payment"   
+[Network Analyzer (1a00:1740)]   (Sid:110) Client -> Server @ : 543 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:110) Server -> Client : 555 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:110) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:111) Client -> Server @ : 681 bytes (Service=HTTP)
+[Web Request      (1a00:1740)] "POST http://89.238.153.133/index.php/checkout/onepage/saveOrder/form_key/250TaLL3Uu2cKWjj/"   
+[Network Analyzer (1a00:1740)]   (Sid:111) Client -> Server @ : 27 bytes (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:111) Server -> Client : 680 bytes  (Service=HTTP)
+[Network Analyzer (1a00:1740)]   (Sid:111) Server -> Client : 50 bytes  (Service=HTTP)

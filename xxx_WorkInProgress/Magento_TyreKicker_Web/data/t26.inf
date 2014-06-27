@@ -1,0 +1,11 @@
+[t26]
+FileName1=t26.htm
+URL1=http://89.238.153.133/index.php/tag/product/list/tagId/42/
+Total=1
+RequestHeaderFile=t26_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t26_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_26.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

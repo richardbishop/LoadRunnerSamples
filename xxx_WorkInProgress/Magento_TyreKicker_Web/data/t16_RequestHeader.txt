@@ -1,0 +1,12 @@
+GET http://89.238.153.133/index.php/catalogsearch/ajax/suggest/?q=t- HTTP/1.1
+Host: 89.238.153.133
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:22.0) Gecko/20100101 Firefox/22.0
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+X-Prototype-Version: 1.7
+Referer: http://89.238.153.133/index.php/atandt-8525-pda.html
+Cookie: frontend=ctq0ish9q31fdub0c2qdqsn707; external_no_cache=1
+Connection: keep-alive
+
