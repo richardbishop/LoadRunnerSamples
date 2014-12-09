@@ -77,24 +77,24 @@ Action()
 	lr_output_message ("Alternative to the date in 5 days is [%s]", lr_eval_string("{jDateJS_response}"));		
 	
 	web_js_run(
-        "Code=Date.parse('July 16 1972').toString('yyyy-MM-dd HH:mm:ssZ')",  //yyyy-MM-dd HH:mm:ssZ
+        "Code=Date.parse('July 1 1971').toString('yyyy-MM-dd HH:mm:ssZ')",  //yyyy-MM-dd HH:mm:ssZ
 		"ResultParam=jDateJS_response",
 		SOURCES,
 		"File=date.js",
 		ENDITEM,
 		LAST);
 	
-	lr_output_message ("'July 16 1972' in universalSortableDateTime format was [%s]", lr_eval_string("{jDateJS_response}"));	//NB 00:00:00
+	lr_output_message ("'July 1 1971' in universalSortableDateTime format was [%s]", lr_eval_string("{jDateJS_response}"));	//NB 00:00:00
 
 	web_js_run(
-        "Code=Date.parse('July 16 1972').toString('dddd')",  //yyyy-MM-dd HH:mm:ssZ
+        "Code=Date.parse('July 1 1971').toString('dddd')",  //yyyy-MM-dd HH:mm:ssZ
 		"ResultParam=jDateJS_response",
 		SOURCES,
 		"File=date.js",
 		ENDITEM,
 		LAST);
 	
-	lr_output_message ("'July 16 1972' was a [%s]", lr_eval_string("{jDateJS_response}"));	
+	lr_output_message ("'July 1 1971' was a [%s]", lr_eval_string("{jDateJS_response}"));	
 		
 	web_js_run(
         "Code=Date.today().next().friday().toString('dddd d MMMM yyyy')",  
@@ -222,14 +222,14 @@ Action()
 	lr_output_message ("The third Sunday this month will be [%s]", lr_eval_string("{jDateJS_response}"));		
 	
 		web_js_run(
-        "Code=Date.parse('June 10 2014').getOrdinalNumber().toString()-Date.today().getOrdinalNumber().toString()",  
+        "Code=Date.parse('December 1 2015').getOrdinalNumber().toString()-Date.today().getOrdinalNumber().toString()",  
 		"ResultParam=jDateJS_response",
 		SOURCES,
 		"File=date.js",
 		ENDITEM,
 		LAST);
 	
-	lr_output_message ("[%s] days until HP Discover in Las Vegas", lr_eval_string("{jDateJS_response}"));
+	lr_output_message ("[%s] days until HP Discover in London", lr_eval_string("{jDateJS_response}"));
 	
 	return 0;
 }
