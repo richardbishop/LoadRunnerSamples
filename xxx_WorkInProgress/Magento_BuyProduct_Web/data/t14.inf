@@ -1,0 +1,11 @@
+[t14]
+FileName1=t14.htm
+URL1=http://89.238.153.133/index.php/checkout/onepage/savePayment/
+Total=1
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=t14_RequestBody.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_14.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

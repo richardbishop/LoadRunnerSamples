@@ -1,0 +1,66 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Magento_BuyProduct_Web.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+MajorVersion=12
+MinorVersion=0
+LastActiveAction=Action
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.0.0.0
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+DisableRegenerate=0
+Description=
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Recorded Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="MBP_Web_010_OpenHomePage__*delimiter*__MBP_Web_020_SelectProduct__*delimiter*__MBP_Web_030_AddToCart__*delimiter*__MBP_Web_040_ProceedToCheckout__*delimiter*__MBP_Web_050_RegisterCustomer__*delimiter*__MBP_Web_060_EnterCustomerDetails__*delimiter*__MBP_Web_070_ConfirmDeliveryMethod__*delimiter*__MBP_Web_080_ConfirmPaymentMethod__*delimiter*__MBP_Web_090_PlaceOrder"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+MBP_Web_010_OpenHomePage=
+MBP_Web_020_SelectProduct=
+MBP_Web_030_AddToCart=
+MBP_Web_040_ProceedToCheckout=
+MBP_Web_050_RegisterCustomer=
+MBP_Web_060_EnterCustomerDetails=
+MBP_Web_070_ConfirmDeliveryMethod=
+MBP_Web_080_ConfirmPaymentMethod=
+MBP_Web_090_PlaceOrder=

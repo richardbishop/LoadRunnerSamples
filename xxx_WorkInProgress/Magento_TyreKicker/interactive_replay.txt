@@ -1,0 +1,53 @@
+Virtual User Script started at : 2014-06-27 11:18:58
+Starting action vuser_init.
+TruClient Replay for LoadRunner 12.0.0, build 1362. OS: Windows 8, initialized on 2014/06/27 at 11:18:57 (0000.000s)
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Notify: Transaction "MTK_TC_010_OpenHomePage" started.
+t=00001229ms: ** 1: Navigate to "http://89.238.153.133/index.php" ** started    [MsgId: MMSG-205180]
+t=00002791ms: ** 1: Navigate to "http://89.238.153.133/index.php" ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_010_OpenHomePage" ended with "Pass" status (Duration: 1.5754 Think Time: 0.2020).
+t=00002803ms: ** 3: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00008388ms: ** 3: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00008422ms: ** 4: For (var i = 0; i < 5; i++) ** started    [MsgId: MMSG-205180]
+t=00008758ms: ** 4: For loop 1 ** started    [MsgId: MMSG-205180]
+t=00009303ms: ** 4.1: Type LR.getParam("pSearchTerm") in Search textbox ** started    [MsgId: MMSG-205180]
+t=00012948ms: ** 4.1: Type "t-shirt" in Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" started.
+t=00013462ms: ** 4.2: Press "Enter" key on Search textbox ** started    [MsgId: MMSG-205180]
+t=00016043ms: ** 4.2: Press "Enter" key on Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" ended with "Pass" status (Duration: 2.5943 Think Time: 0.2020).
+t=00016057ms: ** 4.3: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00021588ms: ** 4.3: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" started.
+t=00022108ms: ** 4.4: Click on First Product link ** started    [MsgId: MMSG-205180]
+t=00024024ms: ** 4.4: Click on First Product link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" ended with "Pass" status (Duration: 1.9313 Think Time: 0.2020).
+t=00024038ms: ** 4.5: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00029481ms: ** 4.5: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00029500ms: ** 4: For loop 1 ** ended    [MsgId: MMSG-205180]
+t=00029511ms: ** 4: For loop 2 ** started    [MsgId: MMSG-205180]
+t=00030031ms: ** 4.1: Type LR.getParam("pSearchTerm") in Search textbox ** started    [MsgId: MMSG-205180]
+t=00031610ms: ** 4.1: Type "bed" in Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" started.
+t=00032127ms: ** 4.2: Press "Enter" key on Search textbox ** started    [MsgId: MMSG-205180]
+t=00033725ms: ** 4.2: Press "Enter" key on Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" ended with "Pass" status (Duration: 1.6187 Think Time: 0.2020).
+t=00033796ms: ** 4.3: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00039290ms: ** 4.3: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" started.
+t=00039804ms: ** 4.4: Click on First Product link ** started    [MsgId: MMSG-205180]
+t=00041574ms: ** 4.4: Click on First Product link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" ended with "Pass" status (Duration: 1.7884 Think Time: 0.2030).
+t=00041602ms: ** 4.5: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00047066ms: ** 4.5: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00047089ms: ** 4: For loop 2 ** ended    [MsgId: MMSG-205180]
+t=00047099ms: ** 4: For loop 3 ** started    [MsgId: MMSG-205180]
+t=00047640ms: ** 4.1: Type LR.getParam("pSearchTerm") in Search textbox ** started    [MsgId: MMSG-205180]
+t=00050186ms: ** 4.1: Type "camera" in Search textbox ** was stopped    [MsgId: MMSG-205180]
+t=00050267ms: ** 4: For (var i = 0; i < 5; i++) ** was stopped    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Abort was called from an action

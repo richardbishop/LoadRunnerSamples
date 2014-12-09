@@ -42,6 +42,8 @@ QR_Generator			- Sample LoadRunner script which calls Google QR code generator a
 
 RandInt                 - Creates a random number between iMin and iMax, iMax can be greater than 32K Windows limit
 
+RandomAddressGenerator  - Reads random UK addresses from http://www.doogal.co.uk/RandomAddresses.php and writes to file
+
 ReadWriteExternalFile   - Sample script which writes to and reads from an external file
 
 ReturnCharacterXFromString - Return a single character from a a string
@@ -64,6 +66,8 @@ StringHandling          - Convert LoadRunner data types using C, Integers, Strin
 
 TextToSpeech            - Sample LoadRunner script calls Google TTS API, converts text to speech, saves MP3 file.
 
-TimeExclusion           - Sample script showing how a script can be deliberately paused to prevent execution at a particular time
+TimeExclusion           - Sample script showing how a script can be deliberately paused to prevent execution at a particular time.
+
+WriteToFile             - Sample script showing how LoadRunncan write output to an external file.
 
 XSTRCAT                 - More efficient string concatenation than standard strcat function. Originally from Brian Wilson (Tech South LLC)

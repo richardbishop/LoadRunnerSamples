@@ -1,0 +1,11 @@
+[t23]
+FileName1=t23.htm
+URL1=http://89.238.153.133/index.php/tag/product/list/tagId/42/
+Total=1
+RequestHeaderFile=t23_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t23_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_23.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

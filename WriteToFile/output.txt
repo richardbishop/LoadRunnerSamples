@@ -1,0 +1,16 @@
+Virtual User Script started at : 13/11/2014 10:46:21
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8.1; build 2079 (Jun 17 2014 10:56:12)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\GitHub\RichardBishop\LoadRunnerSamples\WriteToFile\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26989]
+Starting action Action.
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

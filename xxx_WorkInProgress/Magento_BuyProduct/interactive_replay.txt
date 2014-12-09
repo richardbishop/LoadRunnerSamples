@@ -1,0 +1,81 @@
+Virtual User Script started at : 2014-06-27 09:12:37
+Starting action vuser_init.
+TruClient Replay for LoadRunner 12.0.0, build 1362. OS: Windows 8, initialized on 2014/06/27 at 09:12:37 (0000.000s)
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Notify: Transaction "MBP_TC_010_OpenHomePage" started.
+t=00001117ms: ** 1: Navigate to "http://89.238.153.133/index.php" ** started    [MsgId: MMSG-205180]
+t=00003957ms: ** 1: Navigate to "http://89.238.153.133/index.php" ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_010_OpenHomePage" ended with "Pass" status (Duration: 2.8560 Think Time: 0.2010).
+Notify: Transaction "MBP_TC_020_SelectProduct" started.
+t=00004469ms: ** 4: Click on Sony VAIO VGN TXN27N/B... link ** started    [MsgId: MMSG-205180]
+t=00007754ms: ** 4: Click on Sony VAIO VGN TXN27N/B... link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_020_SelectProduct" ended with "Pass" status (Duration: 3.2968 Think Time: 0.2070).
+t=00008275ms: ** 6: Type "1" in Qty textbox ** started    [MsgId: MMSG-205180]
+t=00009007ms: ** 6: Type "1" in Qty textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_030_AddToCart" started.
+t=00009524ms: ** 7: Click on Add to Cart button ** started    [MsgId: MMSG-205180]
+t=00013624ms: ** 7: Click on Add to Cart button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_030_AddToCart" ended with "Pass" status (Duration: 4.1189 Think Time: 0.2020).
+Notify: Transaction "MBP_TC_040_ProceedToCheckout" started.
+t=00014148ms: ** 8: Click on Proceed to Checkout button ** started    [MsgId: MMSG-205180]
+t=00016183ms: ** 8: Click on Proceed to Checkout button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_040_ProceedToCheckout" ended with "Pass" status (Duration: 2.0551 Think Time: 0.0050).
+t=00016704ms: ** 9: Select "Register" from Checkout as a Guest or... listbox ** started    [MsgId: MMSG-205180]
+t=00016932ms: ** 9: Select "Register" from Checkout as a Guest or... listbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_050_RegisterCustomer" started.
+t=00017447ms: ** 10: Click on Continue button ** started    [MsgId: MMSG-205180]
+t=00017886ms: ** 10: Click on Continue button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_050_RegisterCustomer" ended with "Pass" status (Duration: 0.4530 Think Time: 0.2020).
+t=00018401ms: ** 12: Type "John" in *First Name textbox ** started    [MsgId: MMSG-205180]
+t=00020077ms: ** 12: Type "John" in *First Name textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00020587ms: ** 13: Type "Smith" in *Last Name textbox ** started    [MsgId: MMSG-205180]
+t=00022846ms: ** 13: Type "Smith" in *Last Name textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00023360ms: ** 14: Type "" in Company textbox ** started    [MsgId: MMSG-205180]
+t=00023754ms: ** 14: Type "" in Company textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00024282ms: ** 15: Type new Date().valueOf()+"@mail.com" in *Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00032641ms: ** 15: Type "1403856782121@mail.com" in *Email Address textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00033161ms: ** 16: Type "1 High Street" in *Address textbox ** started    [MsgId: MMSG-205180]
+t=00038375ms: ** 16: Type "1 High Street" in *Address textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00038897ms: ** 17: Type "" in Street Address 2 textbox ** started    [MsgId: MMSG-205180]
+t=00039290ms: ** 17: Type "" in Street Address 2 textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00039805ms: ** 18: Type "Any City" in *City textbox ** started    [MsgId: MMSG-205180]
+t=00043401ms: ** 18: Type "Any City" in *City textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00043921ms: ** 20: Select "United Kingdom" from *Country listbox ** started    [MsgId: MMSG-205180]
+t=00044245ms: ** 20: Select "United Kingdom" from *Country listbox ** successfully completed    [MsgId: MMSG-205180]
+t=00044758ms: ** 25: Type "M1 5AN" in *Zip/Postal Code textbox ** started    [MsgId: MMSG-205180]
+t=00046939ms: ** 25: Type "M1 5AN" in *Zip/Postal Code textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00047452ms: ** 26: Select "United Kingdom" from *Country listbox ** started    [MsgId: MMSG-205180]
+t=00047730ms: ** 26: Select "United Kingdom" from *Country listbox ** successfully completed    [MsgId: MMSG-205180]
+t=00048245ms: ** 27: Type "01234567895412" in *Telephone textbox ** started    [MsgId: MMSG-205180]
+t=00053790ms: ** 27: Type "01234567895412" in *Telephone textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00054304ms: ** 35: Type ************ in *Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00058266ms: ** 35: Type ************ in *Password passwordbox ** successfully completed    [MsgId: MMSG-205180]
+t=00058780ms: ** 38: Type ************ in *Confirm Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00062573ms: ** 38: Type ************ in *Confirm Password passwordbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_060_EnterCustomerDetails" started.
+t=00063085ms: ** 39: Click on Continue button ** started    [MsgId: MMSG-205180]
+t=00063554ms: ** 39: Click on Continue button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_060_EnterCustomerDetails" ended with "Pass" status (Duration: 0.4805 Think Time: 0.2030).
+Notify: Transaction "MBP_TC_070_ConfirmDeliveryMethod" started.
+t=00064067ms: ** 40: Click on Continue button ** started    [MsgId: MMSG-205180]
+t=00065505ms: ** 40: Click on Continue button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_070_ConfirmDeliveryMethod" ended with "Pass" status (Duration: 1.4555 Think Time: 0.2040).
+t=00066029ms: ** 41: Select "Check / Money order" from checkmo Check / Money... radiogroup ** started    [MsgId: MMSG-205180]
+t=00067295ms: ** 41: Select "Check / Money order" from checkmo Check / Money... radiogroup ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_080_ConfirmPaymentMethod" started.
+t=00067811ms: ** 42: Click on Continue button ** started    [MsgId: MMSG-205180]
+t=00068243ms: ** 42: Click on Continue button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_080_ConfirmPaymentMethod" ended with "Pass" status (Duration: 0.4463 Think Time: 0.2010).
+Notify: Transaction "MBP_TC_090_PlaceOrder" started.
+t=00068759ms: ** 43: Click on Place Order button ** started    [MsgId: MMSG-205180]
+t=00070204ms: ** 43: Click on Place Order button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MBP_TC_090_PlaceOrder" ended with "Pass" status (Duration: 1.4597 Think Time: 0.2050).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

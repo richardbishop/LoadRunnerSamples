@@ -1,0 +1,11 @@
+[t7]
+FileName1=t7.htm
+URL1=http://89.238.153.133/index.php/catalogsearch/ajax/suggest/?q=shoes
+Total=1
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

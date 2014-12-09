@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3.htm
+URL1=http://89.238.153.133/index.php/catalogsearch/ajax/suggest/?q=t-shirt
+Total=1
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,9 @@
+[parameter:NewParam]
+Format="%d%b%Y%H%M%S"
+ParamName="NewParam"
+GenerateNewVal="EachOccurrence"
+Type="Time"
+OriginalValue=""
+OffsetUI="0"
+WorkingDaysOn="0"
+Offset=""

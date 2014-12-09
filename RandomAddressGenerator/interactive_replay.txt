@@ -1,0 +1,16 @@
+Virtual User Script started at : 2014-06-11 15:18:28
+Starting action vuser_init.
+TruClient Replay for LoadRunner 12.0.0, build 1362. OS: Windows 8, initialized on 2014/06/11 at 15:18:28 (0000.000s)
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00001116ms: ** 1: Navigate to "http://www.doogal.co.uk...omAddresses.php" ** started    [MsgId: MMSG-205180]
+t=00004039ms: ** 1: Navigate to "http://www.doogal.co.uk...omAddresses.php" ** successfully completed    [MsgId: MMSG-205180]
+t=00004680ms: ** 2: Double click on 100 textbox ** started    [MsgId: MMSG-205180]
+t=00007022ms: ** 2: Double click on 100 textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00007533ms: ** 3: Type "1" in 100 textbox ** started    [MsgId: MMSG-205180]
+t=00007984ms: ** 3: Type "1" in 100 textbox ** was stopped    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Abort was called from an action

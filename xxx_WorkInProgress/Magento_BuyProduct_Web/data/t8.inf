@@ -1,0 +1,13 @@
+[t8]
+FileName1=t8.htm
+URL1=http://89.238.153.133/index.php/checkout/onepage/getAdditional/
+Total=2
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_i_arrow-top.gif
+URL2=http://89.238.153.133/skin/frontend/default/default/images/i_arrow-top.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

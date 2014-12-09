@@ -1,0 +1,128 @@
+Virtual User Script started at : 2014-06-27 09:39:44
+Starting action vuser_init.
+TruClient Replay for LoadRunner 12.0.0, build 1362. OS: Windows 8, initialized on 2014/06/27 at 09:39:39 (0000.000s)
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Notify: Transaction "MTK_TC_010_OpenHomePage" started.
+t=00005023ms: ** 1: Navigate to "http://89.238.153.133/index.php" ** started    [MsgId: MMSG-205180]
+t=00006622ms: ** 1: Navigate to "http://89.238.153.133/index.php" ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_010_OpenHomePage" ended with "Pass" status (Duration: 1.6036 Think Time: 0.2010).
+t=00006630ms: ** 3: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00011840ms: ** 3: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00011844ms: ** 4: For (var i = 0; i < 5; i++) ** started    [MsgId: MMSG-205180]
+t=00011850ms: ** 4: For loop 1 ** started    [MsgId: MMSG-205180]
+t=00012359ms: ** 4.1: Type LR.getParam("pSearchTerm") in Search textbox ** started    [MsgId: MMSG-205180]
+t=00015037ms: ** 4.1: Type "shoes" in Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" started.
+t=00015546ms: ** 4.2: Press "Enter" key on Search textbox ** started    [MsgId: MMSG-205180]
+t=00017169ms: ** 4.2: Press "Enter" key on Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" ended with "Pass" status (Duration: 1.6270 Think Time: 0.2030).
+t=00017174ms: ** 4.3: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00022382ms: ** 4.3: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" started.
+t=00022885ms: ** 4.4: Click on First Product link ** started    [MsgId: MMSG-205180]
+t=00024571ms: ** 4.4: Click on First Product link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" ended with "Pass" status (Duration: 1.6887 Think Time: 0.2010).
+t=00024575ms: ** 4.5: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00029784ms: ** 4.5: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00029789ms: ** 4: For loop 1 ** ended    [MsgId: MMSG-205180]
+t=00029791ms: ** 4: For loop 2 ** started    [MsgId: MMSG-205180]
+t=00030299ms: ** 4.1: Type LR.getParam("pSearchTerm") in Search textbox ** started    [MsgId: MMSG-205180]
+t=00032710ms: ** 4.1: Type "t-shirt" in Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" started.
+t=00033217ms: ** 4.2: Press "Enter" key on Search textbox ** started    [MsgId: MMSG-205180]
+t=00034762ms: ** 4.2: Press "Enter" key on Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" ended with "Pass" status (Duration: 1.5500 Think Time: 0.2000).
+t=00034765ms: ** 4.3: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00039974ms: ** 4.3: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" started.
+t=00040477ms: ** 4.4: Click on First Product link ** started    [MsgId: MMSG-205180]
+t=00041912ms: ** 4.4: Click on First Product link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" ended with "Pass" status (Duration: 1.4384 Think Time: 0.2020).
+t=00041918ms: ** 4.5: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00047128ms: ** 4.5: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00047131ms: ** 4: For loop 2 ** ended    [MsgId: MMSG-205180]
+t=00047132ms: ** 4: For loop 3 ** started    [MsgId: MMSG-205180]
+t=00047641ms: ** 4.1: Type LR.getParam("pSearchTerm") in Search textbox ** started    [MsgId: MMSG-205180]
+t=00050229ms: ** 4.1: Type "t-shirt" in Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" started.
+t=00050735ms: ** 4.2: Press "Enter" key on Search textbox ** started    [MsgId: MMSG-205180]
+t=00052256ms: ** 4.2: Press "Enter" key on Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" ended with "Pass" status (Duration: 1.5258 Think Time: 0.2010).
+t=00052263ms: ** 4.3: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00057468ms: ** 4.3: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" started.
+t=00057972ms: ** 4.4: Click on First Product link ** started    [MsgId: MMSG-205180]
+t=00059403ms: ** 4.4: Click on First Product link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" ended with "Pass" status (Duration: 1.4347 Think Time: 0.2010).
+t=00059409ms: ** 4.5: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00064619ms: ** 4.5: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00064623ms: ** 4: For loop 3 ** ended    [MsgId: MMSG-205180]
+t=00064625ms: ** 4: For loop 4 ** started    [MsgId: MMSG-205180]
+t=00065134ms: ** 4.1: Type LR.getParam("pSearchTerm") in Search textbox ** started    [MsgId: MMSG-205180]
+t=00066683ms: ** 4.1: Type "chair" in Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" started.
+t=00067192ms: ** 4.2: Press "Enter" key on Search textbox ** started    [MsgId: MMSG-205180]
+t=00068399ms: ** 4.2: Press "Enter" key on Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" ended with "Pass" status (Duration: 1.2132 Think Time: 0.2010).
+t=00068405ms: ** 4.3: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00073614ms: ** 4.3: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" started.
+t=00074118ms: ** 4.4: Click on First Product link ** started    [MsgId: MMSG-205180]
+t=00075431ms: ** 4.4: Click on First Product link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" ended with "Pass" status (Duration: 1.3161 Think Time: 0.2010).
+t=00075435ms: ** 4.5: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00080645ms: ** 4.5: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00080648ms: ** 4: For loop 4 ** ended    [MsgId: MMSG-205180]
+t=00080650ms: ** 4: For loop 5 ** started    [MsgId: MMSG-205180]
+t=00081159ms: ** 4.1: Type LR.getParam("pSearchTerm") in Search textbox ** started    [MsgId: MMSG-205180]
+t=00083258ms: ** 4.1: Type "chair" in Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" started.
+t=00083767ms: ** 4.2: Press "Enter" key on Search textbox ** started    [MsgId: MMSG-205180]
+t=00084930ms: ** 4.2: Press "Enter" key on Search textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_020_ProductSearch" ended with "Pass" status (Duration: 1.1688 Think Time: 0.2010).
+t=00084934ms: ** 4.3: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00090139ms: ** 4.3: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" started.
+t=00090643ms: ** 4.4: Click on First Product link ** started    [MsgId: MMSG-205180]
+t=00091933ms: ** 4.4: Click on First Product link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_030_SelectItem" ended with "Pass" status (Duration: 1.2922 Think Time: 0.2010).
+t=00091936ms: ** 4.5: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00097149ms: ** 4.5: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00097152ms: ** 4: For loop 5 ** ended    [MsgId: MMSG-205180]
+t=00097157ms: ** 4: For (var i = 0; i < 5; i++) ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_040_ReturnHome" started.
+t=00097664ms: ** 6: Click on Magento Commerce image ** started    [MsgId: MMSG-205180]
+t=00098666ms: ** 6: Click on Magento Commerce image ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_040_ReturnHome" ended with "Pass" status (Duration: 1.0055 Think Time: 0.2010).
+t=00098670ms: ** 7: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00103882ms: ** 7: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00103887ms: ** 8: For (var i = 0; i < 10; i++) ** started    [MsgId: MMSG-205180]
+t=00103890ms: ** 8: For loop 1 ** started    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_050_SelectRandomLink" started.
+t=00104400ms: ** 8.1: Select option #16 from Tags List listbox ** started    [MsgId: MMSG-205180]
+t=00105386ms: ** 8.1: Select option #16 from Tags List listbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_050_SelectRandomLink" ended with "Pass" status (Duration: 0.9894 Think Time: 0.0040).
+t=00105390ms: ** 8.2: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00110617ms: ** 8.2: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00110620ms: ** 8: For loop 1 ** ended    [MsgId: MMSG-205180]
+t=00110622ms: ** 8: For loop 2 ** started    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_050_SelectRandomLink" started.
+t=00111131ms: ** 8.1: Select option #16 from Tags List listbox ** started    [MsgId: MMSG-205180]
+t=00112087ms: ** 8.1: Select option #16 from Tags List listbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_050_SelectRandomLink" ended with "Pass" status (Duration: 0.9608 Think Time: 0.0040).
+t=00112091ms: ** 8.2: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00117320ms: ** 8.2: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+t=00117323ms: ** 8: For loop 2 ** ended    [MsgId: MMSG-205180]
+t=00117325ms: ** 8: For loop 3 ** started    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_050_SelectRandomLink" started.
+t=00117835ms: ** 8.1: Select option #16 from Tags List listbox ** started    [MsgId: MMSG-205180]
+t=00118691ms: ** 8.1: Select option #16 from Tags List listbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "MTK_TC_050_SelectRandomLink" ended with "Pass" status (Duration: 0.8598 Think Time: 0.0030).
+t=00118694ms: ** 8.2: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
