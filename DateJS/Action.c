@@ -208,7 +208,7 @@ Action()
 		ENDITEM,
 		LAST);
 	
-	lr_output_message ("Daylight Saving time currently being observed \= [%s]", lr_eval_string("{jDateJS_response}"));	
+	lr_output_message ("Daylight Saving time currently being observed = [%s]", lr_eval_string("{jDateJS_response}"));	
 	
 	
 		web_js_run(
