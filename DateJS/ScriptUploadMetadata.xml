@@ -12,6 +12,7 @@
     <FileEntry Name="default.cfg" Filter="4" />
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="ExtraFunctions.js" Filter="2" />
     <FileEntry Name="date.js" Filter="2" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
     <FileEntry Name="Bookmarks.xml" Filter="2" />

@@ -266,14 +266,14 @@ Action()
 	//Need to make sure that today's date is padded with a leading zero
 	
 	web_js_run(
-        "Code=LR.getParam('jDateJS_response2').slice(-3)",  
-		"ResultParam=jDateJS_response2",
+        "Code=padDigits(LR.getParam('jDateJS_response2'), 3)",  
+		"ResultParam=jDateJS_response3",
 		SOURCES,
-		"File=date.js",
+		"File=ExtraFunctions.js",
 		ENDITEM,
 		LAST);
 	
-	lr_output_message ("Today's date in Julian format is [%s%s]", lr_eval_string("{jDateJS_response1}"), lr_eval_string("{jDateJS_response2}"));
+	lr_output_message ("Today's date in Julian format is [%s%s]", lr_eval_string("{jDateJS_response1}"), lr_eval_string("{jDateJS_response3}"));
 	
 	return 0;
 }
