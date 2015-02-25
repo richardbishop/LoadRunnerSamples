@@ -1,12 +1,12 @@
-Virtual User Script started at : 04/04/2014 14:52:33
+Virtual User Script started at : 26/11/2014 10:41:10
 Starting action vuser_init.
-Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8.1; build 2079 (Jun 17 2014 10:56:12)  	[MsgId: MMSG-27143]
 Run mode: HTML  	[MsgId: MMSG-26993]
-Run-Time Settings file: "C:\Github\LoadRunnerSamples\ChangeCase\\default.cfg"  	[MsgId: MMSG-27141]
+Run-Time Settings file: "C:\Github\richardbishop\LoadRunnerSamples\ChangeCase\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
-Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26989]
 Starting action Action.
 Action.c(15): [RICHARD BISHOP - PERFORMANCE TESTER]
 Action.c(19): [richard bishop - performance tester]

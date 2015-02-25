@@ -1,12 +1,12 @@
-Virtual User Script started at : 23/04/2014 10:45:14
+Virtual User Script started at : 26/11/2014 10:42:54
 Starting action vuser_init.
-Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8.1; build 2079 (Jun 17 2014 10:56:12)  	[MsgId: MMSG-27143]
 Run mode: HTML  	[MsgId: MMSG-26993]
-Run-Time Settings file: "C:\Github\LoadRunnerSamples\PostCodeChecker\\default.cfg"  	[MsgId: MMSG-27141]
+Run-Time Settings file: "C:\Github\richardbishop\LoadRunnerSamples\PostCodeChecker\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
-Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26000]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
 Action.c(36): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
 Action.c(36): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
@@ -24,8 +24,8 @@ Action.c(88): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
 Action.c(88): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 Action.c(97): Notify: Transaction "0010_GetPostCodeData" started.
 Action.c(100): web_url("API.ZIPPOPOTAM.US") started  	[MsgId: MMSG-26355]
-Action.c(100): web_url("API.ZIPPOPOTAM.US") was successful, 591 body bytes, 245 header bytes  	[MsgId: MMSG-26386]
-Action.c(108): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.4719 Wasted Time: 0.1414).
+Action.c(100): web_url("API.ZIPPOPOTAM.US") was successful, 591 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(108): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.4509 Wasted Time: 0.1690).
 Action.c(111): The PostCode, BL0, with Country Code, GB, relates to 4 places in Great Britain
 Action.c(116): Those places are:	
 Action.c(117): PlaceName,Latitude,Longitude,State
@@ -54,8 +54,8 @@ Action.c(88): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
 Action.c(88): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 Action.c(97): Notify: Transaction "0010_GetPostCodeData" started.
 Action.c(100): web_url("API.ZIPPOPOTAM.US") started  	[MsgId: MMSG-26355]
-Action.c(100): web_url("API.ZIPPOPOTAM.US") was successful, 1494 body bytes, 246 header bytes  	[MsgId: MMSG-26386]
-Action.c(108): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.3379 Wasted Time: 0.0072).
+Action.c(100): web_url("API.ZIPPOPOTAM.US") was successful, 1494 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(108): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.4489 Wasted Time: 0.0124).
 Action.c(111): The PostCode, NW1, with Country Code, GB, relates to 11 places in Great Britain
 Action.c(116): Those places are:	
 Action.c(117): PlaceName,Latitude,Longitude,State
@@ -91,8 +91,8 @@ Action.c(88): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
 Action.c(88): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 Action.c(97): Notify: Transaction "0010_GetPostCodeData" started.
 Action.c(100): web_url("API.ZIPPOPOTAM.US") started  	[MsgId: MMSG-26355]
-Action.c(100): web_url("API.ZIPPOPOTAM.US") was successful, 225 body bytes, 245 header bytes  	[MsgId: MMSG-26386]
-Action.c(108): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.3381 Wasted Time: 0.0071).
+Action.c(100): web_url("API.ZIPPOPOTAM.US") was successful, 225 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(108): Notify: Transaction "0010_GetPostCodeData" ended with "Pass" status (Duration: 0.2539 Wasted Time: 0.0074).
 Action.c(111): The PostCode, 90210, with Country Code, US, relates to 1 places in United States
 Action.c(116): Those places are:	
 Action.c(117): PlaceName,Latitude,Longitude,State

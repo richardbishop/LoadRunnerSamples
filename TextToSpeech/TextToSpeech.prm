@@ -1,7 +1,7 @@
 [parameter:pIterationNumber]
 Format="%03d"
-OriginalValue=""
 Type="CurrentIteration"
+OriginalValue=""
 ParamName="pIterationNumber"
 [parameter:pTextToSpeechData]
 Delimiter=","

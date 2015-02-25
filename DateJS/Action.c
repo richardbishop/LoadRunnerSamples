@@ -208,8 +208,7 @@ Action()
 		ENDITEM,
 		LAST);
 	
-	lr_output_message ("Daylight Saving time currently being observed \= [%s]", lr_eval_string("{jDateJS_response}"));	
-	
+	lr_output_message ("Daylight Saving time currently being observed = [%s]", lr_eval_string("{jDateJS_response}"));	
 	
 		web_js_run(
         "Code=Date.today().moveToNthOccurrence(0, 3).toString('dddd dS MMMM yyyy')",  
@@ -229,7 +228,52 @@ Action()
 		ENDITEM,
 		LAST);
 	
+	
 	lr_output_message ("[%s] days until HP Discover in London", lr_eval_string("{jDateJS_response}"));
+	
+	lr_save_string("December 1 2015","pInputDate");
+	
+		web_js_run(
+        "Code=Date.parse(LR.getParam('pInputDate')).toString('dddd dS MMMM yyyy')",  
+		"ResultParam=jDateJS_response",
+		SOURCES,
+		"File=date.js",
+		ENDITEM,
+		LAST);
+	
+	
+	lr_output_message ("[%s] (entered as a parameter) is converted to [%s] by this function", lr_eval_string("{pInputDate}"), lr_eval_string("{jDateJS_response}"));
+		
+	//http://www.longpelaexpertise.com/toolsJulian.php
+
+	web_js_run(
+        "Code=Date.today().toString('yy')",  
+		"ResultParam=jDateJS_response1",
+		SOURCES,
+		"File=date.js",
+		ENDITEM,
+		LAST);	
+	
+	web_js_run(
+        //"Code='00' + Date.today().getOrdinalNumber().toString().slice(-3)",  
+        "Code=Date.today().getOrdinalNumber().toString()",  
+		"ResultParam=jDateJS_response2",
+		SOURCES,
+		"File=date.js",
+		ENDITEM,
+		LAST);
+	
+	//Need to make sure that today's date is padded with a leading zero
+	
+	web_js_run(
+        "Code=LR.getParam('jDateJS_response2').slice(-3)",  
+		"ResultParam=jDateJS_response2",
+		SOURCES,
+		"File=date.js",
+		ENDITEM,
+		LAST);
+	
+	lr_output_message ("Today's date in Julian format is [%s%s]", lr_eval_string("{jDateJS_response1}"), lr_eval_string("{jDateJS_response2}"));
 	
 	return 0;
 }
