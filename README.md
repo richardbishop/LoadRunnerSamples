@@ -26,6 +26,8 @@ DNSQuery                - Sample script that demonstrates LoadRunner's ability t
 
 ExtractStringFromString - Extract a string from another string using delimiters
 
+JulianDate				- Simple function to calculate Julian Date in LoadRunner - contrasts with (relatively) complex DateJS script
+
 LoopExample             - Examples of FOR, WHILE and DO loops in LoadRunner
 
 LRSaveFloat             - Adds lr_save_float functionality to Loadrunner, allowing rounding to x decimal places
