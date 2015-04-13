@@ -1,12 +1,12 @@
-Virtual User Script started at : 04/04/2014 17:44:55
+Virtual User Script started at : 13/04/2015 13:54:04
 Starting action vuser_init.
-Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8.1; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
 Run mode: HTML  	[MsgId: MMSG-26993]
-Run-Time Settings file: "C:\Github\LoadRunnerSamples\StringHandling\\default.cfg"  	[MsgId: MMSG-27141]
+Run-Time Settings file: "C:\GitHub\RichardBishop\LoadRunnerSamples\StringHandling\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
-Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action ConvertStringToParam.
 ConvertStringToParam.c(12): New parameter is [Value to be saved]
 Ending action ConvertStringToParam.
@@ -27,6 +27,11 @@ Ending action ConvertIntegerToParameter.
 Starting action ConvertFloatToString.
 ConvertFloatToString.c(10): New string is [1234.567800]
 Ending action ConvertFloatToString.
+Starting action ConvertCharToFloat.
+ConvertCharToFloat.c(34): Input_variable = [ 92.75]
+ConvertCharToFloat.c(38): Trimmed Input_variable = [92.75]
+ConvertCharToFloat.c(42): Input_variable as a float = [92.750000]
+Ending action ConvertCharToFloat.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.

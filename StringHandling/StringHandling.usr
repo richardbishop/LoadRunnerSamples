@@ -7,13 +7,13 @@ NewFunctionHeader=1
 RunType=cci
 ActionLogicExt=action_logic
 MajorVersion=12
-MinorVersion=0
+MinorVersion=2
 LastActiveAction=Action
 ActiveTypes=QTWeb
 GenerateTypes=QTWeb
 AdditionalTypes=QTWeb
 DevelopTool=Vugen
-LastModifyVer=12.0.0.0
+LastModifyVer=12.2.0.0
 ParamLeftBrace={
 ParamRightBrace=}
 ScriptLanguage=C
@@ -27,6 +27,7 @@ ConvertParamToInteger=ConvertParamToInteger.c
 ConvertIntegerToString=ConvertIntegerToString.c
 ConvertIntegerToParameter=ConvertIntegerToParameter.c
 ConvertFloatToString=ConvertFloatToString.c
+ConvertCharToFloat=ConvertCharToFloat.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -44,6 +45,7 @@ ConvertParamToInteger=1
 ConvertIntegerToString=1
 ConvertIntegerToParameter=1
 ConvertFloatToString=1
+ConvertCharToFloat=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
@@ -53,6 +55,7 @@ ConvertParamToInteger=0
 ConvertIntegerToString=0
 ConvertIntegerToParameter=0
 ConvertFloatToString=0
+ConvertCharToFloat=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
@@ -62,6 +65,7 @@ ConvertParamToInteger=1
 ConvertIntegerToString=1
 ConvertIntegerToParameter=1
 ConvertFloatToString=1
+ConvertCharToFloat=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
@@ -71,6 +75,7 @@ ConvertParamToInteger=cci
 ConvertIntegerToString=cci
 ConvertIntegerToParameter=cci
 ConvertFloatToString=cci
+ConvertCharToFloat=cci
 vuser_end=cci
 [TransactionsOrder]
 Order=
