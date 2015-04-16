@@ -3,7 +3,7 @@
 
 
 extern double atof();
-float uc;
+float uc =0;
 char *trimmed;
 
 //Trims leading whitespace from char
@@ -41,5 +41,13 @@ ConvertCharToFloat()
 	uc = atof(trimmed);
 	lr_output_message("Input_variable as a float = [%f]", uc);
 	
+	
+	//Updated after LinkedIn discussion was added to by with Phillip Mayhew
+	//This second technique is much more efficient in terms of lines of code :-)
+	
+	//Read input from string, trim and reformat as an integer
+	sscanf(lr_eval_string("{Input_variable}"),"%lf", &uc);
+	lr_output_message("Input_variable as a float = [%lf]", uc);
+		
 	return 0;
 }

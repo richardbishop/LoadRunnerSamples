@@ -1,4 +1,4 @@
-Virtual User Script started at : 13/04/2015 13:54:04
+Virtual User Script started at : 16/04/2015 13:55:43
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.0.0 for Windows 8.1; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -31,6 +31,7 @@ Starting action ConvertCharToFloat.
 ConvertCharToFloat.c(34): Input_variable = [ 92.75]
 ConvertCharToFloat.c(38): Trimmed Input_variable = [92.75]
 ConvertCharToFloat.c(42): Input_variable as a float = [92.750000]
+ConvertCharToFloat.c(49): Input_variable as a float = [92.750000]
 Ending action ConvertCharToFloat.
 Ending iteration 1.
 Ending Vuser...
