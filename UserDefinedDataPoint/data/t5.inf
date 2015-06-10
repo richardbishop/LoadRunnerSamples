@@ -1,0 +1,15 @@
+[t5]
+FileName1=t5.htm
+URL1=http://www.google.co.uk/finance/prefs?action=set&prefsgroup=global&prefskey=RV&prefsval=14323395&hash&xsrf=iL78HDl_JbAXE7xbh4grJjCO7-g%3A1433931289627&ei=GQ54VcHhHsWH8wOvhYG4Bg
+Total=3
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_test.txt
+URL2=http://www.google.co.uk/finance/qs/test?VER=8&MODE=init&zx=4mcstgxajm2p&t=1
+FileName3=t5_test.txt
+URL3=http://www.google.co.uk/finance/qs/test?VER=8&TYPE=xmlhttp&zx=guv7jmria73o&t=1
+[ProtocolInfo]
+ProtocolId=QTWeb

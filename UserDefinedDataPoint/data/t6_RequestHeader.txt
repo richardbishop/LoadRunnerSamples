@@ -1,0 +1,15 @@
+POST /finance/qs/channel?VER=8&RID=90605&CVER=1&zx=vvnyasx70qh0&t=1 HTTP/1.1
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Referer: http://www.google.co.uk/finance/_/js/a/b/rt=h/ver=rZztopK9dfE.en_GB./am=!vutE9fCSVdws1JA_/d=0
+Accept-Language: en-GB,en;q=0.5
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: www.google.co.uk
+Content-Length: 7
+DNT: 1
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: _ga=GA1.3-2.559159154.1433931292; SC=RV=14323395:NT=:OS=:OT=:CS=:HPN=:SO=:CSO=:CUR=:PSO=:NAV=:ED=uk; NID=68=NgCRxVW7ubbILtfGOYfZeQSOiZBppXdRe21pBPWvsNoikPBHuHTe7gsdt-cfVY-DQKQ9C9_4Be78Vwi9e2AmT2YHPJLfszI8vqqkhO5ypqdUCUU5xGER9dTpqmYVQY8Y; PREF=ID=5d6cae63f12b910d:TM=1433931259:LM=1433931259:S=ypsw6hdlNVBZbwtY; OGPC=4061130-2:; S=quotestreamer=vGxXC72WBeOlzKDdXxfCQQ
+

@@ -1,8 +1,8 @@
-Virtual User Script started at : 16/04/2015 13:55:43
+Virtual User Script started at : 10/06/2015 12:33:48
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.0.0 for Windows 8.1; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
 Run mode: HTML  	[MsgId: MMSG-26993]
-Run-Time Settings file: "C:\GitHub\RichardBishop\LoadRunnerSamples\StringHandling\\default.cfg"  	[MsgId: MMSG-27141]
+Run-Time Settings file: "C:\Git\LoadRunnerSamples\StringHandling\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -31,8 +31,12 @@ Starting action ConvertCharToFloat.
 ConvertCharToFloat.c(34): Input_variable = [ 92.75]
 ConvertCharToFloat.c(38): Trimmed Input_variable = [92.75]
 ConvertCharToFloat.c(42): Input_variable as a float = [92.750000]
-ConvertCharToFloat.c(49): Input_variable as a float = [92.750000]
+ConvertCharToFloat.c(50): Input_variable as a float = [92.750000]
 Ending action ConvertCharToFloat.
+Starting action ConvertCharToDouble.
+ConvertCharToDouble.c(11): Big number (char) is 123456789012345.12p
+ConvertCharToDouble.c(16): Big number (float/double) is 123456789012345.120000p
+Ending action ConvertCharToDouble.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.

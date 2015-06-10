@@ -1,0 +1,11 @@
+[t2]
+FileName1=t2.html
+URL1=http://push.lightstreamer.com/lightstreamer/create_session.js
+Total=1
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_2.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

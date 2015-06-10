@@ -28,6 +28,7 @@ ConvertIntegerToString=ConvertIntegerToString.c
 ConvertIntegerToParameter=ConvertIntegerToParameter.c
 ConvertFloatToString=ConvertFloatToString.c
 ConvertCharToFloat=ConvertCharToFloat.c
+ConvertCharToDouble=ConvertCharToDouble.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -46,6 +47,7 @@ ConvertIntegerToString=1
 ConvertIntegerToParameter=1
 ConvertFloatToString=1
 ConvertCharToFloat=1
+ConvertCharToDouble=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
@@ -56,6 +58,7 @@ ConvertIntegerToString=0
 ConvertIntegerToParameter=0
 ConvertFloatToString=0
 ConvertCharToFloat=0
+ConvertCharToDouble=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
@@ -66,6 +69,7 @@ ConvertIntegerToString=1
 ConvertIntegerToParameter=1
 ConvertFloatToString=1
 ConvertCharToFloat=1
+ConvertCharToDouble=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
@@ -76,6 +80,7 @@ ConvertIntegerToString=cci
 ConvertIntegerToParameter=cci
 ConvertFloatToString=cci
 ConvertCharToFloat=cci
+ConvertCharToDouble=cci
 vuser_end=cci
 [TransactionsOrder]
 Order=

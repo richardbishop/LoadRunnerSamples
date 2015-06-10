@@ -1,0 +1,11 @@
+GET /finance?cid=14323395 HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB,en;q=0.5
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Host: www.google.co.uk
+DNT: 1
+Connection: Keep-Alive
+Cookie: _ga=GA1.3-2.1754593039.1433931260; NID=68=NgCRxVW7ubbILtfGOYfZeQSOiZBppXdRe21pBPWvsNoikPBHuHTe7gsdt-cfVY-DQKQ9C9_4Be78Vwi9e2AmT2YHPJLfszI8vqqkhO5ypqdUCUU5xGER9dTpqmYVQY8Y; PREF=ID=5d6cae63f12b910d:TM=1433931259:LM=1433931259:S=ypsw6hdlNVBZbwtY; OGPC=4061130-1:
+

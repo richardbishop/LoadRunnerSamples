@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=7200
+Cache-control: no-cache="set-cookie"
+Content-Encoding: gzip
+Content-Type: text/html
+Date: Wed, 10 Jun 2015 10:12:42 GMT
+ETag: "1a5410-4e6c-516071f3868cb"
+Expires: Wed, 10 Jun 2015 12:12:42 GMT
+Last-Modified: Thu, 14 May 2015 09:12:07 GMT
+Server: Apache
+Set-Cookie: AWSELB=674F1F7A88070DE84DC69505AA31207D292CDFA08EB9B6980FD609A1D0DEA2A093C42804D827DF2AEEFD4C7C302174F70E83A93F7B81F57FC24E2B697300B8F39AD4FA1C;PATH=/
+Vary: Accept-Encoding
+Content-Length: 2731
+Connection: keep-alive
+

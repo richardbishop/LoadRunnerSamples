@@ -11,6 +11,7 @@
     <FileEntry Name="ConvertIntegerToParameter.c" Filter="2" />
     <FileEntry Name="ConvertFloatToString.c" Filter="2" />
     <FileEntry Name="ConvertCharToFloat.c" Filter="2" />
+    <FileEntry Name="ConvertCharToDouble.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>
@@ -38,7 +39,6 @@
     <FileEntry Name="StringHandling.ci" Filter="1" />
     <FileEntry Name="StringHandling.sdf" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
-    <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

@@ -1,0 +1,300 @@
+/////////////////////////////////////////////////////////////////////////////
+// LoadRunner : Multiprotocol Code generation Settings                     //
+// Mercury Interactive Corp.                                               //
+/////////////////////////////////////////////////////////////////////////////
+
+{{ ACTIVE PROTOCOLS LIST:
+    ( 1) WPLUS  (name=WPLUS)
+    ( 2) WebBase  (name=WebBase)
+    ( 3) QTWeb  (name=QTWeb)
+}}
+{{ FILTERING ORDER:
+    ( 1) CleanExtraEvents  (name=CleanExtraEvents)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : CleanExtraEvents_Init
+          Default    : CleanExtraEvents_DefaultProcess
+          Cleanup    : CleanExtraEvents_CleanUp
+                       
+    ( 2) ApiEventParser  (name=ApiEventParser)
+          State      : OFF
+          Protocols  : 
+          Module     : api_event_parser.dll
+          Initialize : ApiEventParser_Init
+          Default    : ApiEventParser_Default
+          Cleanup    : ApiEventParser_CleanUp
+                       
+    ( 3) TrafficFilterCodeGen  (name=TrafficFilterCodeGen)
+          State      : ON
+          Protocols  : HTTP
+          Module     : traffic_filter.dll
+          Initialize : TrafficFilterCodeGen_Init
+          Default    : TrafficFilterCodeGen_DefaultProcess
+          Cleanup    : TrafficFilter_CleanUp
+                       
+    ( 4) MetadataInfo  (name=MetadataInfo)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : MetadataInfo_Init
+          Default    : MetadataInfo_DefaultProcess
+          Cleanup    : MetadataInfo_CleanUp
+                       
+    ( 5) WplusProtoFilterBegin  (name=WplusBegin)
+          State      : ON
+          Protocols  : WPLUS
+          Module     : api_sock_filter.dll
+          Initialize : WplusBegin_Init
+          Default    : WplusProtoFilterBegin_DefaultProcess
+          Cleanup    : WplusBegin_CleanUp
+                       
+    ( 6) *SECTION_DIVIDER_1  (name=Break)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    ( 7) *SECTION_DIVIDER_2  (name=Break)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    ( 8) AnalyzeSegments  (name=AnalyzeSegments)
+          State      : ON
+          Protocols  : HTTP,WPLUS
+          Module     : WebDataFormatsCodeGen.dll
+          Initialize : AnalyzeSegments_Init
+          Default    : AnalyzeSegments_DefaultProcess
+          Cleanup    : AnalyzeSegments_CleanUp
+                       
+    ( 9) *AnalyzeSegments_SECTION_DIVIDER  (name=Break)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    (10) ConvertAndStore  (name=ConvertAndStore)
+          State      : ON
+          Protocols  : HTTP,WPLUS
+          Module     : WebDataFormatsCodeGen.dll
+          Initialize : ConvertAndStore_Init
+          Default    : ConvertAndStore_DefaultProcess
+          Cleanup    : ConvertAndStore_CleanUp
+                       
+    (11) WebSocketFilterFirst  (name=WebSocketFilterFirst)
+          State      : ON
+          Protocols  : WPLUS,HTTP
+          Module     : WebSocketFilter.dll
+          Initialize : WebSocketFilterFirst_init
+          Default    : WebSocketFilterFirst_DefaultProcess
+          Cleanup    : WebSocketFilterFirst_cleanup
+                       
+    (12) FirstHttp  (name=FirstHttp)
+          State      : ON
+          Protocols  : WPLUS,HTTP
+          Module     : WebHTMLCodeGen.dll
+          Initialize : Http_FirstPassInit
+          Default    : FirstHttp_DefaultProcess
+          Cleanup    : Http_FirstPassCleanUp
+                       
+    (13) *SECTION_DIVIDER_3  (name=Break)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    (14) SecondHttp  (name=SecondHttp)
+          State      : ON
+          Protocols  : HTTP
+          Module     : WebHTMLCodeGen.dll
+          Initialize : Http_SecondPassInit
+          Default    : SecondHttp_DefaultProcess
+          Cleanup    : Http_SecondPassCleanUp
+                       
+    (15) WebSocketFilterSecond  (name=WebSocketFilterSecond)
+          State      : ON
+          Protocols  : WEBS,HTTP
+          Module     : WebSocketFilter.dll
+          Initialize : WebSocketFilterSecond_init
+          Default    : WebSocketFilterSecond_DefaultProcess
+          Cleanup    : WebSocketFilterSecond_cleanup
+                       
+    (16) LinkEventsToSnapshots  (name=LinkEventsToSnapshots)
+          State      : OFF
+          Protocols  : HTTP
+          Module     : WebConvertFromFormattedFilter.dll
+          Initialize : LinkEventsToSnapshots_Init
+          Default    : LinkEventsToSnapshots_DefaultProcess
+          Cleanup    : LinkEventsToSnapshots_CleanUp
+                       
+    (17) *WebConvertFromFormatted_SECTION_DIVIDER  (name=Break)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    (18) WebConvertFromFormattedFilter  (name=WebConvertFromFormattedFilter)
+          State      : OFF
+          Protocols  : HTTP
+          Module     : WebConvertFromFormattedFilter.dll
+          Initialize : WebConvertFromFormattedFilter_Init
+          Default    : WebConvertFromFormattedFilter_DefaultProcess
+          Cleanup    : WebConvertFromFormattedFilter_CleanUp
+                       
+    (19) LinkEventsToSnapshots2  (name=LinkEventsToSnapshots2)
+          State      : ON
+          Protocols  : HTTP
+          Module     : WebConvertFromFormattedPostFilter.dll
+          Initialize : LinkEventsToSnapshots_Init
+          Default    : LinkEventsToSnapshots2_DefaultProcess
+          Cleanup    : LinkEventsToSnapshots_CleanUp
+                       
+    (20) *WebConvertFromFormattedPost_SECTION_DIVIDER  (name=Break)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    (21) WebConvertFromFormattedPostFilter  (name=WebConvertFromFormattedPostFilter)
+          State      : OFF
+          Protocols  : HTTP
+          Module     : WebConvertFromFormattedPostFilter.dll
+          Initialize : WebConvertFromFormattedPostFilter_Init
+          Default    : WebConvertFromFormattedPostFilter_DefaultProcess
+          Cleanup    : WebConvertFromFormattedPostFilter_CleanUp
+                       
+    (22) WebExtractServerNameFilter  (name=WebExtractServerNameFilter)
+          State      : OFF
+          Protocols  : HTTP,WEBS
+          Module     : WebExtractServerNameFilter.dll
+          Initialize : WebExtractServerNameFilter_Init
+          Default    : WebExtractServerNameFilter_DefaultProcess
+          Cleanup    : WebExtractServerNameFilter_CleanUp
+                       
+    (23) *WebExtractServerNameFilter_SECTION_DIVIDER  (name=Break)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    (24) WebExtractServerNameFilterReplace  (name=WebExtractServerNameFilterReplace)
+          State      : OFF
+          Protocols  : HTTP,WEBS
+          Module     : WebExtractServerNameFilter.dll
+          Initialize : WebExtractServerNameFilterReplace_Init
+          Default    : WebExtractServerNameFilterReplace_DefaultProcess
+          Cleanup    : WebExtractServerNameFilterReplace_CleanUp
+                       
+    (25) *SECTION_DIVIDER_4  (name=Break)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    (26) CleanDependentEvents  (name=CleanDependentEvents)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : CleanExtraEvents_Init
+          Default    : CleanExtraEvents_DefaultProcessPreScript
+          Cleanup    : CleanExtraEvents_CleanUp
+                       
+    (27) ThinkTime  (name=ThinkTime)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_com_filters.dll
+          Initialize : ThinkTime_Init
+          Default    : ThinkTime_DefaultProcess
+          Cleanup    : ThinkTime_CleanUp
+                       
+    (28) FixedThinkTime  (name=FixedThinkTime)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_com_filters.dll
+          Initialize : FixedThinkTime_Init
+          Default    : FixedThinkTime_DefaultProcess
+          Cleanup    : FixedThinkTime_CleanUp
+                       
+    (29) WebRemoveLongBodyFilter  (name=WebRemoveLongBodyFilter)
+          State      : ON
+          Protocols  : WPLUS,HTTP
+          Module     : WebRemoveLongBodyFilter
+          Initialize : WebRemoveLongBodyFilter_Init
+          Default    : WebRemoveLongBodyFilter_DefaultProcess
+          Cleanup    : WebRemoveLongBodyFilter_CleanUp
+                       
+    (30) CAPI_CodeGen  (name=GenericCodeGen)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : GenericCodeGen_Init
+          Default    : GenericCodeGen_DefaultProcess
+          Cleanup    : GenericCodeGen_CleanUp
+                       
+    (31) C_CodeGen  (name=C_CodeGen)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : C_CodeGen_Init
+          Default    : C_CodeGen_DefaultProcess
+          Cleanup    : C_CodeGen_CleanUp
+                       
+    (32) VBA_CodeGen  (name=VB_CodeGen)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : VBA_CodeGen_Init
+          Default    : VB_CodeGen_DefaultProcess
+          Cleanup    : VB_CodeGen_CleanUp
+                       
+    (33) VBS_CodeGen  (name=VB_CodeGen)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : VBS_CodeGen_Init
+          Default    : VB_CodeGen_DefaultProcess
+          Cleanup    : VB_CodeGen_CleanUp
+                       
+    (34) JS_CodeGen  (name=VB_CodeGen)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : JS_CodeGen_Init
+          Default    : VB_CodeGen_DefaultProcess
+          Cleanup    : VB_CodeGen_CleanUp
+                       
+    (35) DotNet_CodeGen  (name=DotNet_CodeGen)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : DotNet_CodeGen_Init
+          Default    : DotNet_CodeGen_DefaultProcess
+          Cleanup    : DotNet_CodeGen_CleanUp
+                       
+    (36) Java_CodeGen  (name=Java_CodeGen)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : Java_CodeGen_Init
+          Default    : Java_CodeGen_DefaultProcess
+          Cleanup    : Java_CodeGen_CleanUp
+                       
+}}

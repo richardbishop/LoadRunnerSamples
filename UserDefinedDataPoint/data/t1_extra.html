@@ -1,0 +1,263 @@
+	
+var canPlaceCookies = false;	
+	
+function addEvent(where,what,how,capture) {
+  if (where.addEventListener) {
+    where.addEventListener(what, how, capture);
+  } else {
+    where.attachEvent("on"+what,how);
+  }
+}
+function removeEvent(where,what,how,capture) {
+  if (where.removeEventListener) {
+    where.removeEventListener(what, how, capture);
+  } else {
+    where.detachEvent("on"+what,how);
+  }
+}
+function stopPropagation(myEvent) {
+  if (!myEvent) {
+    myEvent = window.event;
+  }
+  myEvent.cancelBubble = true;
+  if (myEvent.stopPropagation) {
+    myEvent.stopPropagation();
+  }
+}	
+	
+	
+	
+(function(window) {
+  var analyticsAttachedToPage = false;
+  function loadAnalytics() {
+    if (canPlaceCookies && !analyticsAttachedToPage) {
+		analyticsLoaded = true;
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-11325642-1', 'auto');
+		ga('send', 'pageview');
+		
+		analyticsAttachedToPage = true;
+    }
+  }
+  window.loadAnalytics = loadAnalytics;
+}(window));	
+	
+(function(window) {
+  adroll_adv_id = "ZGE5ADJZ25B7BGHJBNY4KA";
+  adroll_pix_id = "QQLCWKKKOFD2NP3ZVHMYVH";
+  __adroll_loaded = false;
+
+  (function () {
+    var oldonload = window.onload;
+    window.onload = function(){
+    __adroll_loaded=true;
+    loadSmartPixel();
+    if(oldonload){oldonload()}};
+  }());
+
+  var adrollAttachedToPage = false;
+  function loadSmartPixel() {
+    if (__adroll_loaded && canPlaceCookies && !adrollAttachedToPage) {
+    var scr = document.createElement("script");
+    var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+    scr.setAttribute('async', 'true');
+    scr.type = "text/javascript";
+    scr.src = host + "/j/roundtrip.js";
+    ((document.getElementsByTagName('head') || [null])[0] ||
+      document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+
+    adrollAttachedToPage = true;
+
+    //console.log("adroll ready");
+    }
+  }
+  window.loadSmartPixel = loadSmartPixel;
+}(window));
+   
+   
+   
+function loadHook() {
+  canPlaceCookies = true;
+  loadAnalytics();
+  loadSmartPixel();
+}
+   
+   
+//--> cookiechoices.js by google START
+
+/*
+ Copyright 2014 Google Inc. All rights reserved.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+(function(window,dismissHook,domainToUse) {
+
+  if (!!window.cookieChoices) {
+    return window.cookieChoices;
+  }
+
+  var document = window.document;
+  // IE8 does not support textContent, so we should fallback to innerText.
+  var supportsTextContent = 'textContent' in document.body;
+
+  var cookieChoices = (function() {
+
+    var cookieName = 'LS_COOKIES_ACCEPTED';
+    var cookieConsentId = 'cookieChoiceInfo';
+    var dismissLinkId = 'cookieChoiceDismiss';
+
+    function _createHeaderElement(cookieText, dismissText, linkText, linkHref) {
+      var butterBarStyles = 'position:fixed; width:100%; background-color:#f7f9cc; opacity:0.9;' +
+          'margin:0; left:0; bottom:0; padding:10px 30px; z-index:1000; text-align:center;' +
+			 '-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;' +
+			 'font:13px arial, helvetica, sans-serif; color:#333; line-height:18px';
+
+      var cookieConsentElement = document.createElement('div');
+      cookieConsentElement.id = cookieConsentId;
+      cookieConsentElement.style.cssText = butterBarStyles;
+      cookieConsentElement.appendChild(_createConsentText(cookieText));
+
+      if (!!linkText && !!linkHref) {
+        cookieConsentElement.appendChild(_createInformationLink(linkText, linkHref));
+      }
+      cookieConsentElement.appendChild(_createDismissLink(dismissText));
+      return cookieConsentElement;
+    }
+
+    function _setElementText(element, text) {
+      if (supportsTextContent) {
+        element.textContent = text;
+      } else {
+        element.innerText = text;
+      }
+    }
+
+    function _createConsentText(cookieText) {
+      var consentText = document.createElement('span');
+      _setElementText(consentText, cookieText);
+      return consentText;
+    }
+
+    function _createDismissLink(dismissText) {
+      var dismissLink = document.createElement('a');
+      _setElementText(dismissLink, dismissText);
+      dismissLink.id = dismissLinkId;
+      dismissLink.href = '#dontscroll84930';
+      dismissLink.style.marginLeft = '15px';
+		dismissLink.style.whiteSpace = "nowrap";
+		dismissLink.style.fontFamily = "arial, helvetica, sans-serif";
+      return dismissLink;
+    }
+
+    function _createInformationLink(linkText, linkHref) {
+	  var infoLink = document.createElement('a');
+	  _setElementText(infoLink, linkText);
+      infoLink.href = linkHref;
+      infoLink.target = '_blank';
+      infoLink.style.marginLeft = '0px';
+		infoLink.style.whiteSpace = "nowrap";
+		infoLink.style.fontFamily = "arial, helvetica, sans-serif";
+
+	  addEvent(infoLink,'click', function(e) {
+		//console.log("info clicked");
+		stopPropagation(e);
+	  }, true);
+
+      return infoLink;
+    }
+
+    function _dismissLinkClick() {
+	  //console.log("dismiss message");
+
+      _saveUserPreference();
+      _removeCookieConsent();
+
+      if (dismissHook) {
+        dismissHook();
+      }
+
+      return false;
+    }
+
+    function _showCookieConsent(cookieText, dismissText, linkText, linkHref, isDialog) {
+      if (_shouldDisplayConsent()) {
+      //console.log("show message");
+        _removeCookieConsent();
+        var consentElement = _createHeaderElement(cookieText, dismissText, linkText, linkHref);
+        var fragment = document.createDocumentFragment();
+        fragment.appendChild(consentElement);
+
+        document.body.appendChild(fragment);
+       // document.getElementById(dismissLinkId).onclick = _dismissLinkClick; no need, we dismiss everywhere you click
+      }
+    }
+
+    function showCookieConsentBar(cookieText, dismissText, linkText, linkHref) {
+      _showCookieConsent(cookieText, dismissText, linkText, linkHref, false);
+    }
+
+    function _removeCookieConsent() {
+      var cookieChoiceElement = document.getElementById(cookieConsentId);
+      if (cookieChoiceElement != null) {
+        cookieChoiceElement.parentNode.removeChild(cookieChoiceElement);
+      }
+    }
+
+    function _saveUserPreference() {
+      // Set the cookie expiry to one year after today.
+      var expiryDate = new Date();
+      expiryDate.setFullYear(expiryDate.getFullYear() + 1);
+      document.cookie = cookieName + '=y; domain='+domainToUse+'; expires=' + expiryDate.toGMTString();
+    }
+
+    function _shouldDisplayConsent() {
+      // Display the header only if the cookie has not been set.
+      return !document.cookie.match(new RegExp(cookieName + '=([^;]+)'));
+    }
+
+    var exports = {};
+    exports.showCookieConsentBar = showCookieConsentBar;
+    exports.shouldDisplayConsent = _shouldDisplayConsent;
+    exports.dismiss = _dismissLinkClick;
+    return exports;
+  })();
+
+  window.cookieChoices = cookieChoices;
+  return cookieChoices;
+})(this,loadHook,".lightstreamer.com");
+
+//<-- cookiechoices.js by google END
+
+canPlaceCookies = !cookieChoices.shouldDisplayConsent();
+if (!canPlaceCookies) {
+  
+  cookieChoices.showCookieConsentBar("We use cookies, in some cases of Third Parties, to ensure that we give you the best browsing experience. If you continue using our website, we'll assume that you are happy with this. Otherwise you can change your cookie settings at any time. ", "Close message", "Learn more.", "http://www.lightstreamer.com/privacy-policy");
+    
+  function callDismiss() {
+    cookieChoices.dismiss();
+    removeEvent(document,'click', callDismiss, false);
+  }    
+  
+  addEvent(document,'click', callDismiss, false);
+    
+} else {
+  loadHook();
+}
+
+
+
+

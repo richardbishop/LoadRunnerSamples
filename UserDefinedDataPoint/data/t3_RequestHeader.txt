@@ -1,0 +1,12 @@
+GET /lightstreamer HTTP/1.1
+Origin: http://demos.lightstreamer.com
+Sec-WebSocket-Protocol: js.lightstreamer.com
+Sec-WebSocket-Key: Ta1QY4/MP7lUEI8zN849Ig==
+Connection: Upgrade
+Upgrade: Websocket
+Sec-WebSocket-Version: 13
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: push.lightstreamer.com
+DNT: 1
+Cache-Control: no-cache
+

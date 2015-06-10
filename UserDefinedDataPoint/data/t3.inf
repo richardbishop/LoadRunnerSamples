@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3_lightstreamer.html
+URL1=http://push.lightstreamer.com/lightstreamer
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

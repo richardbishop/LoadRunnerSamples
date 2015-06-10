@@ -1,0 +1,333 @@
+Registry settings:
+	(Default)	
+	ActiveProtocols
+		default	QTWeb,local_server
+	AllowChannelHooks
+		(Default)	NO
+		default	yes
+	AUT
+		(Default)	
+		default	C:\Program Files (x86)\Internet Explorer\iexplore.exe http://demos.lightstreamer.com/StockListDemo_Basic/
+	DebugFilter
+		(Default)	
+		default	off
+	DebugMode
+		(Default)	none
+		default	none
+	ExcludedMethods
+		(Default)	
+		{00000003-0000-0000-C000-000000000046}
+			(Default)	
+			DisconnectObject
+				(Default)	
+			GetMarshalSizeMax
+				(Default)	
+			GetUnmarshalClass
+				(Default)	
+			ReleaseMarshalData
+				(Default)	
+		{0000013D-0000-0000-C000-000000000046}
+			(Default)	
+			QueryBlanket
+				(Default)	
+		{00000505-0000-0010-8000-00AA006D2EA4}
+			(Default)	
+			get_ActualSize
+				(Default)	
+			get_Attributes
+				(Default)	
+			get_AttributesDefinedSize
+				(Default)	
+			get_DataFormat
+				(Default)	
+			get_DefinedSize
+				(Default)	
+			get_Name
+				(Default)	
+			get_NumericScale
+				(Default)	
+			get_OriginalValue
+				(Default)	
+			get_Precision
+				(Default)	
+			get_Properties
+				(Default)	
+			get_Type
+				(Default)	
+			get_UnderlyingValue
+				(Default)	
+			QueryInterface
+				(Default)	
+		{00000506-0000-0010-8000-00AA006D2EA4}
+			(Default)	
+			get_Count
+				(Default)	
+		{0000054C-0000-0010-8000-00AA006D2EA4}
+			(Default)	
+			get_ActualSize
+				(Default)	
+			get_Attributes
+				(Default)	
+			get_AttributesDefinedSize
+				(Default)	
+			get_DataFormat
+				(Default)	
+			get_DefinedSize
+				(Default)	
+			get_Name
+				(Default)	
+			get_NumericScale
+				(Default)	
+			get_OriginalValue
+				(Default)	
+			get_Precision
+				(Default)	
+			get_Properties
+				(Default)	
+			get_Type
+				(Default)	
+			get_UnderlyingValue
+				(Default)	
+			QueryInterface
+				(Default)	
+		{0000054D-0000-0010-8000-00AA006D2EA4}
+			(Default)	
+			get_Count
+				(Default)	
+		{00000564-0000-0010-8000-00AA006D2EA4}
+			(Default)	
+			get_Count
+				(Default)	
+			get_DefinedSize
+				(Default)	
+			QueryInterface
+				(Default)	
+		{00000569-0000-0010-8000-00AA006D2EA4}
+			(Default)	
+			get_ActualSize
+				(Default)	
+			get_Attributes
+				(Default)	
+			get_AttributesDefinedSize
+				(Default)	
+			get_DataFormat
+				(Default)	
+			get_Name
+				(Default)	
+			get_NumericScale
+				(Default)	
+			get_OriginalValue
+				(Default)	
+			get_Precision
+				(Default)	
+			get_Properties
+				(Default)	
+			get_Status
+				(Default)	
+			get_Type
+				(Default)	
+			get_UnderlyingValue
+				(Default)	
+		{CB5BDC81-93C1-11CF-8F20-00805F2CD064}
+			GetInterfaceSafetyOptions
+				(Default)	
+			SetInterfaceSafetyOptions
+				(Default)	
+	ExcludedObjrefs
+	ExcludedProcesses
+		(Default)	
+		mdm.exe
+			(Default)	
+		mtx.exe
+			(Default)	
+		redirector.exe
+			(Default)	
+		tulip_mgr.exe
+			(Default)	
+	ExcludeInvokeExCalls
+		(Default)	
+		transformNode
+			(Default)	
+	GenerateDebugLogFile
+	LocalMachineIdentity
+		(Default)	
+		default	TRUSTIV-24
+	NumberOfOutputByteArrayElementsToShow
+		(Default)	-1
+	RecorderDir
+		(Default)	
+		default	C:\Program Files (x86)\HP\LoadRunner\bin\
+	RecordsetFormat
+		 help	place in the default value one of the following formats:
+		adPersistADTG	(default) Microsoft Advanced Data TableGram (ADTG) format
+		adPersistXML	Extensible Markup Language (XML) format
+		default	adPersistADTG
+	removeObjrefFilter
+		default	false
+	TestDir
+		(Default)	
+		default	C:\Git\LoadRunnerSamples\UserDefinedDataPoint\data\
+	TrapOnClient
+		default	true
+	TrapOnMainThreadOnly
+		default	false
+	Trapped
+	VugenSettings
+		(Default)	
+		CurrentSettings
+			show_interfaces_from_selected_typelib	0
+			currentSettings	Default filter
+			Default filter
+				(Default)	
+				ClassId
+					(Default)	
+					{00000507-0000-0010-8000-00AA006D2EA4}
+						path	msado27.tlb
+						guid	{00000507-0000-0010-8000-00AA006D2EA4}
+						name	Command
+						Record	1
+					{0000050B-0000-0010-8000-00AA006D2EA4}
+						path	msado27.tlb
+						guid	{0000050B-0000-0010-8000-00AA006D2EA4}
+						name	Parameter
+						Record	1
+					{00000514-0000-0010-8000-00AA006D2EA4}
+						path	msado27.tlb
+						guid	{00000514-0000-0010-8000-00AA006D2EA4}
+						name	Connection
+						Record	1
+					{00000535-0000-0010-8000-00AA006D2EA4}
+						path	msado27.tlb
+						guid	{00000535-0000-0010-8000-00AA006D2EA4}
+						name	Recordset
+						Record	1
+					{00000560-0000-0010-8000-00AA006D2EA4}
+						path	msado27.tlb
+						guid	{00000560-0000-0010-8000-00AA006D2EA4}
+						name	Record
+						Record	1
+					{00000566-0000-0010-8000-00AA006D2EA4}
+						path	msado27.tlb
+						guid	{00000566-0000-0010-8000-00AA006D2EA4}
+						name	Stream
+						Record	1
+					{BD96C556-65A3-11D0-983A-00C04FC29E36}
+						path	msadco.tlb
+						guid	{BD96C556-65A3-11D0-983A-00C04FC29E36}
+						name	DataSpace
+						Record	1
+				Environments
+					(Default)	
+					ADO objects
+						record	1
+						descriptions	Microsoft ActiveX Data Objects 2.7 Library
+					RDS objects
+						record	1
+						descriptions	Microsoft Remote Data Services 2.7 Library
+					Remote objects
+						record	1
+						descriptions	Record all remote objects (DCOM)
+				Interface
+					(Default)	
+					{00000112-0000-0000-C000-000000000046}
+						name	IOleObject
+						record	1
+					{00000283-0000-0010-8000-00AA006D2EA4}
+						name	ADORecordsetConstruction
+						record	1
+					{6C736DC1-AB0D-11D0-A2AD-00A0C90F27E8}
+						name	ISystemDebugEventFire
+						record	1
+					{7C0FFAB3-CD84-11D0-949A-00A0C91110ED}
+						name	DataSource
+						record	1
+					{B196B283-BAB4-101A-B69C-00AA00341D07}
+						name	IProvideClassInfo
+						record	1
+					{B196B284-BAB4-101A-B69C-00AA00341D07}
+						name	IConnectionPointContainer
+						record	1
+					{B196B286-BAB4-101A-B69C-00AA00341D07}
+						name	IConnectionPoint
+						record	1
+					{B196B288-BAB4-101A-B69C-00AA00341D07}
+						name	IOleControl
+						record	1
+					{CB5BDC81-93C1-11CF-8F20-00805F2CD064}
+						name	IObjectSafety
+						record	1
+				Temporary
+					(Default)	
+					Interface
+						(Default)	
+						{00000112-0000-0000-C000-000000000046}
+							name	IOleObject
+							record	1
+						{00000283-0000-0010-8000-00AA006D2EA4}
+							name	ADORecordsetConstruction
+							record	1
+						{6C736DC1-AB0D-11D0-A2AD-00A0C90F27E8}
+							name	ISystemDebugEventFire
+							record	1
+						{7C0FFAB3-CD84-11D0-949A-00A0C91110ED}
+							name	DataSource
+							record	1
+						{B196B283-BAB4-101A-B69C-00AA00341D07}
+							name	IProvideClassInfo
+							record	1
+						{B196B284-BAB4-101A-B69C-00AA00341D07}
+							name	IConnectionPointContainer
+							record	1
+						{B196B286-BAB4-101A-B69C-00AA00341D07}
+							name	IConnectionPoint
+							record	1
+			DefaultSettings
+				ShowSelectedItemsOnly	NO
+				addon
+					(Default)	
+					Environments
+						(Default)	
+						ADO objects
+							descriptions	Microsoft ActiveX Data Objects 2.7 Library
+							record	1
+							msado27.tlb
+								(Default)	
+						RDS objects
+							descriptions	Microsoft Reomte Data Services 2.7 Library
+							record	1
+							msadco.tlb
+								(Default)	
+						Remote objects
+							descriptions	Record all remote objects (DCOM)
+							record	1
+					Environments_Clsid_To_Remove
+						(Default)	
+						{BD96C556-65A3-11D0-983A-00C04FC29E33}
+							(Default)	
+				Interface
+					(Default)	
+					{00000112-0000-0000-C000-000000000046}
+						(Default)	IOleObject
+					{00000283-0000-0010-8000-00AA006D2EA4}
+						(Default)	ADORecordsetConstruction
+					{6C736DC1-AB0D-11D0-A2AD-00A0C90F27E8}
+						(Default)	ISystemDebugEventFire
+					{7C0FFAB3-CD84-11D0-949A-00A0C91110ED}
+						(Default)	DataSource
+					{B196B283-BAB4-101A-B69C-00AA00341D07}
+						(Default)	IProvideClassInfo
+					{B196B284-BAB4-101A-B69C-00AA00341D07}
+						(Default)	IConnectionPointContainer
+					{B196B286-BAB4-101A-B69C-00AA00341D07}
+						(Default)	IConnectionPoint
+					{B196B288-BAB4-101A-B69C-00AA00341D07}
+						(Default)	IOleControl
+					{CB5BDC81-93C1-11CF-8F20-00805F2CD064}
+						(Default)	IObjectSafety
+	WinsocketRecording
+		(Default)	
+		default	off
+	WorkingDir
+		(Default)	
+		default	C:\Program Files (x86)\HP\LoadRunner\Bin\
+

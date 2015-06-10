@@ -1,0 +1,235 @@
+[API Trapper      (2184:2188)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (21b4:21b8)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (21b4:21c4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (21b4:21c4)] Load Network Traffic Analyzers:
+[Network Analyzer (21b4:21c4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (21b4:21c4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (21b4:21c4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (21b4:21c4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (21b4:21c4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (21b4:21c4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (21b4:21c4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (21b4:21c4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (21b4:2220)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:21c4)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:21d8)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:21c4)] Request Connection: Remote Server @ 216.58.210.3:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (21b4:2220)] "GET /finance?cid=14323395"   
+[Network Analyzer (21b4:2220)]   (Sid:  1) Client -> Server @ : 578 bytes (Service=HTTP)
+[Network Analyzer (21b4:21d8)] Request Connection: Remote Server @ 216.58.210.3:80   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 364 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 7121 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 3169 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 5230 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 12101 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/_/ss/a/ver=weedrhfieacs/am=!vutE9fCSVdws1JA_/bf=MUgC/r=O?k=1"   
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 657 bytes (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/f/finance_uk-2089274654.css"   
+[Network Analyzer (21b4:2220)]   (Sid:  1) Client -> Server @ : 624 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 406 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 12315 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 8699 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/f/sfe-opt-2670621683.js"   
+[Network Analyzer (21b4:21c4)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 640 bytes (Service=HTTP)
+[Network Analyzer (21b4:21c4)] Request Connection: Remote Server @ 216.58.210.3:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (21b4:21f4)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 413 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/s/m4C5KaofCbA/images/cleardot.gif"   
+[Network Analyzer (21b4:2220)]   (Sid:  3) Client -> Server @ : 667 bytes (Service=HTTP)
+[Network Analyzer (21b4:21f4)] Request Connection: Remote Server @ 216.58.210.3:80   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 9341 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 378 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 54 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2204)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:2204)] Request Connection: Remote Server @ 216.58.208.35:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (21b4:2220)] "GET /finance/_/js/a/b/rt=h/ver=rZztopK9dfE.en_GB./am=!vutE9fCSVdws1JA_/d=0"   
+[Network Analyzer (21b4:2220)]   (Sid:  3) Client -> Server @ : 682 bytes (Service=HTTP)
+[Network Analyzer (21b4:220c)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Web Request      (21b4:2220)] "GET /og/_/js/k=og.og.en_US.5XnTNMJwhLQ.O/rt=j/t=zcms/m=ld,sy37,sy38,sy39,sy40,d,sy59,gl,is,id,nb,nw,sb,sd,st,sy45,awd,sy48,sy49,sy51,p,vd,lod,eld,ip,dp,cpd/rs=AItRSTPns-kwBB5t5qS9y-IJNDgNRVnHfA"   
+[Network Analyzer (21b4:2220)]   (Sid:  5) Client -> Server @ : 526 bytes (Service=HTTP)
+[Network Analyzer (21b4:21f8)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:21f8)] Request Connection: Remote Server @ 216.58.210.14:80   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 5964 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  5) Server -> Client : 425 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /analytics.js"   
+[Network Analyzer (21b4:2220)]   (Sid:  6) Client -> Server @ : 359 bytes (Service=HTTP)
+[Network Analyzer (21b4:220c)] Request Connection: Remote Server @ 216.58.208.35:80   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (21b4:21f4)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:2220)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  5) Server -> Client : 16134 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 8980 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  6) Server -> Client : 373 bytes  (Service=HTTP)
+[Network Analyzer (21b4:21f4)] Request Connection: Remote Server @ 216.58.210.14:80   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid:  6) Server -> Client : 11093 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/images/sp11.png"   
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 648 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 371 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 11522 bytes  (Service=HTTP)
+[Network Analyzer (21b4:220c)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:220c)] Request Connection: Remote Server @ 216.58.210.3:80   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (21b4:21c4)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Web Request      (21b4:2220)] "GET /gb/images/v1_ab71ffe9.png"   
+[Network Analyzer (21b4:2220)]   (Sid:  9) Client -> Server @ : 380 bytes (Service=HTTP)
+[Network Analyzer (21b4:21c4)] Request Connection: Remote Server @ 216.58.210.3:80   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid:  9) Server -> Client : 371 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  9) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  9) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  9) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  9) Server -> Client : 15353 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/s/aEc4Twn89CE/chart9.swf?hl=en&gl=gb"   
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 642 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 12300 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 5169 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /ui/v1/disclosure/light-grey-disclosure-arrow-down.png"   
+[Network Analyzer (21b4:2220)]   (Sid:  9) Client -> Server @ : 408 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  9) Server -> Client : 367 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  9) Server -> Client : 93 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "POST /finance/prefs?action=set&prefsgroup=global&prefskey=RV&prefsval=14323395&hash&xsrf=iL78HDl_JbAXE7xbh4grJjCO7-g%3A1433931289627&ei=GQ54VcHhHsWH8wOvhYG4Bg"   
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 887 bytes (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/qs/test?VER=8&MODE=init&zx=4mcstgxajm2p&t=1"   
+[Network Analyzer (21b4:2220)]   (Sid:  3) Client -> Server @ : 678 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 580 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 500 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 23 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/qs/test?VER=8&TYPE=xmlhttp&zx=guv7jmria73o&t=1"   
+[Network Analyzer (21b4:2220)]   (Sid:  3) Client -> Server @ : 788 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 358 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 11 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (21b4:21f4)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:21f4)] Request Connection: Remote Server @ 216.58.209.238:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid:  3) Client -> Server @ : 889 bytes (Service=HTTP)
+[Web Request      (21b4:2220)] "POST /finance/qs/channel?VER=8&RID=90605&CVER=1&zx=vvnyasx70qh0&t=1"   
+[Network Analyzer (21b4:2220)]   (Sid:  3) Client -> Server @ : 7 bytes (Service=HTTP)
+[Network Analyzer (21b4:2204)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:2204)] Request Connection: Remote Server @ 216.58.209.238:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 374 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 56 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/qs/channel?VER=8&RID=rpc&SID=8634503B339E9EFA&CI=1&AID=0&TYPE=xmlhttp&zx=xgdsy2so1wp6&t=1"   
+[Network Analyzer (21b4:2220)]   (Sid:  3) Client -> Server @ : 831 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 911 bytes (Service=HTTP)
+[Web Request      (21b4:2220)] "POST /finance/qs/channel?VER=8&SID=8634503B339E9EFA&RID=90606&AID=0&zx=tunaial2amyg&t=1"   
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 171 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  3) Server -> Client : 358 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 374 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 29 bytes  (Service=HTTP)
+[Network Analyzer (21b4:22b8)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (21b4:22b8)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (21b4:22b4)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (21b4:22b4)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (21b4:2220)] "GET /finance/favicon.ico"   
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 616 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (21b4:2220)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 398 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 1017 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/images/cleardot.gif"   
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 759 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 371 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 54 bytes  (Service=HTTP)
+[Network Analyzer (21b4:21cc)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:21cc)] Request Connection: Remote Server @ 216.58.210.6:80   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (21b4:2204)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Web Request      (21b4:2220)] "GET /adi/com.gf.company/financials;fe=lon;ft=rbs;fm=large;dcopt=ist;myd=ad;sz=300x250;tile=1;dc_ref=http%3A%2F%2Ffinance.google.com%2Ffinance%3Fq%3DLON%3ARBS;domain=www.google.co.uk;ord=778343206?"   
+[Network Analyzer (21b4:2220)]   (Sid: 13) Client -> Server @ : 618 bytes (Service=HTTP)
+[Network Analyzer (21b4:2204)] Request Connection: Remote Server @ 216.58.210.6:80   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (21b4:2220)] "GET /finance/chart?cht=s&cid=14323395,7995352,6281494,11248216,8873270,5978765,6060617,730354,11544020,940632,15922947&p=1d&ei=GQ54VcHhHsWH8wOvhYG4Bg"   
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 876 bytes (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /finance/images/zippy_right.gif"   
+[Network Analyzer (21b4:2220)]   (Sid:  1) Client -> Server @ : 762 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 371 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  1) Server -> Client : 87 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 3095 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 13) Server -> Client : 569 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 13) Server -> Client : 9752 bytes  (Service=HTTP)
+[Network Analyzer (21b4:21f8)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:21f8)] Request Connection: Remote Server @ 216.58.210.2:80   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (21b4:2204)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Web Request      (21b4:2220)] "GET /simgad/9063194529795706400"   
+[Network Analyzer (21b4:2220)]   (Sid: 15) Client -> Server @ : 570 bytes (Service=HTTP)
+[Network Analyzer (21b4:2204)] Request Connection: Remote Server @ 216.58.210.2:80   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (21b4:2220)] "GET /pagead/js/r20150604/r20110914/abg.js"   
+[Network Analyzer (21b4:2220)]   (Sid: 16) Client -> Server @ : 563 bytes (Service=HTTP)
+[Network Analyzer (21b4:21cc)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:2220)]   (Sid: 15) Server -> Client : 388 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 15) Server -> Client : 10701 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /pagead/images/google-logo.png"   
+[Network Analyzer (21b4:2220)]   (Sid: 15) Client -> Server @ : 573 bytes (Service=HTTP)
+[Network Analyzer (21b4:21cc)] Request Connection: Remote Server @ 216.58.210.2:80   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid: 16) Server -> Client : 548 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 15) Server -> Client : 449 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 15) Server -> Client : 4114 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 16) Server -> Client : 15315 bytes  (Service=HTTP)
+[Network Analyzer (21b4:21cc)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:21cc)] Request Connection: Remote Server @ 216.58.210.2:80   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (21b4:21f8)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Web Request      (21b4:2220)] "GET /pagead/drt/s?v=r20120211"   
+[Network Analyzer (21b4:2220)]   (Sid: 18) Client -> Server @ : 633 bytes (Service=HTTP)
+[Network Analyzer (21b4:21f8)] Request Connection: Remote Server @ 216.58.210.2:80   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid: 18) Server -> Client : 302 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2204)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:2220)]   (Sid: 18) Server -> Client : 145 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /pagead/images/x_button_blue2.png"   
+[Network Analyzer (21b4:2220)]   (Sid: 16) Client -> Server @ : 576 bytes (Service=HTTP)
+[Network Analyzer (21b4:2204)] Request Connection: Remote Server @ 216.58.210.2:80   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid: 16) Server -> Client : 446 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 16) Server -> Client : 145 bytes  (Service=HTTP)
+[Web Request      (21b4:2220)] "GET /push?client=ca-pub-6964367013224614"   
+[Network Analyzer (21b4:2220)]   (Sid: 20) Client -> Server @ : 637 bytes (Service=HTTP)
+[Network Analyzer (21b4:21cc)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:21cc)] Request Connection: Remote Server @ 216.58.210.2:80   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (21b4:2220)]   (Sid: 20) Server -> Client : 323 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 20) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (21b4:21f8)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:21f8)] Request Connection: Remote Server @ 216.58.209.228:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (21b4:2204)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:2204)] Request Connection: Remote Server @ 216.58.209.228:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (21b4:21cc)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Network Analyzer (21b4:22d0)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (21b4:21cc)] Request Connection: Remote Server @ 188.125.82.57:80   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (21b4:22cc)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (21b4:21c4)] Address lookup for TRUSTIV-24 = 10.200.70.124
+[Web Request      (21b4:2220)] "GET /sync/adx?google_gid=CAESEK8BTAmCJ3OCQ5pTHOFhaow&google_cver=1&google_push=AHNF13IZeGrZHdmeO3vnKBy74bAfMKidrllubTvx"   
+[Network Analyzer (21b4:2220)]   (Sid: 24) Client -> Server @ : 523 bytes (Service=HTTP)
+[Network Analyzer (21b4:21c4)] Request Connection: Remote Server @ 188.125.82.57:80   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (21b4:2220)] "GET /adi/com.gf.company/financials;fe=lon;ft=rbs;fm=large;dcopt=ist;myd=ad2;sz=33x33;tile=2;dc_ref=http%3A%2F%2Ffinance.google.com%2Ffinance%3Fq%3DLON%3ARBS;domain=www.google.co.uk;ord=778343206?"   
+[Network Analyzer (21b4:2220)]   (Sid: 13) Client -> Server @ : 617 bytes (Service=HTTP)
+[Net An. Error    (21b4:22cc)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (21b4:22d0)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (21b4:2220)]   (Sid: 13) Server -> Client : 582 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 13) Server -> Client : 159 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (21b4:2220)]   (Sid: 23) Connection Terminated (by Client)
+[Web Request      (21b4:2220)] "GET /finance/collapse.html?divId=ad2"   
+[Network Analyzer (21b4:2220)]   (Sid:  2) Client -> Server @ : 924 bytes (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 395 bytes  (Service=HTTP)
+[Network Analyzer (21b4:2220)]   (Sid:  2) Server -> Client : 363 bytes  (Service=HTTP)

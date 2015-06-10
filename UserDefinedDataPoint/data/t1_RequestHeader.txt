@@ -1,0 +1,10 @@
+GET /StockListDemo_Basic/ HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB,en;q=0.5
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Host: demos.lightstreamer.com
+DNT: 1
+Connection: Keep-Alive
+

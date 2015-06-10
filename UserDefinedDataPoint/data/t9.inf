@@ -1,0 +1,15 @@
+[t9]
+FileName1=t9.htm
+URL1=http://ad-g.doubleclick.net/adi/com.gf.company/financials;fe=lon;ft=rbs;fm=large;dcopt=ist;myd=ad2;sz=33x33;tile=2;dc_ref=http%3A%2F%2Ffinance.google.com%2Ffinance%3Fq%3DLON%3ARBS;domain=www.google.co.uk;ord=778343206?
+Total=2
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_9.xml
+FileName2=t9f0.htm
+URL2=http://www.google.co.uk/finance/collapse.html?divId=ad2
+FrameIndex2=0.0
+UseFrameIndex=1
+[ProtocolInfo]
+ProtocolId=QTWeb

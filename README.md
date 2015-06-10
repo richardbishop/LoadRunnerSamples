@@ -70,6 +70,8 @@ TextToSpeech            - Sample LoadRunner script calls Google TTS API, convert
 
 TimeExclusion           - Sample script showing how a script can be deliberately paused to prevent execution at a particular time.
 
+UserDefinedDataPoint    - Sample script showing how user defined data points can be saved in a script. (Requires char to float/double conversion)
+
 WriteToFile             - Sample script showing how LoadRunncan write output to an external file.
 
 XSTRCAT                 - More efficient string concatenation than standard strcat function. Originally from Brian Wilson (Tech South LLC)

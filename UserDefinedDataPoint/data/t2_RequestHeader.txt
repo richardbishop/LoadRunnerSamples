@@ -1,0 +1,15 @@
+POST /lightstreamer/create_session.js HTTP/1.1
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Referer: http://demos.lightstreamer.com/StockListDemo_Basic/
+Accept-Language: en-GB,en;q=0.5
+Origin: http://demos.lightstreamer.com
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: push.lightstreamer.com
+Content-Length: 205
+DNT: 1
+Connection: Keep-Alive
+Cache-Control: no-cache
+

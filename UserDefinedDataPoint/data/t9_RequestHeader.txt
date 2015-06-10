@@ -1,0 +1,12 @@
+GET /adi/com.gf.company/financials;fe=lon;ft=rbs;fm=large;dcopt=ist;myd=ad2;sz=33x33;tile=2;dc_ref=http%3A%2F%2Ffinance.google.com%2Ffinance%3Fq%3DLON%3ARBS;domain=www.google.co.uk;ord=778343206? HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://www.google.co.uk/finance?cid=14323395
+Accept-Language: en-GB,en;q=0.5
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Host: ad-g.doubleclick.net
+DNT: 1
+Connection: Keep-Alive
+Cookie: id=224dd6830c020093||t=1432035374|et=730|cs=002213fd48fc870a6c146002f9
+

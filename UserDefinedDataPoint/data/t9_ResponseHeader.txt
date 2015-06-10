@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Google-LineItem-Id: 24561949
+Google-Creative-Id: 24679588429
+Date: Wed, 10 Jun 2015 10:15:00 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: cafe
+Content-Length: 159
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=1
+

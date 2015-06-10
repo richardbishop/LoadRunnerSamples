@@ -1,0 +1,11 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2015/06/10 10:12:30
+StartRecordingIsDst_1=1
+StartRecordingGMT_2=2015/06/10 10:14:43
+StartRecordingIsDst_2=1
+[UserHomePage]
+UserHomePage=http://go.microsoft.com/fwlink/p/?LinkId=255141
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+[Security]
+UsingPersistForAuthentication=1

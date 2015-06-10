@@ -1,0 +1,26 @@
+<html>
+<body>
+<script type="text/javascript">
+if (window.top) {
+  var divId = "";
+  var searchString = document.location.search.substr(1);
+  searchString = searchString.replace(/\&amp;/g,'&');
+  var parameters = searchString.split('&');
+
+  for (var i = 0; i < parameters.length; i++) {
+    var keyValuePair = parameters[i].split('=');
+    var parameterName = keyValuePair[0];
+    var parameterValue = keyValuePair[1];
+
+    if (parameterName == "divId") {
+      divId = unescape(parameterValue);
+    }
+  }
+  var div = window.top.document.getElementById(divId);
+  if (div) {
+    div.style.display = 'none';
+  }
+}
+</script>
+</body>
+</html>

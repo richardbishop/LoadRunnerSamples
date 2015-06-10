@@ -1,0 +1,252 @@
+
+(function() {
+  var DEBUG = ''.toLowerCase() == 'true';
+  var csiStart = (+new Date);
+  var studioObjects = window['studioV2'] = window['studioV2'] || {};
+  var eventTags = {"img_event_tag":[],"js_event_tag":["https://js.dmtry.com/antenna2.js?0_3941_103421771_62745687"]};
+  var publisherSideFilePath = unescape('');
+  if(publisherSideFilePath == '') {
+    publisherSideFilePath = '/doubleclick/DARTIframe.html';
+  } else if (publisherSideFilePath.charAt(publisherSideFilePath.length - 1) == '/') {
+    publisherSideFilePath += 'DARTIframe.html';
+  }
+  var bookingTimeMetaData = {
+  };
+
+  var runtimeMetaData = {
+  };
+
+  var exitUrlPatternMacroValues = {
+  };
+  var macroParser = function (macroName, value) {
+    return (value.indexOf(macroName) < 0) ? value : '';
+  };
+  var adServerData = {
+    eventReportingUrl: 'http://ad.doubleclick.net/activity;src=4263725;met=1;v=1;pid=103421771;aid=276407471;ko=0;cid=62745687;rid=62625687;rv=1;',
+    clickUrl: 'http://adclick.g.doubleclick.net/pcs/click?xai=AKAOjst_tVVz_-nrhNQaQnGQvGE4cbq_yccilM-ZWjIWuUDvRt_41_hsFHaykv-06OVGT0Zgk2ID7g2COsZK2QDFw3c_HC1QhfPIhRgqnEXK83K6cDkAOU7hIUoVPMmwsebiUO5eSLgqWiQWbpvsUw&sig=Cg0ArKJSzCwwZynhVjeREAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCKdbjAg54VdjzBeOj7QbI3IKwB5Ha9uoCwfKtml7AjbcBEAEgAGC7jrCD0AqCARdjYS1wdWItNjk2NDM2NzAxMzIyNDYxNMgBCeACAKgDAZgEAKoEuwFP0L4CEe2zgBZSV29hBoo8ESBwgo0rb39qQFSA86H0MzFKajTpR58ybG8Fn9NcvPsCW_No37wtRjOCaXJhvlV4tKQDNcXjwka-X_A0NaL9EE36kuhlSpdcgWjE736-GFV9gv7fXqdvCADclu44xAg6BGPPZKa2BQmbI2DjmbNO_v4Xi90EOv01bo2KKwQg9wnooONi10wRQP5tzfxw_gDhs9CHoPc8l6yXHLNYkpmh9AwTVbX0qiG-AZps4AQBgAaw8v-dprfgsk2gBiHYBwA%26num%3D1%26sig%3DAOD64_2li0N7Ir8j0POdR8lsp2c-rVhLXA%26client%3Dca-pub-6964367013224614%26adurl%3D',
+    clickUrlTimesToEscape: '',
+    clickEventTagUrl: eventTags['click_event_tag'],
+    impressionUrl: '',
+    geoData: 'ct=UK&st=&city=3763&dma=0&zp=M1&bw=4',
+    siteName: 'N9455.1716346.DBM.COM',
+    siteId: '1510399',
+    adId: '276407471',
+    exitSuffix: macroParser('exit_suffix', 'dclid=%edclid!'), // XFA GA Beacon.
+    buyId: '7884406',
+    creativeId: '62745687',
+    placementId: '103421771',
+    advertiserId: '4263725',
+    keyValueOrdinal: '0',
+    renderingVersion: '1',
+    renderingId: '62625687',
+    randomNumber: '1437573155',
+    dynamicData: '{\"_2690_SBB_AND_SIM_120x600\":[{\"Exit_URL\":{\"Url\":\"https://sales.talktalk.co.uk/product/broadband/simplybroadband-affiliate?portalId=ADVERTCOM\"},\"_index\":1,\"arrEndDateDay\":\"23\",\"arrEndDateMonth\":\"4\",\"arrEndDateYear\":\"2015\",\"arrStartDateDay\":\"20\",\"arrStartDateMonth\":\"4\",\"arrStartDateYear\":\"2015\",\"endframeOffers\":\"<!--devDynamicContent.endframeOffers--><div id=\\\"halfPriceTextHolder\\\" style=\\\"left:10px;top:90px;\\\"> <img src=\\\"package_top.png\\\" id=\\\"packageTextTopImg\\\" alt=\\\"Package\\\"> </div> <div id=\\\"packageTextHolder\\\" style=\\\"left:-10px;top:140px;\\\"> <img src=\\\"endframe_package.png\\\" id=\\\"packageTextImg\\\" alt=\\\"Package\\\"> </div>\",\"imageAssets\":{\"assets-broadband.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415334/22277307_20150422034726365_assets-broadband.png\"},\"assets-bunting.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099881/22277307_20150324051641971_assets-bunting.png\"},\"assets-buntingbig.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36054944/22277307_20150319071238211_assets-buntingbig.png\"},\"assets-button.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099878/22277307_20150324051641971_assets-button.png\"},\"assets-countdown-final.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711001/22277307_20150217083123163_assets-countdown-final.png\"},\"assets-countdown.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415343/22277307_20150422034726365_assets-countdown.png\"},\"assets-endframe-package-nonvoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449373/22277307_20150424070052234_assets-endframe-package-nonvoucher.png\"},\"assets-endframe-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449376/22277307_20150424070052234_assets-endframe-package.png\"},\"assets-free.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415346/22277307_20150422034726365_assets-free.png\"},\"assets-half.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710806/22277307_20150217083152544_assets-half.png\"},\"assets-monthprice.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099874/22277307_20150324051641971_assets-monthprice.png\"},\"assets-months.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099873/22277307_20150324051641971_assets-months.png\"},\"assets-offer-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415339/22277307_20150422034726365_assets-offer-balloon.png\"},\"assets-offervoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36447189/22277307_20150424042226303_assets-offervoucher.png\"},\"assets-package-top.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449374/22277307_20150424070052234_assets-package-top.png\"},\"assets-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711100/22277307_20150217083300773_assets-package.png\"},\"assets-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710808/22277307_20150217083317151_assets-price.png\"},\"assets-rental-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711004/22277307_20150217083334640_assets-rental-price.png\"},\"assets-roundle.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36583404/22277307_20150507025001090_assets-roundle.png\"},\"assets-standard-pricing.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415338/22277307_20150422034726365_assets-standard-pricing.png\"},\"assets-totally.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415340/22277307_20150422034726365_assets-totally.png\"},\"assets-unlimited.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415337/22277307_20150422034726365_assets-unlimited.png\"},\"assets-voucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449375/22277307_20150424070052234_assets-voucher.png\"},\"assets-wifi-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415347/22277307_20150422034726366_assets-wifi-balloon.png\"}}}],\"_2690_SBB_AND_SIM_160x600\":[{\"Exit_URL\":{\"Url\":\"https://sales.talktalk.co.uk/product/broadband/simplybroadband-affiliate?portalId=ADVERTCOM\"},\"_index\":2,\"arrEndDateDay\":\"23\",\"arrEndDateMonth\":\"4\",\"arrEndDateYear\":\"2015\",\"arrStartDateDay\":\"20\",\"arrStartDateMonth\":\"4\",\"arrStartDateYear\":\"2015\",\"endframeOffers\":\"<!--devDynamicContent.endframeOffers--><div id=\\\"halfPriceTextHolder\\\" style=\\\"left:12px;top:85px;\\\"> <img src=\\\"package_top.png\\\" id=\\\"packageTextTopImg\\\" alt=\\\"Package\\\"> </div> <div id=\\\"packageTextHolder\\\" style=\\\"left:-5px;top:153px;\\\"> <img src=\\\"endframe_package.png\\\" id=\\\"packageTextImg\\\" alt=\\\"Package\\\"> </div>\",\"imageAssets\":{\"assets-broadband.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415355/22277307_20150422034902896_assets-broadband.png\"},\"assets-bunting.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099881/22277307_20150324051641971_assets-bunting.png\"},\"assets-buntingbig.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36054944/22277307_20150319071238211_assets-buntingbig.png\"},\"assets-button.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099878/22277307_20150324051641971_assets-button.png\"},\"assets-countdown-final.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711001/22277307_20150217083123163_assets-countdown-final.png\"},\"assets-countdown.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415343/22277307_20150422034726365_assets-countdown.png\"},\"assets-endframe-package-nonvoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449379/22277307_20150424070136019_assets-endframe-package-nonvoucher.png\"},\"assets-endframe-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449377/22277307_20150424070136019_assets-endframe-package.png\"},\"assets-free.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415354/22277307_20150422034902896_assets-free.png\"},\"assets-half.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710806/22277307_20150217083152544_assets-half.png\"},\"assets-monthprice.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099874/22277307_20150324051641971_assets-monthprice.png\"},\"assets-months.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099873/22277307_20150324051641971_assets-months.png\"},\"assets-offer-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415339/22277307_20150422034726365_assets-offer-balloon.png\"},\"assets-offervoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449380/22277307_20150424070136019_assets-offervoucher.png\"},\"assets-package-top.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449378/22277307_20150424070136019_assets-package-top.png\"},\"assets-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711100/22277307_20150217083300773_assets-package.png\"},\"assets-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710808/22277307_20150217083317151_assets-price.png\"},\"assets-rental-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711004/22277307_20150217083334640_assets-rental-price.png\"},\"assets-roundle.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36582918/22277307_20150507025047224_assets-roundle.png\"},\"assets-standard-pricing.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415352/22277307_20150422034902896_assets-standard-pricing.png\"},\"assets-totally.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415356/22277307_20150422034902897_assets-totally.png\"},\"assets-unlimited.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415350/22277307_20150422034902896_assets-unlimited.png\"},\"assets-voucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449375/22277307_20150424070052234_assets-voucher.png\"},\"assets-wifi-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415347/22277307_20150422034726366_assets-wifi-balloon.png\"}}}],\"_2690_SBB_AND_SIM_300x250\":[{\"Exit_URL\":{\"Url\":\"https://sales.talktalk.co.uk/product/broadband/simplybroadband-affiliate?portalId=ADVERTCOM\"},\"_index\":0,\"arrEndDateDay\":\"23\",\"arrEndDateMonth\":\"4\",\"arrEndDateYear\":\"2015\",\"arrStartDateDay\":\"20\",\"arrStartDateMonth\":\"4\",\"arrStartDateYear\":\"2015\",\"endframeOffers\":\"<!--devDynamicContent.endframeOffers--><div id=\\\"halfPriceTextHolder\\\" style=\\\"left:15px;top:43px;\\\"> <img src=\\\"package_top.png\\\" id=\\\"packageTextTopImg\\\" alt=\\\"Package\\\"> </div> <div id=\\\"packageTextHolder\\\" style=\\\"left:13px;top:39px;\\\"> <img src=\\\"endframe_package.png\\\" id=\\\"packageTextImg\\\" alt=\\\"Package\\\"> </div>\",\"imageAssets\":{\"assets-broadband.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415902/22277307_20150422035011601_assets-broadband.png\"},\"assets-bunting.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099881/22277307_20150324051641971_assets-bunting.png\"},\"assets-buntingbig.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36054944/22277307_20150319071238211_assets-buntingbig.png\"},\"assets-button.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099878/22277307_20150324051641971_assets-button.png\"},\"assets-countdown-final.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711001/22277307_20150217083123163_assets-countdown-final.png\"},\"assets-countdown.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710403/22277307_20150217083129957_assets-countdown.png\"},\"assets-endframe-package-nonvoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36447190/22277307_20150424042226303_assets-endframe-package-nonvoucher.png\"},\"assets-endframe-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36447191/22277307_20150424042226303_assets-endframe-package.png\"},\"assets-free.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415098/22277307_20150422035011601_assets-free.png\"},\"assets-half.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710806/22277307_20150217083152544_assets-half.png\"},\"assets-monthprice.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099874/22277307_20150324051641971_assets-monthprice.png\"},\"assets-months.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099873/22277307_20150324051641971_assets-months.png\"},\"assets-offer-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415339/22277307_20150422034726365_assets-offer-balloon.png\"},\"assets-offervoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36447189/22277307_20150424042226303_assets-offervoucher.png\"},\"assets-package-top.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415900/22277307_20150422035011601_assets-package-top.png\"},\"assets-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711100/22277307_20150217083300773_assets-package.png\"},\"assets-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710808/22277307_20150217083317151_assets-price.png\"},\"assets-rental-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711004/22277307_20150217083334640_assets-rental-price.png\"},\"assets-roundle.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36578097/22277307_20150507025135955_assets-roundle.png\"},\"assets-standard-pricing.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711101/22277307_20150217083407445_assets-standard-pricing.png\"},\"assets-totally.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415901/22277307_20150422035011601_assets-totally.png\"},\"assets-unlimited.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415099/22277307_20150422035011601_assets-unlimited.png\"},\"assets-voucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36447188/22277307_20150424042226303_assets-voucher.png\"},\"assets-wifi-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415347/22277307_20150422034726366_assets-wifi-balloon.png\"}}}],\"_2690_SBB_AND_SIM_300x600\":[{\"Exit_URL\":{\"Url\":\"https://sales.talktalk.co.uk/product/broadband/simplybroadband-affiliate?portalId=ADVERTCOM\"},\"_index\":3,\"arrEndDateDay\":\"23\",\"arrEndDateMonth\":\"4\",\"arrEndDateYear\":\"2015\",\"arrStartDateDay\":\"20\",\"arrStartDateMonth\":\"4\",\"arrStartDateYear\":\"2015\",\"endframeOffers\":\"<!--devDynamicContent.endframeOffers--><div id=\\\"halfPriceTextHolder\\\" style=\\\"left:30px;top:61px;\\\"> <img src=\\\"package_top.png\\\" id=\\\"packageTextTopImg\\\" alt=\\\"Package\\\"> </div> <div id=\\\"packageTextHolder\\\" style=\\\"left:29px;top:190px;\\\"> <img src=\\\"endframe_package.png\\\" id=\\\"packageTextImg\\\" alt=\\\"Package\\\"> </div>\",\"imageAssets\":{\"assets-broadband.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415910/22277307_20150422035049583_assets-broadband.png\"},\"assets-bunting.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099881/22277307_20150324051641971_assets-bunting.png\"},\"assets-buntingbig.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36054944/22277307_20150319071238211_assets-buntingbig.png\"},\"assets-button.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099878/22277307_20150324051641971_assets-button.png\"},\"assets-countdown-final.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711001/22277307_20150217083123163_assets-countdown-final.png\"},\"assets-countdown.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35722805/22277307_20150218044623863_assets-countdown.png\"},\"assets-endframe-package-nonvoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449090/22277307_20150424070234037_assets-endframe-package-nonvoucher.png\"},\"assets-endframe-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449091/22277307_20150424070234037_assets-endframe-package.png\"},\"assets-free.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415906/22277307_20150422035049583_assets-free.png\"},\"assets-half.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710806/22277307_20150217083152544_assets-half.png\"},\"assets-monthprice.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099874/22277307_20150324051641971_assets-monthprice.png\"},\"assets-months.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099873/22277307_20150324051641971_assets-months.png\"},\"assets-offer-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415904/22277307_20150422035049583_assets-offer-balloon.png\"},\"assets-offervoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449380/22277307_20150424070136019_assets-offervoucher.png\"},\"assets-package-top.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449092/22277307_20150424070234037_assets-package-top.png\"},\"assets-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711100/22277307_20150217083300773_assets-package.png\"},\"assets-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710808/22277307_20150217083317151_assets-price.png\"},\"assets-rental-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711004/22277307_20150217083334640_assets-rental-price.png\"},\"assets-roundle.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36583407/22277307_20150507025228384_assets-roundle.png\"},\"assets-standard-pricing.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415352/22277307_20150422034902896_assets-standard-pricing.png\"},\"assets-totally.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415907/22277307_20150422035049583_assets-totally.png\"},\"assets-unlimited.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415908/22277307_20150422035049583_assets-unlimited.png\"},\"assets-voucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449375/22277307_20150424070052234_assets-voucher.png\"},\"assets-wifi-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415347/22277307_20150422034726366_assets-wifi-balloon.png\"}}}],\"_2690_SBB_AND_SIM_468x60\":[{\"Exit_URL\":{\"Url\":\"https://sales.talktalk.co.uk/product/broadband/simplybroadband-affiliate?portalId=ADVERTCOM\"},\"_index\":4,\"arrEndDateDay\":\"23\",\"arrEndDateMonth\":\"4\",\"arrEndDateYear\":\"2015\",\"arrStartDateDay\":\"20\",\"arrStartDateMonth\":\"4\",\"arrStartDateYear\":\"2015\",\"endframeOffers\":\"<!--devDynamicContent.endframeOffers--><div id=\\\"halfPriceTextHolder\\\" style=\\\"left:87px;top:7px;\\\"> <img src=\\\"package_top.png\\\" id=\\\"packageTextTopImg\\\" alt=\\\"Package\\\"> </div> <div id=\\\"packageTextHolder\\\" style=\\\"left:91px;top:-14px;\\\"> <img src=\\\"endframe_package.png\\\" id=\\\"packageTextImg\\\" alt=\\\"Package\\\"> </div>\",\"imageAssets\":{\"assets-broadband.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415426/22277307_20150422035130296_assets-broadband.png\"},\"assets-bunting.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099881/22277307_20150324051641971_assets-bunting.png\"},\"assets-buntingbig.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36054944/22277307_20150319071238211_assets-buntingbig.png\"},\"assets-button.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449382/22277307_20150424070350363_assets-button.png\"},\"assets-countdown-final.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415428/22277307_20150422035130296_assets-countdown-final.png\"},\"assets-countdown.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415424/22277307_20150422035130296_assets-countdown.png\"},\"assets-endframe-package-nonvoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449384/22277307_20150424070350363_assets-endframe-package-nonvoucher.png\"},\"assets-endframe-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449381/22277307_20150424070350363_assets-endframe-package.png\"},\"assets-free.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415429/22277307_20150422035130296_assets-free.png\"},\"assets-half.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710806/22277307_20150217083152544_assets-half.png\"},\"assets-monthprice.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099874/22277307_20150324051641971_assets-monthprice.png\"},\"assets-months.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099873/22277307_20150324051641971_assets-months.png\"},\"assets-offer-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415418/22277307_20150422035130296_assets-offer-balloon.png\"},\"assets-offervoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449380/22277307_20150424070136019_assets-offervoucher.png\"},\"assets-package-top.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449383/22277307_20150424070350363_assets-package-top.png\"},\"assets-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711100/22277307_20150217083300773_assets-package.png\"},\"assets-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710808/22277307_20150217083317151_assets-price.png\"},\"assets-rental-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711004/22277307_20150217083334640_assets-rental-price.png\"},\"assets-roundle.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36582922/22277307_20150507025428405_assets-roundle.png\"},\"assets-standard-pricing.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711101/22277307_20150217083407445_assets-standard-pricing.png\"},\"assets-totally.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415419/22277307_20150422035130296_assets-totally.png\"},\"assets-unlimited.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415423/22277307_20150422035130296_assets-unlimited.png\"},\"assets-voucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449375/22277307_20150424070052234_assets-voucher.png\"},\"assets-wifi-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415425/22277307_20150422035130296_assets-wifi-balloon.png\"}}}],\"_2690_SBB_AND_SIM_728x90\":[{\"Exit_URL\":{\"Url\":\"https://sales.talktalk.co.uk/product/broadband/simplybroadband-affiliate?portalId=ADVERTCOM\"},\"_index\":5,\"arrEndDateDay\":\"23\",\"arrEndDateMonth\":\"4\",\"arrEndDateYear\":\"2015\",\"arrStartDateDay\":\"20\",\"arrStartDateMonth\":\"4\",\"arrStartDateYear\":\"2015\",\"endframeOffers\":\"<!--devDynamicContent.endframeOffers--><div id=\\\"halfPriceTextHolder\\\" style=\\\"left:146px;top:5px;\\\"> <img src=\\\"package_top.png\\\" id=\\\"packageTextTopImg\\\" alt=\\\"Package\\\"> </div> <div id=\\\"packageTextHolder\\\" style=\\\"left:144px;top:-16px;\\\"> <img src=\\\"endframe_package.png\\\" id=\\\"packageTextImg\\\" alt=\\\"Package\\\"> </div>\",\"imageAssets\":{\"assets-broadband.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36414181/22277307_20150422035218087_assets-broadband.png\"},\"assets-bunting.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099881/22277307_20150324051641971_assets-bunting.png\"},\"assets-buntingbig.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36054944/22277307_20150319071238211_assets-buntingbig.png\"},\"assets-button.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449389/22277307_20150424070440030_assets-button.png\"},\"assets-countdown-final.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711001/22277307_20150217083123163_assets-countdown-final.png\"},\"assets-countdown.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36414184/22277307_20150422035218087_assets-countdown.png\"},\"assets-endframe-package-nonvoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449391/22277307_20150424070440031_assets-endframe-package-nonvoucher.png\"},\"assets-endframe-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449388/22277307_20150424070440030_assets-endframe-package.png\"},\"assets-free.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36415098/22277307_20150422035011601_assets-free.png\"},\"assets-half.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710806/22277307_20150217083152544_assets-half.png\"},\"assets-monthprice.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099874/22277307_20150324051641971_assets-monthprice.png\"},\"assets-months.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36099873/22277307_20150324051641971_assets-months.png\"},\"assets-offer-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36414186/22277307_20150422035218087_assets-offer-balloon.png\"},\"assets-offervoucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449380/22277307_20150424070136019_assets-offervoucher.png\"},\"assets-package-top.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449390/22277307_20150424070440030_assets-package-top.png\"},\"assets-package.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711100/22277307_20150217083300773_assets-package.png\"},\"assets-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35710808/22277307_20150217083317151_assets-price.png\"},\"assets-rental-price.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711004/22277307_20150217083334640_assets-rental-price.png\"},\"assets-roundle.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36583411/22277307_20150507025556412_assets-roundle.png\"},\"assets-standard-pricing.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/35711101/22277307_20150217083407445_assets-standard-pricing.png\"},\"assets-totally.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36414177/22277307_20150422035218086_assets-totally.png\"},\"assets-unlimited.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36414176/22277307_20150422035218086_assets-unlimited.png\"},\"assets-voucher.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36449375/22277307_20150424070052234_assets-voucher.png\"},\"assets-wifi-balloon.png\":{\"Type\":\"file\",\"Url\":\"http://s0.2mdn.net/ads/richmedia/studio/36414180/22277307_20150422035218087_assets-wifi-balloon.png\"}}}],\"_profileid\":1046036}',
+    stringReportingUrl: 'http://ad.doubleclick.net/activity;src=4263725;stragg=1;v=1;pid=103421771;aid=276407471;ko=0;cid=62745687;rid=62625687;rv=1;rn=1437573155;',
+    urlToGetKeywordsFor: '%LivePreviewSiteUrl',
+    bookingTimeMetaData: bookingTimeMetaData,
+    generatedAdSlot: false,
+    exitUrlPatternMacroValues: exitUrlPatternMacroValues,
+    activeViewClkStr: macroParser('eav', 'Bc-nNAg54VfCQH8q9bv-Ng6gJAAAAABABOAHIAQngBAKgBj8'),
+    renderingEnvironment: ('' == '1' ||
+        window['mraid']) ? 'IN_APP' : 'BROWSER',
+    placementDimensions: {
+      'w': '300',
+      'h': '250'
+    },
+    tag: {
+      adContainerElementId: macroParser('ad_container_id', ''),
+      hideObjects: '',
+      top: '',
+      left: '',
+      zIndex: '',
+      duration: '',
+      wmode: '',
+      preferHtml5Artwork: '' == 'true',
+      adSenseKeywords: '',
+      adSenseLatitude: '',
+      adSenseLongitude: '',
+      publisherSideFilePath: publisherSideFilePath,
+      runtimeMetaData: runtimeMetaData,
+      lidarEnabled: false,
+      expansionMode: '',
+      renderFloatInplace: ''.toLowerCase() == 'true',
+      tryToWriteHtmlInline: ''.toLowerCase() == 'true'
+    }
+  };
+
+  var scheme;
+  if ('http' == 'http' || 'http' == 'https') {
+    // DCM scheme macro usage.
+    scheme = 'http' + ':';
+  } else if ('%%SCHEME%%' == 'http' || '%%SCHEME%%' == 'https') {
+    // XFP scheme macro usage.
+    scheme = '%%SCHEME%%' + ':';
+  } else {
+    // preview usage.
+    scheme = location.protocol;
+  }
+  var staticResourceMediaServer = scheme == 'https:' ?
+       'https://s0.2mdn.net' :
+       'http://s0.2mdn.net';
+
+  var creativeMediaServer = scheme == 'https:' ?
+       'https://s0.2mdn.net' :
+       'http://s0.2mdn.net';
+
+  var backupImageUrl = '/ads/richmedia/studio/pv2/36448069/20150424042752665/300x250.gif';
+  if (!/^https?:/.test(backupImageUrl)) {
+    backupImageUrl = creativeMediaServer + backupImageUrl;
+  }
+  var backupImage = {
+    exitUrl: 'http://ad.doubleclick.net/activity;src=4263725;met=1;v=1;pid=103421771;aid=276407471;ko=0;cid=62745687;rid=62625687;rv=1;cs=n;eid1=2003717;ecn1=1;etm1=0;_dc_redir=url?http://adclick.g.doubleclick.net/pcs/click?xai=AKAOjst_tVVz_-nrhNQaQnGQvGE4cbq_yccilM-ZWjIWuUDvRt_41_hsFHaykv-06OVGT0Zgk2ID7g2COsZK2QDFw3c_HC1QhfPIhRgqnEXK83K6cDkAOU7hIUoVPMmwsebiUO5eSLgqWiQWbpvsUw&sig=Cg0ArKJSzCwwZynhVjeREAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCKdbjAg54VdjzBeOj7QbI3IKwB5Ha9uoCwfKtml7AjbcBEAEgAGC7jrCD0AqCARdjYS1wdWItNjk2NDM2NzAxMzIyNDYxNMgBCeACAKgDAZgEAKoEuwFP0L4CEe2zgBZSV29hBoo8ESBwgo0rb39qQFSA86H0MzFKajTpR58ybG8Fn9NcvPsCW_No37wtRjOCaXJhvlV4tKQDNcXjwka-X_A0NaL9EE36kuhlSpdcgWjE736-GFV9gv7fXqdvCADclu44xAg6BGPPZKa2BQmbI2DjmbNO_v4Xi90EOv01bo2KKwQg9wnooONi10wRQP5tzfxw_gDhs9CHoPc8l6yXHLNYkpmh9AwTVbX0qiG-AZps4AQBgAaw8v-dprfgsk2gBiHYBwA%26num%3D1%26sig%3DAOD64_2li0N7Ir8j0POdR8lsp2c-rVhLXA%26client%3Dca-pub-6964367013224614%26adurl%3Dhttp://',
+    target: '_blank',
+    imageUrl: backupImageUrl,
+    width: '300',
+    height: '250',
+    backupDisplayActivityUrl: [
+      adServerData.eventReportingUrl,
+      '&timestamp=', (+new Date), ';',
+      'eid1=9;ecn1=1;etm1=0;'].join(''),
+    thirdPartyBackupImpressionUrl: ''
+  };
+
+  var versionPrefix = DEBUG ? 'db_' : '';
+  var templateVersion = '200_83';
+  var renderingScriptPath = '/879366';
+  var rendererDisplayType = '';
+  rendererDisplayType += 'html_';
+  var rendererFormat = 'inpage';
+  var rendererName = rendererDisplayType + rendererFormat;
+  var renderingLibrary = renderingScriptPath + '/' + rendererName + '_rendering_lib_' +
+      versionPrefix + templateVersion + '.js';
+  // Adserver has a logic to detect media files and prepend host name.
+  if (!/^https?:/.test(renderingLibrary)) {
+    renderingLibrary = staticResourceMediaServer + renderingLibrary;
+  }
+
+  var adCreativeDefinitions = {};
+    adCreativeDefinitions['276291560'] = '/ads/richmedia/studio/creative/36448069/36451611_1dcea9f31576c869e1f305151d1b153f_276291560_creative_override.js';
+    adCreativeDefinitions['276407471'] = '/ads/richmedia/studio/creative/36448069/36451611_eb1a8e93eb0d65cd1339e5a7e003c7f2_276407471_creative_override.js';
+    adCreativeDefinitions['291543925'] = '/ads/richmedia/studio/creative/36448069/36451611_9ea8b3e37be18081b46b73f9f58fdc05_291543925_creative_override.js';
+
+  var creativeId = '62745687';
+  var adId = adCreativeDefinitions[adServerData.adId] ? adServerData.adId : 0;
+  // The unique creative is identified by combination of creative id and ad id.
+  // When the same creative(same creative id and same ad id) is served on the page more
+  // than once then they will share the creative definition yet there will be
+  // multiple instances of 'adResponses'.s
+  var creativeKey = [creativeId, adId].join('_');
+  var creativeDef = adCreativeDefinitions[adServerData.adId] ?
+      adCreativeDefinitions[adServerData.adId] :
+      '/ads/richmedia/studio/creative/36448069/36451611_dfa017ed8345f893569dc0fde5bd022f_creative_def.js';
+  if(!/^https?:/.test(creativeDef) && creativeDef.substring(0, 2) != '//') {
+    creativeDef = creativeMediaServer + creativeDef;
+  }
+  studioObjects['creativeCount'] = studioObjects['creativeCount'] || 0;
+  var creativeDto = {
+    id: creativeId,
+    uniqueId: creativeId + '_' + studioObjects['creativeCount']++,
+    templateVersion: templateVersion,
+    adServerData: adServerData,
+    isPreviewEnvironment: '%PreviewMode' == 'true',
+    hasFlashAsset: false,
+    hasHtmlAsset: true,
+    requiresCss3Animations: false,
+    flashVersion: '0',
+    httpsMediaServer: 'https://s0.2mdn.net',
+    httpMediaServer: 'http://s0.2mdn.net',
+    renderingScriptPath: renderingScriptPath,
+    renderingLibrary: renderingLibrary,
+    rendererName: rendererName,
+    creativeDefinitionUrl: creativeDef,
+    creativeKey: creativeKey,
+    thirdPartyImpressionUrls: eventTags['img_event_tag'],
+    thirdPartyArtworkImpressionUrl: '',
+    breakoutToTop: false,
+    dimensions: {
+      width: '300px',
+      height: '250px'
+    },
+    backupImage: backupImage,
+    csiStart: csiStart,
+    csiAdRespTime: csiStart - (parseFloat('') || 0),
+    csiEvents: {},
+    hasModernizrFeatureChecks: false,
+    html5FeatureChecks: [
+    ],
+    hasSwiffyHtmlAsset: false
+  };
+
+  var inGdnIframe = window['IN_ADSENSE_IFRAME'] || false;
+  var inYahooSecureIframe = window.Y && Y.SandBox && Y.SandBox.vendor;
+  var inWinLiveIframe = false;
+  try {
+    inWinLiveIframe = !!window.$WLXRmAd;
+  } catch(e) {}
+  var inSafeFrame = window.$sf && window.$sf.ext;
+  var isMsnAjaxIframe = (typeof(inDapMgrIf) != 'undefined' && inDapMgrIf);
+  var breakoutIframe = ''.toLowerCase();
+  var shouldBreakout = (((false ||
+                          false) &&
+                         !inGdnIframe &&
+                         !inYahooSecureIframe &&
+                         !inSafeFrame &&
+                         !inWinLiveIframe) ||
+                        (true && breakoutIframe == 'true')) &&
+                       self != top &&
+                       !creativeDto.isPreviewEnvironment &&
+                       breakoutIframe != 'false';
+
+  if (adServerData.tag.adContainerElementId == '' &&
+      (true || false ||
+         adServerData.tag.renderFloatInplace)) {
+    var containerId = ['creative', creativeDto.uniqueId].join('_');
+    var divHtml = ['<div id="', containerId, '"></div>'].join('');
+    document.write(divHtml);
+    adServerData.tag.adContainerElementId = containerId;
+    adServerData.generatedAdSlot = true;
+  }
+  var creatives = studioObjects['creatives'] = studioObjects['creatives'] || {};
+  var creative = creatives[creativeKey] = creatives[creativeKey] || {};
+  var adResponses = creative['adResponses'] = creative['adResponses'] || [];
+  creative['shouldBreakout'] = creative['shouldBreakout'] || shouldBreakout;
+  var iframeBusterLibrary = renderingScriptPath + '/iframe_buster_' +
+      versionPrefix + templateVersion + '.js';
+  if(!/^https?:/.test(iframeBusterLibrary)) {
+    iframeBusterLibrary = staticResourceMediaServer + iframeBusterLibrary;
+  }
+  var loadedLibraries = studioObjects['loadedLibraries'] = studioObjects['loadedLibraries'] || {};
+  var versionedLibrary = loadedLibraries[templateVersion] = loadedLibraries[templateVersion] || {};
+  var typedLibrary = versionedLibrary[rendererName] = versionedLibrary[rendererName] || {};
+  adResponses.push({
+    creativeDto: creativeDto
+  });
+  for (var i = 0; i < eventTags['js_event_tag'].length; i++) {
+    document.write('<scr' + 'ipt type="text/javascript" src="' + eventTags['js_event_tag'][i] + '"></scr' + 'ipt>');
+  }
+  if (shouldBreakout) {
+    if (versionedLibrary['breakout']) {
+      versionedLibrary['breakout']();
+    } else if (!versionedLibrary['breakoutLoading']) {
+      versionedLibrary['breakoutLoading'] = true;
+      document.write('<scr' + 'ipt type="text/javascript" src="' + iframeBusterLibrary + '" async="async"></scr' + 'ipt>');
+    }
+  } else if (typedLibrary['bootstrap'] && creative['creativeDefinition']) {
+    typedLibrary['bootstrap']();
+  } else {
+    if (!creative['definitionLoading']) {
+      creative['definitionLoading'] = true;
+      creativeDto.csiEvents['pb'] = (+new Date);
+      document.write('<scr' + 'ipt type="text/javascript" src="' + creativeDto.creativeDefinitionUrl + '"' + (adServerData.tag.tryToWriteHtmlInline ? '' : ' async="async"') + '></scr' + 'ipt>');
+    }
+    if (!typedLibrary['loading']) {
+      typedLibrary['loading'] = true;
+      creativeDto.csiEvents['gb'] = (+new Date);
+      document.write('<scr' + 'ipt type="text/javascript" src="' + renderingLibrary + '"' + (adServerData.tag.tryToWriteHtmlInline ? '' : ' async="async"') + '></scr' + 'ipt>');
+    }
+  }
+  if (isMsnAjaxIframe) {
+    window.setTimeout("document.close();", 1000);
+  }
+})();
+document.write('\n\x3cnoscript\x3e\n  \x3ca target\x3d\x22_blank\x22 href\x3d\x22http://ad.doubleclick.net/activity;src\x3d4263725;met\x3d1;v\x3d1;pid\x3d103421771;aid\x3d276407471;ko\x3d0;cid\x3d62745687;rid\x3d62625687;rv\x3d1;cs\x3dn;eid1\x3d2003717;ecn1\x3d1;etm1\x3d0;_dc_redir\x3durl?http://adclick.g.doubleclick.net/pcs/click?xai\x3dAKAOjst_tVVz_-nrhNQaQnGQvGE4cbq_yccilM-ZWjIWuUDvRt_41_hsFHaykv-06OVGT0Zgk2ID7g2COsZK2QDFw3c_HC1QhfPIhRgqnEXK83K6cDkAOU7hIUoVPMmwsebiUO5eSLgqWiQWbpvsUw\x26sig\x3dCg0ArKJSzCwwZynhVjeREAE\x26adurl\x3dhttp://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCKdbjAg54VdjzBeOj7QbI3IKwB5Ha9uoCwfKtml7AjbcBEAEgAGC7jrCD0AqCARdjYS1wdWItNjk2NDM2NzAxMzIyNDYxNMgBCeACAKgDAZgEAKoEuwFP0L4CEe2zgBZSV29hBoo8ESBwgo0rb39qQFSA86H0MzFKajTpR58ybG8Fn9NcvPsCW_No37wtRjOCaXJhvlV4tKQDNcXjwka-X_A0NaL9EE36kuhlSpdcgWjE736-GFV9gv7fXqdvCADclu44xAg6BGPPZKa2BQmbI2DjmbNO_v4Xi90EOv01bo2KKwQg9wnooONi10wRQP5tzfxw_gDhs9CHoPc8l6yXHLNYkpmh9AwTVbX0qiG-AZps4AQBgAaw8v-dprfgsk2gBiHYBwA%26num%3D1%26sig%3DAOD64_2li0N7Ir8j0POdR8lsp2c-rVhLXA%26client%3Dca-pub-6964367013224614%26adurl%3Dhttp://\x22\x3e\n    \x3cimg border\x3d\x220\x22 alt\x3d\x22\x22 src\x3d\x22//s0.2mdn.net/ads/richmedia/studio/pv2/36448069/20150424042752665/300x250.gif\x22\n        width\x3d\x22300\x22 height\x3d\x22250\x22 /\x3e\n  \x3c/a\x3e\n  \x3cimg width\x3d\x220px\x22 height\x3d\x220px\x22 style\x3d\x22visibility:hidden\x22 border\x3d\x220\x22 alt\x3d\x22\x22\n       src\x3d\x22http://ad.doubleclick.net/activity;src\x3d4263725;met\x3d1;v\x3d1;pid\x3d103421771;aid\x3d276407471;ko\x3d0;cid\x3d62745687;rid\x3d62625687;rv\x3d1;\x26timestamp\x3d1437573155;eid1\x3d9;ecn1\x3d1;etm1\x3d0;\x22 /\x3e\n  \n\x3c/noscript\x3e\n');

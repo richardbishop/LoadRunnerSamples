@@ -1,0 +1,28 @@
+Virtual User Script started at : 10/06/2015 12:27:14
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8.1; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Git\LoadRunnerSamples\UserDefinedDataPoint\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(9): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(9): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(18): web_url("finance") started  	[MsgId: MMSG-26355]
+Action.c(18): Found resource "http://www.google.co.uk/finance/f/finance_uk-2089274654.css" in HTML "http://www.google.co.uk/finance?cid=14323395"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://www.google.co.uk/finance/_/ss/a/ver=weedrhfieacs/am=!vutE9fCSVdws1JA_/bf=MUgC/r=O?k=1" in HTML "http://www.google.co.uk/finance?cid=14323395"  	[MsgId: MMSG-26659]
+Action.c(18): Detected non-resource "http://www.google.co.uk/finance/_/js/a/b/rt=h/ver=rZztopK9dfE.en_GB./am=!vutE9fCSVdws1JA_/d=0" in "http://www.google.co.uk/finance?cid=14323395"  	[MsgId: MMSG-26574]
+Action.c(18): Found resource "http://www.google.co.uk/finance/f/sfe-opt-2670621683.js" in HTML "http://www.google.co.uk/finance?cid=14323395"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://www.google.co.uk/finance/s/m4C5KaofCbA/images/cleardot.gif" in HTML "http://www.google.co.uk/finance?cid=14323395"  	[MsgId: MMSG-26659]
+Action.c(18): web_url("finance") was successful, 285650 body bytes, 2860 header bytes, 183 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(32): Current RBS Share Price (char) is 123456789012345.12p
+Action.c(37): Current RBS Share Price (float) is 123456789012345.120000p
+Action.c(38): Notify: Data Point "RBS Share Price" value = 123456789012345.1200.
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

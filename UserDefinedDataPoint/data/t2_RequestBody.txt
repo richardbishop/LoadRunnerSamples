@@ -1,0 +1,3 @@
+"LS_op2=create&LS_phase=401&LS_domain=lightstreamer.com&LS_cause=new.api&LS_polling=true&LS_pol"
+"ling_millis=0&LS_idle_millis=0&LS_cid=pcYgxn8m8 feOojyA1S681l3g2.pz478m7t&LS_adapter_set=DEMO&"
+"LS_container=lsc&"
