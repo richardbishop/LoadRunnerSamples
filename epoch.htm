@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML>
+<HEAD>
+<TITLE>Simple Javascript function to convert epoch time to human readable format</TITLE>
+
+</HEAD>
+<BODY>
+<SCRIPT type="text/javascript"> 
+var d = new Date();
+var myDate = new Date( d);
+document.write('The date is ' + myDate.toGMTString() + '<p>');
+document.write('Epoch time began on 1st Jan 1970 at 00:00:00.000<p>'  );
+document.write(myDate.getTime() + ' milliseconds (' + Math.round(myDate.getTime()/1000) + 'seconds) have passed since epoch time began<p><p>');
+//document.write(Math.round(myDate.getTime()/1000) + ' seconds have passed since epoch time began<p> ');
+document.write('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>'  );
+epochMS = d.getTime();
+yourEpoch = window.prompt('Please enter an epochdate (ms) to convert or click OK to convert current epoch time', epochMS);
+ 
+document.write('Inputted epoch time (milliseconds) was ' + yourEpoch + '<p>' );
+document.write('inputted epoch time (seconds) was ' + Math.round(yourEpoch/1000) + '<p>' );
+
+yourEpoch = parseFloat(yourEpoch );
+var yourDate = new Date( yourEpoch  );
+document.write('The inputted epoch time (human readable format) was '+yourDate.toGMTString() + '<p>');
+ 
+</SCRIPT>
+
+</BODY>
+</HTML> 
