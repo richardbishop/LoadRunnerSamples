@@ -1,0 +1,27 @@
+Virtual User Script started at : 30/01/2016 13:16:21
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.50.0 for Windows 8; build 1096 (Jan 30 2016 16:55:24)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\Richard\Documents\VuGen\Scripts\UNIX_Timestamp_Calculations\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action intCalculations.
+intCalculations.c(6): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+intCalculations.c(6): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+intCalculations.c(7): Current UNIX time in milliseconds is #1454159781369
+intCalculations.c(14): Current UNIX time minus 1000 milliseconds is #2147482647 (this is wrong)
+Ending action intCalculations.
+Starting action SplitStringCalculations.
+SplitStringCalculations.c(7): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+SplitStringCalculations.c(7): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+SplitStringCalculations.c(8): Current UNIX time in milliseconds is #1454159781384
+SplitStringCalculations.c(22): Epoch time minus 1000 milliseconds is:[1454159780384]
+Ending action SplitStringCalculations.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
