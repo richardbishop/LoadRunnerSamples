@@ -26,6 +26,8 @@ DNSQuery                - Sample script that demonstrates LoadRunner's ability t
 
 ExtractStringFromString - Extract a string from another string using delimiters
 
+FloodMaps_TC            - Sample TruClient script showing simple parameterisation
+
 JulianDate				- Simple function to calculate Julian Date in LoadRunner - contrasts with (relatively) complex DateJS script
 
 LoopExample             - Examples of FOR, WHILE and DO loops in LoadRunner

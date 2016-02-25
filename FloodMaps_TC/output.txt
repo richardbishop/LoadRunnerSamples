@@ -1,0 +1,23 @@
+Virtual User Script started at : 2016-02-25 14:56:26
+Starting action Init.
+TruClient Replay for LoadRunner 12.50.0, build 1096. OS: Windows 8, Browser: Firefox, initialized on 2016/02/25 at 14:56:21 (0000.000s)
+Ending action Init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00005596ms: ** 1: Navigate to "http://maps.environment...ics&lang=_e" ** started    [MsgId: MMSG-205180]
+t=00006778ms: ** 1: Navigate to "http://maps.environment...ics&lang=_e" ** successfully completed    [MsgId: MMSG-205180]
+t=00007283ms: ** 2: Click on Flood Map for Planning... link ** started    [MsgId: MMSG-205180]
+t=00008943ms: ** 2: Click on Flood Map for Planning... link ** successfully completed    [MsgId: MMSG-205180]
+t=00009449ms: ** 4: Click on Enter a postcode or place... textbox ** started    [MsgId: MMSG-205180]
+t=00009826ms: ** 4: Click on Enter a postcode or place... textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00010333ms: ** 5: Type LR.getParam('pPostCode') in Enter a postcode or place... textbox ** started    [MsgId: MMSG-205180]
+t=00012656ms: ** 5: Type PO1 1QE in Enter a postcode or place... textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00013160ms: ** 6: Press Enter key on Enter a postcode or place... textbox ** started    [MsgId: MMSG-205180]
+t=00015382ms: ** 6: Press Enter key on Enter a postcode or place... textbox ** successfully completed    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action End.
+Ending action End.
+Vuser Terminated.
