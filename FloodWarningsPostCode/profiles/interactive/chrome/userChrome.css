@@ -1,0 +1,65 @@
+/*
+ * Do not remove the @namespace line -- it is required for this file  to function correctly
+ */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); 
+
+/* Menu items */
+#viewSidebarMenuMenu				{ display: none !important; }
+#PanelUI-menu-button				{ display: none !important; }
+#menu_FileQuitItem			 		{ display: none; } 				/* Hides File > Exit */
+#goOfflineMenuitem			 		{ display: none; } 				/* Hides File > Work Offline */
+#menu_newPrivateWindow				{ display:none!important; }		/* Hides File > New Private Window */
+#menu_print + menuseparator	 		{ display: none; }				/* Hides the separator that comes after File > Print menu item */
+
+#bookmarksMenu 						{ display: none; }				/* Hides Bookmarks main menu */
+#subscribeToPageMenuitem 	 		{ display: none; }				/* Hides Bookmarks > Subscribe to this page */
+#subscribeToPageMenupopup 	 		{ display: none; }				/* and subscribe to this page sub menu*/
+menuitem[label="Get Bookmark Add-ons"]					{ display: none; }	/* Hides Bookmarks > Get Bookmark Add-ons */
+menuitem[label="Get Bookmark Add-ons"] + menuseparator		{ display: none; }	/* Seems like irrelevant in FF 23. Keep it to be on the safe side */
+
+#history-menu						{ display: none; }				/* Hides history main menu */
+
+#menu_preferences			 		{ display: none; } 				/* Hides Tools > Options */
+#menu_openAddons			 		{ display: none; }				/* Hides Tools > Add-ons */
+#sync-setup							{ display: none; }				/* Hides Tools > Set Up Sync */
+
+#feedbackPage						{ display: none; }				/* Hides Help > Submit Feedback */
+#menu_HelpPopup_reportPhishingtoolmenu	{ display: none; }			/* Hides Help > Report Web Forgery */
+#helpSafeMode						{ display: none; }				/* Hides Help > Restart with Add-ons Disabled */
+
+/* Private Browsing */
+#appmenu_newPrivateWindow 			{ display:none!important; }	
+#context-openlinkprivate 			{display: none !important; }	/* Hides Open Link in new Private Window in page Context Menu */
+
+/* Dialogs */
+#aboutDialog #updateBox 				{ display:none!important; } 	/* Hides Check for updates  button in About Dialog */
+#CustomizeToolbarWindow 				{ display: none; }				/* Hides any content in Toolbar Customization Dialog */
+
+/* Main Window */
+#appmenu-button						{ display: none; }				/* Hides Firefox main menu located on the main window on the left */
+#context_pinTab						{ display: none; }				/* Hides Pin tab from Tab context menu */
+#alltabs-button						{ display: none; }				/* Hides the drop down button that allows browsing between open tabs */
+#statusbar-display			{										/* Move browser navigation status from above the sidebar to be located above the web page at the bottom right side*/
+	left: auto !important;
+	right: 0 !important;
+} 
+#home-button 						{ display: none; }				/* Hides the Home button */
+#downloads-button					{ display: none; }				/* Hides the downloads button from the toolbar */
+#bookmarks-button, #bookmarks-menu-button { display: none; }			/* Hides the bookmarks toolbar button */
+
+#history-button						{ display: none; }
+#search-container 					{ display: none; }				/* Hides search box near the url navigation bar */
+toolbarbutton.bookmark-item			{ display:none; }				/* Hides bookmark items in bookmarks toolbar */
+
+
+/* Firefox 29 and above settings */
+/* hide new toolbar menu */
+#toolbar-context-menu				{ display: none !important; }
+#viewToolbarsMenu				{ display: none !important; }
+
+/* hide full screen item */
+#fullScreenItem					{ display: none !important; }
+
+/*
+ * For more examples see http://www.mozilla.org/unix/customizing.html
+ */

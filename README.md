@@ -28,6 +28,10 @@ ExtractStringFromString - Extract a string from another string using delimiters
 
 FloodMaps_TC            - Sample TruClient script showing simple parameterisation
 
+FloodWarnings           - Sample TruClient script showing conditional random selections. e.g. if 3 flood warnings exist, pick one with 33% probability
+
+FloodWarningsPostcode   - Sample TruClient script showing postcode based searches (parameterised). Also optional steps.
+
 JulianDate				- Simple function to calculate Julian Date in LoadRunner - contrasts with (relatively) complex DateJS script
 
 LoopExample             - Examples of FOR, WHILE and DO loops in LoadRunner

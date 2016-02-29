@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul">
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#nav-bar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#truClientSplitter"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#truClientSidebarContentBox"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://global/content/viewSource.xul">
+    <NC:persist RDF:resource="chrome://global/content/viewSource.xul#viewSource"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
+                   width="820"
+                   height="992"
+                   screenX="4"
+                   screenY="4"
+                   sizemode="maximized" />
+  <RDF:Description RDF:about="chrome://global/content/viewSource.xul#viewSource"
+                   screenX="10"
+                   screenY="10"
+                   width="1451"
+                   height="862"
+                   sizemode="normal" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#nav-bar"
+                   currentset="unified-back-forward-button,urlbar-container,reload-button,stop-button,search-container,downloads-button,home-button,bookmarks-menu-button-container,fullscreenflex,window-controls,firebug-button" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-title"
+                   value="HP TruClient" />
+</RDF:RDF>

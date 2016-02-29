@@ -1,0 +1,31 @@
+Virtual User Script started at : 2016-02-27 09:38:24
+Starting action Init.
+TruClient Replay for LoadRunner 12.50.0, build 1096. OS: Windows 8, Browser: Firefox, initialized on 2016/02/27 at 09:38:22 (0000.000s)
+Ending action Init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Notify: Transaction "FloodWarnings_0010_OpenHomePage" started.
+t=00004388ms: ** 1: Navigate to "https://flood-warning-i...gov.uk/warnings" ** started    [MsgId: MMSG-205180]
+t=00006887ms: ** 1: Navigate to "https://flood-warning-i...gov.uk/warnings" ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarnings_0010_OpenHomePage" ended with a "Pass" status (Duration: 2.5230 Wasted Time: 0.2000).
+t=00006945ms: ** 2: Get Visible Text from 3 Flood alerts   flooding... button ** started    [MsgId: MMSG-205180]
+t=00007362ms: ** 2: Get Visible Text from 3 Flood alerts   flooding... button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarnings_0020_OpenFloodAlerts" started.
+t=00007885ms: ** 4: Click on Flood alerts button ** started    [MsgId: MMSG-205180]
+t=00008234ms: ** 4: Click on Flood alerts button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarnings_0020_OpenFloodAlerts" ended with a "Pass" status (Duration: 0.3740 Wasted Time: 0.0210).
+Notify: Transaction "FloodWarnings_0030_OpenRandomFloodAlert" started.
+t=00008758ms: ** 7: Select option #Math.floor(Math....rFloodAlerts)+1; from ? Groundwater flooding... listbox ** started    [MsgId: MMSG-205180]
+t=00009132ms: ** 7: Select option #Math.floor(Math....rFloodAlerts)+1; from ? Groundwater flooding... listbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarnings_0030_OpenRandomFloodAlert" ended with a "Pass" status (Duration: 0.3970 Wasted Time: 0.0260).
+Notify: Transaction "FloodWarnings_0040_ViewFloodAlertMap" started.
+t=00009651ms: ** 8: Click on See a map of the area... link ** started    [MsgId: MMSG-205180]
+t=00012401ms: ** 8: Click on See a map of the area... link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarnings_0040_ViewFloodAlertMap" ended with a "Pass" status (Duration: 2.7790 Wasted Time: 0.2010).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action End.
+Ending action End.
+Vuser Terminated.

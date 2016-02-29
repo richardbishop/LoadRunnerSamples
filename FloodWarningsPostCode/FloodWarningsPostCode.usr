@@ -1,0 +1,74 @@
+[General]
+Type=TruClientWeb
+DefaultCfg=default.cfg
+MajorVersion=12
+MinorVersion=50
+ParameterFile=FloodWarningsPostCode.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+LastActiveAction=Action
+DevelopTool=Vugen
+LastModifyVer=12.50.0.0
+ActiveTypes=TruClientWeb
+AdditionalTypes=TruClientWeb
+GenerateTypes=TruClientWeb
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+DisableRegenerate=0
+Description=
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+Lib-View=Lib-View.c
+vuser_end=vuser_end.c
+[VisibleActions]
+Lib-View=1
+vuser_init=1
+Action=1
+vuser_end=1
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[RunLogicFiles]
+Default Profile=default.usp
+[ExtraFiles]
+C-functions.c=
+globals.h=
+JS-functions.js=
+[Interpreters]
+vuser_init=no
+Action=no
+Lib-View=no
+vuser_end=no
+[Recorded Actions]
+vuser_init=0
+Action=0
+Lib-View=1
+vuser_end=0
+[Modified Actions]
+vuser_init=0
+Action=0
+Lib-View=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+Lib-View=1
+vuser_end=1
+[TransactionsOrder]
+Order="FloodWarningsPostCode_0010_OpenHomePage__*delimiter*__FloodWarningsPostCode_0020_PostCodeSearch__*delimiter*__FloodWarningsPostCode_0030_ViewFloodAlerts__*delimiter*__FloodWarningsPostCode_0040_ViewLocalAlert__*delimiter*__FloodWarningsPostCode_0050_ViewLocalFloodMap__*delimiter*__FloodWarningsPostCode_0060_ViewLatestRiverAlerts"
+[StateManagement]
+LastReplayStatus=3
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=
+[Transactions]
+FloodWarningsPostCode_0010_OpenHomePage=
+FloodWarningsPostCode_0020_PostCodeSearch=
+FloodWarningsPostCode_0030_ViewFloodAlerts=
+FloodWarningsPostCode_0040_ViewLocalAlert=
+FloodWarningsPostCode_0050_ViewLocalFloodMap=
+FloodWarningsPostCode_0060_ViewLatestRiverAlerts=

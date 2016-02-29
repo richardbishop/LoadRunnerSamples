@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>FloodWarningsPostCode</ScriptName>
+  <Protocol>TruClient - Web</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="Lib-View.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="FloodWarningsPostCode.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="FloodWarningsPostCode.prm" Filter="2" />
+    <FileEntry Name="C-functions.c" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="JS-functions.js" Filter="2" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
+    <FileEntry Name="Bookmarks.xml" Filter="2" />
+    <FileEntry Name="Breakpoints.xml" Filter="2" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="2" />
+    <FileEntry Name="default.xml" Filter="2" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
+    <FileEntry Name="UserTasks.xml" Filter="2" />
+    <FileEntry Name="TC.xsl" Filter="2" />
+    <FileEntry Name="pPostCode.dat" Filter="2" />
+    <FileEntry Name="profiles\" Filter="2" />
+    <FileEntry Name="combined_FloodWarningsPostCode.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="23978346044.idx" Filter="1" />
+    <FileEntry Name="default.cfg.bak" Filter="1" />
+    <FileEntry Name="FloodWarningsPostCode.c.pickle" Filter="1" />
+    <FileEntry Name="FloodWarningsPostCode.ci" Filter="1" />
+    <FileEntry Name="FloodWarningsPostCode.prm.bak" Filter="1" />
+    <FileEntry Name="FloodWarningsPostCode.sdf" Filter="1" />
+    <FileEntry Name="interactive_replay_Firefox.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="pre_cci.ci" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+    <FileEntry Name="results\" Filter="1" />
+    <FileEntry Name="resultSnap\" Filter="1" />
+    <FileEntry Name="snapshots\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

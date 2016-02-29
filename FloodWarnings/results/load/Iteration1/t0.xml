@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href=".\TC.xsl"?>
+<ASXMLStore>
+	<Step>t0</Step>
+	<ASObject>
+		<Id />
+		<Top />
+		<Left />
+		<Height />
+		<Width />
+	</ASObject>
+</ASXMLStore>

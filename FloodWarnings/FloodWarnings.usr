@@ -1,0 +1,72 @@
+[General]
+Type=TruClientWeb
+DefaultCfg=default.cfg
+MajorVersion=12
+MinorVersion=50
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+LastActiveAction=Action
+DevelopTool=Vugen
+LastModifyVer=12.50.0.0
+ActiveTypes=TruClientWeb
+AdditionalTypes=TruClientWeb
+GenerateTypes=TruClientWeb
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+DisableRegenerate=0
+Description=
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+Lib-View=Lib-View.c
+vuser_end=vuser_end.c
+[VisibleActions]
+Lib-View=1
+vuser_init=1
+Action=1
+vuser_end=1
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[RunLogicFiles]
+Default Profile=default.usp
+[ExtraFiles]
+C-functions.c=
+globals.h=
+JS-functions.js=
+[Interpreters]
+vuser_init=no
+Action=no
+Lib-View=no
+vuser_end=no
+[Recorded Actions]
+vuser_init=0
+Action=0
+Lib-View=1
+vuser_end=0
+[Modified Actions]
+vuser_init=0
+Action=0
+Lib-View=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+Lib-View=1
+vuser_end=1
+[TransactionsOrder]
+Order="FloodWarnings_0010_OpenHomePage__*delimiter*__FloodWarnings_0020_OpenFloodAlerts__*delimiter*__FloodWarnings_0030_OpenRandomFloodAlert__*delimiter*__FloodWarnings_0040_ViewFloodAlertMap"
+[StateManagement]
+LastReplayStatus=3
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+FloodWarnings_0010_OpenHomePage=
+FloodWarnings_0020_OpenFloodAlerts=
+FloodWarnings_0030_OpenRandomFloodAlert=
+FloodWarnings_0040_ViewFloodAlertMap=
