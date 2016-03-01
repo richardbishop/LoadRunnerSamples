@@ -63,8 +63,8 @@ Order="FloodWarnings_0010_OpenHomePage__*delimiter*__FloodWarnings_0020_OpenFloo
 [StateManagement]
 LastReplayStatus=3
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 FloodWarnings_0010_OpenHomePage=
 FloodWarnings_0020_OpenFloodAlerts=

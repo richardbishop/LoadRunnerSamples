@@ -18,9 +18,7 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
     <FileEntry Name="Bookmarks.xml" Filter="2" />
     <FileEntry Name="Breakpoints.xml" Filter="2" />
-    <FileEntry Name="CompilerLogMetadata.xml" Filter="2" />
     <FileEntry Name="default.xml" Filter="2" />
-    <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
     <FileEntry Name="UserTasks.xml" Filter="2" />
     <FileEntry Name="TC.xsl" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
@@ -35,11 +33,10 @@
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
-    <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
-    <FileEntry Name="result1\" Filter="1" />
     <FileEntry Name="results\" Filter="1" />
     <FileEntry Name="resultSnap\" Filter="1" />
     <FileEntry Name="snapshots\" Filter="1" />

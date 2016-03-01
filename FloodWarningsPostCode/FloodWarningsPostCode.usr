@@ -63,7 +63,7 @@ Order="FloodWarningsPostCode_0010_OpenHomePage__*delimiter*__FloodWarningsPostCo
 [StateManagement]
 LastReplayStatus=3
 [ActiveReplay]
-LastReplayedRunName=result1
+LastReplayedRunName=
 ActiveRunName=
 [Transactions]
 FloodWarningsPostCode_0010_OpenHomePage=

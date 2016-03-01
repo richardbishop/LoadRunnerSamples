@@ -20,11 +20,11 @@ RunLogicActionType="VuserRun"
 MercIniTreeSectionName="vuser_errorhandler"
 RunLogicObjectKind="Action"
 Name="vuser_errorhandler"
-MercIniTreeFather="RunLogicErrorHandlerRoot"
 RunLogicActionType="VuserErrorHandler"
+MercIniTreeFather="RunLogicErrorHandlerRoot"
 [Profile Actions]
-MercIniTreeSectionName="Profile Actions"
 Profile Actions name=vuser_init,Action,Lib-View,vuser_end
+MercIniTreeSectionName="Profile Actions"
 MercIniTreeFather=""
 [RunLogicRunRoot]
 RunLogicActionOrder="Action"

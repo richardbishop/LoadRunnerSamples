@@ -1,26 +1,38 @@
-Virtual User Script started at : 2016-02-29 10:48:16
+Virtual User Script started at : 2016-03-01 12:26:47
 Starting action Init.
-TruClient Replay for LoadRunner 12.50.0, build 1096. OS: Windows 8, Browser: Firefox, initialized on 2016/02/29 at 10:48:14 (0000.000s)
+TruClient Replay for LoadRunner 12.50.0, build 1096. OS: Windows 8, Browser: Firefox, initialized on 2016/03/01 at 12:26:45 (0000.000s)
 Ending action Init.
 Running Vuser...
 Starting iteration 1.
 Starting action Action.
-t=00003773ms: ** 1: Navigate to "https://flood-warning-i...service.gov.uk/" ** started    [MsgId: MMSG-205180]
-t=00005825ms: ** 1: Navigate to "https://flood-warning-i...service.gov.uk/" ** successfully completed    [MsgId: MMSG-205180]
-t=00006339ms: ** 2: Click on Search warnings and river... textbox ** started    [MsgId: MMSG-205180]
-t=00006732ms: ** 2: Click on Search warnings and river... textbox ** successfully completed    [MsgId: MMSG-205180]
-t=00007256ms: ** 3: Type BL0 0JQ in Search warnings and river... textbox ** started    [MsgId: MMSG-205180]
-t=00009757ms: ** 3: Type BL0 0JQ in Search warnings and river... textbox ** successfully completed    [MsgId: MMSG-205180]
-t=00010274ms: ** 4: Click on Search button ** started    [MsgId: MMSG-205180]
-t=00012028ms: ** 4: Click on Search button ** successfully completed    [MsgId: MMSG-205180]
-t=00012544ms: ** 5: Click on Flood alert button ** started    [MsgId: MMSG-205180]
-t=00032715ms: ** 5: Click on Flood alert button ** skipped - object was not found in an optional step    [MsgId: MMSG-205180]
-t=00033234ms: ** 6: Click on First Local Flood Alert button ** started    [MsgId: MMSG-205180]
-t=00053356ms: ** 6: Click on First Local Flood Alert button ** skipped - object was not found in an optional step    [MsgId: MMSG-205180]
-t=00053871ms: ** 7: Click on See a map of the area... link ** started    [MsgId: MMSG-205180]
-t=00074602ms: ** 7: Click on See a map of the area... link ** skipped - object was not found in an optional step    [MsgId: MMSG-205180]
-t=00075118ms: ** 8: Click on latest river and sea... link ** started    [MsgId: MMSG-205180]
-t=00077218ms: ** 8: Click on latest river and sea... link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarningsPostCode_0010_OpenHomePage" started.
+t=00003693ms: ** 1: Navigate to "https://flood-warning-i...service.gov.uk/" ** started    [MsgId: MMSG-205180]
+t=00005147ms: ** 1: Navigate to "https://flood-warning-i...service.gov.uk/" ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarningsPostCode_0010_OpenHomePage" ended with a "Pass" status (Duration: 1.4700 Wasted Time: 0.2010).
+t=00005657ms: ** 2: Click on Search warnings and river... textbox ** started    [MsgId: MMSG-205180]
+t=00005963ms: ** 2: Click on Search warnings and river... textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00006475ms: ** 3: Type LR.getParam('pPostCode') in Search warnings and river... textbox ** started    [MsgId: MMSG-205180]
+t=00008967ms: ** 3: Type M1 5AN in Search warnings and river... textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarningsPostCode_0020_PostCodeSearch" started.
+t=00009490ms: ** 4: Click on Search button ** started    [MsgId: MMSG-205180]
+t=00010528ms: ** 4: Click on Search button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarningsPostCode_0020_PostCodeSearch" ended with a "Pass" status (Duration: 1.0570 Wasted Time: 0.2020).
+Notify: Transaction "FloodWarningsPostCode_0030_ViewFloodAlerts" started.
+t=00011043ms: ** 5: Click on Flood alert button ** started    [MsgId: MMSG-205180]
+t=00031206ms: ** 5: Click on Flood alert button ** skipped - object was not found in an optional step    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarningsPostCode_0030_ViewFloodAlerts" ended with a "Pass" status (Duration: 20.1750 Wasted Time: 20.0000).
+Notify: Transaction "FloodWarningsPostCode_0040_ViewLocalAlert" started.
+t=00031724ms: ** 6: Click on First Local Flood Alert button ** started    [MsgId: MMSG-205180]
+t=00051842ms: ** 6: Click on First Local Flood Alert button ** skipped - object was not found in an optional step    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarningsPostCode_0040_ViewLocalAlert" ended with a "Pass" status (Duration: 20.1340 Wasted Time: 20.0000).
+Notify: Transaction "FloodWarningsPostCode_0050_ViewLocalFloodMap" started.
+t=00052357ms: ** 7: Click on See a map of the area... link ** started    [MsgId: MMSG-205180]
+t=00073077ms: ** 7: Click on See a map of the area... link ** skipped - object was not found in an optional step    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarningsPostCode_0050_ViewLocalFloodMap" ended with a "Pass" status (Duration: 20.7300 Wasted Time: 20.0000).
+Notify: Transaction "FloodWarningsPostCode_0060_ViewLatestRiverAlerts" started.
+t=00073591ms: ** 8: Click on latest river and sea... link ** started    [MsgId: MMSG-205180]
+t=00075895ms: ** 8: Click on latest river and sea... link ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "FloodWarningsPostCode_0060_ViewLatestRiverAlerts" ended with a "Pass" status (Duration: 2.3190 Wasted Time: 0.2010).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
