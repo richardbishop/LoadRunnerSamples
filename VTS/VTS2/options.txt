@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Documents\VuGen\Scripts\VTS2
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ed:\documents\vugen\scripts\vts2\\logfile.log
+d:\documents\vugen\scripts\vts2\\combined_VTS2.c
+d:\documents\vugen\scripts\vts2\\pre_cci.c

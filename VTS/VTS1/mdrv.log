@@ -1,0 +1,30 @@
+Virtual User Script started at: 08/12/2017 17:20:35
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "D:\Documents\VuGen\Scripts\VTS1\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(14): Notify: Transaction "VTS1_0010_RetrieveInputData" started.
+pvci=0
+
+Action.c(23): Row containing Customer [RICHARD] removed from VTS table 1
+Action.c(28): Notify: Transaction "VTS1_0010_RetrieveInputData" ended with a "Pass" status (Duration: 0.3025 Wasted Time: 0.2287).
+Action.c(30): Notify: Transaction "VTS1_0020_WriteOutputData" started.
+Action.c(34): 12/08/2017 17:20
+pvci=0
+
+send_row1 rc=0
+
+Action.c(51): Notify: Transaction "VTS1_0020_WriteOutputData" ended with a "Pass" status (Duration: 0.2584 Wasted Time: 0.2453).
+Action.c(54): Row containing Customer [RICHARD] written to VTS table 2
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,21 @@
+Virtual User Script started at: 07/12/2017 13:16:20
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "D:\Documents\VuGen\Scripts\VTS2\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(9): Notify: Transaction "VTS2_0010_RetrieveInputData" started.
+pvci=0
+Action.c(20): Notify: Transaction "VTS2_0010_RetrieveInputData" ended with a "Pass" status (Duration: 0.2397 Wasted Time: 0.2231).
+Action.c(23): Row containing Customer [ALFKI] removed from VTS table
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
