@@ -1,7 +1,7 @@
 LoadRunnerSamples
 =================
 
-Sample Loadrunner Scripts used by Richard Bishop, Trust IV Ltd
+Sample Loadrunner Scripts used by Richard Bishop, Lloyds Banking Group
 Many of these scripts include snippets of code from the "great and the good" 
 in the performance testing world including, Wilson Mar, Stuart Moncrieff, 
 Scott Moore, Mark Sibley, John Howley, Mark Dowd and Floris Kraak.
